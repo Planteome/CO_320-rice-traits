@@ -1,0 +1,3891 @@
+format-version: 1.2
+date: 18:05:2012 11:13
+saved-by: fborja
+auto-generated-by: OBO-Edit 2.1.1-beta7
+default-namespace: rice_trait
+namespace-id-rule: * CO_320:$sequence(7,0,9999999)$
+remark: CGIAR rice trait ontology version 3. Compared with IRRI SES and trait ontology.
+
+[Term]
+id: CO_320:0000000
+name: CGIAR rice trait ontology
+
+[Term]
+id: CO_320:0000001
+name: morphological trait
+relationship: part_of CO_320:0000000 ! CGIAR rice trait ontology
+
+[Term]
+id: CO_320:0000002
+name: panicle density
+synonym: "PNDEN" EXACT []
+xref: IRIS_TRAITID:1041
+is_a: CO_320:0000001 ! morphological trait
+
+[Term]
+id: CO_320:0000003
+name: seed shape
+synonym: "SDSH" EXACT []
+xref: IRIS_TRAITID:1042
+is_a: CO_320:0000001 ! morphological trait
+
+[Term]
+id: CO_320:0000004
+name: grain length
+def: "Is the average length of the seed or caryopsis fruit in a cereal (with hull)." [CO:rs]
+synonym: "GrL" EXACT []
+synonym: "seed length" RELATED []
+xref: IRIS_TRAITID:1051
+xref: TO:0000146
+is_a: CO_320:0000001 ! morphological trait
+
+[Term]
+id: CO_320:0000005
+name: grain width
+def: "Width of the dehulled grain with pericarp." [CO:rs]
+comment: Enter the actual measurement of width in millimeters as the distance across the fertile lemma and the palea at the widest point.
+synonym: "GrW" EXACT []
+synonym: "seed width" RELATED []
+xref: IRIS_TRAITID:1052
+xref: TO:0000149
+xref: TO:0000402
+is_a: CO_320:0000001 ! morphological trait
+Sample size = 10. At growth stage: 9.
+
+[Term]
+id: CO_320:0000006
+name: leaf blade color
+def: "Color of the leaf lamina/blade." [CO:rs]
+synonym: "LBC" EXACT []
+synonym: "leaf lamina color" RELATED []
+xref: IRIS_TRAITID:1054
+xref: TO:0000299
+is_a: CO_320:0000001 ! morphological trait
+
+[Term]
+id: CO_320:0000007
+name: nodal rooting
+def: "Extent of rooting from the nodes on a stem." [CO:rs]
+xref: IRIS_TRAITID:1055
+xref: TO:0000404
+is_a: CO_320:0000001 ! morphological trait
+
+[Term]
+id: CO_320:0000008
+name: nodal tillering
+xref: IRIS_TRAITID:1056
+xref: TO:0000285
+is_a: CO_320:0000001 ! morphological trait
+
+[Term]
+id: CO_320:0000009
+name: number of panicles
+def: "Average number of panicles per plant in a study." [CO:rs]
+synonym: "panicle number" RELATED []
+xref: IRIS_TRAITID:1057
+xref: TO:0000152
+is_a: CO_320:0000001 ! morphological trait
+
+[Term]
+id: CO_320:0000010
+name: seed weight
+def: "Average weight of seeds obtained from a plant, representing the overall yields or produce from the field." [CO:rs]
+synonym: "SDWT" EXACT []
+xref: IRIS_TRAITID:1058
+xref: TO:0000181
+is_a: CO_320:0000001 ! morphological trait
+
+[Term]
+id: CO_320:0000011
+name: leaf length
+def: "Actual measurement of the leaf just below the flag leaf. Expressed in centimeters." [CO:rs]
+comment: At growth stage: 6.
+synonym: "LL" EXACT []
+xref: IRIS_TRAITID:1059
+xref: TO:0000135
+is_a: CO_320:0000001 ! morphological trait
+
+[Term]
+id: CO_320:0000012
+name: unfilled grain
+def: "Number of unfilled grain." [CO:rs]
+xref: IRIS_TRAITID:1060
+xref: TO:0000028
+is_a: CO_320:0000001 ! morphological trait
+
+[Term]
+id: CO_320:0000013
+name: leaf blade pubescence
+def: "Extent of pubescence (presence of hairs) on the leaf blade surface." [CO:rs]
+comment: Methodology: Aside from ocular inspection, rub fingers from the tip down on the leaf surface. Presence of hairs on the blade surface are classified as glabrous (1), Intermediate (2) and pubescent (3). At growth stage: 5-6.
+synonym: "blade pubescence" RELATED []
+synonym: "LBP" EXACT []
+xref: IRIS_TRAITID:1061
+xref: IRIS_TRAITID:1546
+xref: TO:0000055
+is_a: CO_320:0000001 ! morphological trait
+
+[Term]
+id: CO_320:0000014
+name: leaf angle
+def: "The angle of openness of the blade tip is measured against the culm of the leaf below the flag leaf." [CO:rs]
+synonym: "LA" EXACT []
+xref: IRIS_TRAITID:1062
+xref: TO:0000206
+is_a: CO_320:0000001 ! morphological trait
+
+[Term]
+id: CO_320:0000015
+name: Detection for awn presence (SES)
+def: "Presence of awn structure in the rice grain (kernel)." [CO:rs]
+xref: IRIS_TRAITID:1063
+is_a: CO_320:0000001 ! morphological trait
+
+[Term]
+id: CO_320:0000016
+name: culm internode color
+def: "Color of the outer surface of internodes on the culm/stem." [CO:rs]
+comment: At growth stage: 7-9.
+synonym: "CmIC" EXACT []
+synonym: "internode color" RELATED []
+xref: IRIS_TRAITID:1064
+xref: TO:0000426
+is_a: CO_320:0000001 ! morphological trait
+
+[Term]
+id: CO_320:0000017
+name: flag leaf angle
+def: "It is measured near the collar as the angle of attachment between the flag leaf blade and the main panicle axis." [CO:rs]
+comment: sample size: 5. At growth stage: 4-5.
+synonym: "FLA" EXACT []
+xref: IRIS_TRAITID:1065
+xref: TO:0000124
+is_a: CO_320:0000001 ! morphological trait
+
+[Term]
+id: CO_320:0000018
+name: panicle type
+def: "Panicle types are classified according to their mode of branching, angle of primary branches, and spikelet density." [CO:rs]
+comment: At growth stage 8.
+synonym: "PnT" EXACT []
+xref: IRIS_TRAITID:1066
+xref: TO:0000089
+is_a: CO_320:0000001 ! morphological trait
+
+[Term]
+id: CO_320:0000019
+name: panicle weight
+def: "Average weight of the panicle from the plants or tillers in a given study." [CO:rs]
+xref: IRIS_TRAITID:1067
+xref: TO:0000014
+is_a: CO_320:0000001 ! morphological trait
+
+[Term]
+id: CO_320:0000020
+name: grain thickness
+def: "Thickness of the seed or fruit caryopsis with the hull." [CO:rs]
+xref: IRIS_TRAITID:1070
+xref: TO:0000304
+is_a: CO_320:0000001 ! morphological trait
+
+[Term]
+id: CO_320:0000021
+name: leaf width
+def: "Measurement of the widest portion of the leaf blade just below the flag leaf. Expressed in centimeters." [CO:rs]
+comment: At growth stage: 6.
+synonym: "LW" EXACT []
+xref: IRIS_TRAITID:1071
+xref: TO:0000370
+is_a: CO_320:0000001 ! morphological trait
+
+[Term]
+id: CO_320:0000022
+name: stem thickness
+def: "Thickness of the stem." [CO:rs]
+xref: IRIS_TRAITID:1072
+xref: TO:00000339
+is_a: CO_320:0000001 ! morphological trait
+
+[Term]
+id: CO_320:0000023
+name: basal leaf sheath color
+def: "The changes in the color of basal leaf sheath." [CO:rs]
+synonym: "BLSC" EXACT []
+xref: IRIS_TRAITID:1073
+xref: TO:0000367
+is_a: CO_320:0000001 ! morphological trait
+
+[Term]
+id: CO_320:0000024
+name: leaf sheath color
+synonym: "LFSC" EXACT []
+xref: IRIS_TRAITID:1073
+xref: TO:0000367
+is_a: CO_320:0000001 ! morphological trait
+
+[Term]
+id: CO_320:0000025
+name: ligule length
+def: "Actual measurement of ligules from the base of the collar to the tip. Expressed in millimeters." [CO:rs]
+synonym: "LgL" EXACT []
+xref: IRIS_TRAITID:1074
+xref: TO:0000024
+is_a: CO_320:0000001 ! morphological trait
+
+[Term]
+id: CO_320:0000026
+name: ligule color
+def: "Color of the ligule." [CO:rs]
+synonym: "LgC" EXACT []
+xref: IRIS_TRAITID:1075
+xref: TO:0000197
+is_a: CO_320:0000001 ! morphological trait
+
+[Term]
+id: CO_320:0000027
+name: ligule shape
+def: "Defines the actual shape of the ligule." [CO:rs]
+comment: sample size 5; At growth stage: 4-5.
+synonym: "LS" EXACT []
+xref: IRIS_TRAITID:1076
+xref: TO:0000335
+is_a: CO_320:0000001 ! morphological trait
+
+[Term]
+id: CO_320:0000028
+name: collar color
+def: "Color changes monitored in leaf collar." [CO:rs]
+synonym: "CC" EXACT []
+synonym: "leaf collar color" RELATED []
+xref: IRIS_TRAITID:1077
+xref: TO:0000364
+is_a: CO_320:0000001 ! morphological trait
+
+[Term]
+id: CO_320:0000029
+name: auricle color
+def: "Color of the auricle." [CO:rs]
+synonym: "AC" EXACT []
+xref: IRIS_TRAITID:1078
+xref: TO:0000294
+is_a: CO_320:0000001 ! morphological trait
+
+[Term]
+id: CO_320:0000030
+name: culm length
+def: "Length of culm (stem) which is measured from soil surface to panicle base in centimeters." [CO:rs]
+comment: sample size: 5. At growth stage: 7-9.
+synonym: "CmL" EXACT []
+synonym: "stem length" RELATED []
+xref: IRIS_TRAITID:1079
+xref: TO:0000576
+is_a: CO_320:0000001 ! morphological trait
+
+[Term]
+id: CO_320:0000031
+name: culm angle
+def: "The angle of the culm with respect to the ground surface in a grass plant." [CO:rs]
+synonym: "CmA" EXACT []
+xref: IRIS_TRAITID:1080
+xref: TO:0000427
+is_a: CO_320:0000001 ! morphological trait
+
+[Term]
+id: CO_320:0000032
+name: basal internode diameter
+def: "Actual measurements in millimeters from the outer diameter of the stems (culms) at the basal portion of the main stem (culm)." [CO:rs]
+synonym: "DBI" EXACT []
+xref: IRIS_TRAITID:1081
+xref: TO:0000132
+is_a: CO_320:0000001 ! morphological trait
+
+[Term]
+id: CO_320:0000033
+name: panicle length
+def: "Measurement from panicle base to tip. Expressed in cm." [CO:rs]
+synonym: "PnL" EXACT []
+xref: IRIS_TRAITID:1082
+xref: TO:0000040
+is_a: CO_320:0000001 ! morphological trait
+
+[Term]
+id: CO_320:0000034
+name: secondary branching of panicles
+def: "The extent of secondary branching usually determines the shape and compactness of the panicle." [CO:rs]
+synonym: "PnBr" EXACT []
+synonym: "secondary branching of inflorescence" RELATED []
+xref: IRIS_TRAITID:1083
+xref: TO:0000142
+is_a: CO_320:0000001 ! morphological trait
+
+[Term]
+id: CO_320:0000035
+name: panicle axis
+def: "Represents the angle of panicle axis whether straight or droopy." [CO:rs]
+comment: At growth stage 7-9.
+synonym: "panicle axis angle" RELATED []
+synonym: "PnAk" EXACT []
+xref: IRIS_TRAITID:1084
+xref: IRIS_TRAITID:1542
+xref: TO:00000342
+is_a: CO_320:0000001 ! morphological trait
+
+[Term]
+id: CO_320:0000036
+name: awn color
+def: "Describes the awn color." [CO:rs]
+synonym: "AnC" EXACT []
+xref: IRIS_TRAITID:1085
+xref: TO:0000141
+is_a: CO_320:0000001 ! morphological trait
+
+[Term]
+id: CO_320:0000037
+name: apiculus color
+def: "Color of the apiculus." [CO:rs]
+synonym: "ApC" EXACT []
+xref: IRIS_TRAITID:1086
+xref: TO:0000140
+is_a: CO_320:0000001 ! morphological trait
+
+[Term]
+id: CO_320:0000038
+name: stigma color
+def: "Color of stigma." [CO:rs]
+comment: Stigma color is determined from blooming spikelets (between 9 a.m. to 2 p.m.) with the aid of a hand lens. At growth stage 6.
+synonym: "SgC" EXACT []
+xref: IRIS_TRAITID:1087
+xref: TO:0000185
+is_a: CO_320:0000001 ! morphological trait
+
+[Term]
+id: CO_320:0000039
+name: lemma and palea color
+synonym: "hull color" RELATED []
+synonym: "LmPC" EXACT []
+xref: IRIS_TRAITID:1088
+xref: TO:0000264
+is_a: CO_320:0000001 ! morphological trait
+
+[Term]
+id: CO_320:0000040
+name: lemma and palea pubescence
+def: "Extent of pubescence (hairs) on the lemma and palea." [CO:rs]
+synonym: "hull cover" RELATED []
+synonym: "LmPb" EXACT []
+xref: IRIS_TRAITID:1089
+xref: TO:0000417
+is_a: CO_320:0000001 ! morphological trait
+
+[Term]
+id: CO_320:0000041
+name: sterile lemma color
+def: "Color of the sterile lemma." [CO:rs]
+comment: At growth stage 9.
+synonym: "SLmC" EXACT []
+xref: IRIS_TRAITID:1091
+xref: TO:0000400
+is_a: CO_320:0000001 ! morphological trait
+
+[Term]
+id: CO_320:0000042
+name: sterile lemma length
+def: "Length of sterile lemma." [CO:rs]
+comment: Measurement is made on each of the two sterile lemmas. The classification is based on 5-grain sample. At growth stage 9.
+synonym: "SLmL" EXACT []
+xref: IRIS_TRAITID:1091
+xref: TO:0000240
+is_a: CO_320:0000001 ! morphological trait
+
+[Term]
+id: CO_320:0000043
+name: lemma and palea structure
+xref: IRIS_TRAITID:1092
+is_a: CO_320:0000001 ! morphological trait
+
+[Term]
+id: CO_320:0000044
+name: panicle structure
+xref: IRIS_TRAITID:1093
+is_a: CO_320:0000001 ! morphological trait
+
+[Term]
+id: CO_320:0000045
+name: culm structure
+synonym: "CMSR" EXACT []
+xref: IRIS_TRAITID:1094
+is_a: CO_320:0000001 ! morphological trait
+
+[Term]
+id: CO_320:0000046
+name: leaf structure
+xref: IRIS_TRAITID:1096
+is_a: CO_320:0000001 ! morphological trait
+
+[Term]
+id: CO_320:0000047
+name: genetic ratio (morphology)
+xref: IRIS_TRAITID:1096
+is_a: CO_320:0000001 ! morphological trait
+
+[Term]
+id: CO_320:0000048
+name: inheritance (morphology)
+synonym: "INMOR" EXACT []
+xref: IRIS_TRAITID:1097
+is_a: CO_320:0000001 ! morphological trait
+
+[Term]
+id: CO_320:0000049
+name: genetic ratio
+synonym: "GR" EXACT []
+xref: IRIS_TRAITID:1098
+is_a: CO_320:0000001 ! morphological trait
+
+[Term]
+id: CO_320:0000050
+name: lesion mimic
+synonym: "LSMM" EXACT []
+xref: IRIS_TRAITID:1099
+xref: TO:0000063
+is_a: CO_320:0000001 ! morphological trait
+
+[Term]
+id: CO_320:0000051
+name: panicle branch color
+def: "Color of panicle branch." [CO:rs]
+synonym: "PNBC" EXACT []
+xref: IRIS_TRAITID:1100
+is_a: CO_320:0000001 ! morphological trait
+
+[Term]
+id: CO_320:0000052
+name: grain size
+def: "Seed size is determined by its length to width ratio." [CO:rs]
+xref: IRIS_TRAITID:1265
+xref: TO:0000391
+is_a: CO_320:0000001 ! morphological trait
+
+[Term]
+id: CO_320:0000053
+name: stress trait
+relationship: part_of CO_320:0000000 ! CGIAR rice trait ontology
+
+[Term]
+id: CO_320:0000054
+name: acid tolerance
+def: "When the soil pH is on acidic side." [CO:rs]
+xref: IRIS_TRAITID:1201
+xref: TO:0000178
+is_a: CO_320:0000161 ! physicochemical stress trait
+
+[Term]
+id: CO_320:0000055
+name: alkali tolerance
+def: "Sensitivity to the zinc content in the growth environment." [CO:rs]
+synonym: "Alk" RELATED []
+synonym: "alkali injury" RELATED []
+synonym: "ALKTOL" EXACT []
+xref: IRIS_TRAITID:1202
+xref: TO:0000351
+is_a: CO_320:0000161 ! physicochemical stress trait
+
+[Term]
+id: CO_320:0000056
+name: aluminum toxicity
+def: "The trait is assessed for sensitivity to aluminium toxicity." [CO:rs]
+xref: IRIS_TRAITID:1203
+xref: TO:0000354
+is_a: CO_320:0000161 ! physicochemical stress trait
+
+[Term]
+id: CO_320:0000057
+name: cold tolerance
+synonym: "CTol" EXACT []
+xref: IRIS_TRAITID:1204
+xref: TO:0000303
+is_a: CO_320:0000162 ! temperature stress trait
+
+[Term]
+id: CO_320:0000058
+name: drought recovery
+def: "Scores are taken after 10 days following soaking rain or watering- Indicate the degree of stress before recovery." [CO:rs]
+synonym: "drought recovery (2nd stress drought)" RELATED []
+synonym: "drought recovery (9-10 bars)" RELATED []
+synonym: "DRR" EXACT []
+synonym: "DRR2S" RELATED []
+synonym: "DRR910" RELATED []
+xref: IRIS_TRAITID:1205
+xref: TO:0000458
+is_a: CO_320:0000163 ! drought stress trait
+
+[Term]
+id: CO_320:0000059
+name: drought resistance
+def: "Becoming tolerant to drought like conditions of minimal or no water content in the growth environment." [CO:rs]
+synonym: "drought resistance (early vegetative stage)" RELATED []
+synonym: "drought resistance (late vegetative stage)" RELATED []
+synonym: "drought resistance (reproductive stage)" RELATED []
+xref: IRIS_TRAITID:1206
+xref: TO:0000276
+is_a: CO_320:0000163 ! drought stress trait
+
+[Term]
+id: CO_320:0000060
+name: drought sensitivity
+comment: Drought sensitivity is highly interactive with crop phenology, plant growth prior to stress, and timing, duration, and intensity of drought stress.
+synonym: "drought tolerance" RELATED []
+synonym: "drought tolerance (3-4 bars)" RELATED []
+synonym: "drought tolerance (9-10 Bars)" RELATED []
+synonym: "DRS" EXACT []
+synonym: "DRT34" RELATED []
+synonym: "DRT910" RELATED []
+xref: IRIS_TRAITID:1208
+xref: TO:0000188
+is_a: CO_320:0000163 ! drought stress trait
+
+[Term]
+id: CO_320:0000061
+name: elongation ability
+synonym: "Elon" EXACT []
+synonym: "stem elongation" RELATED []
+xref: IRIS_TRAITID:1209
+xref: TO:0000170
+is_a: CO_320:0000164 ! deepwater stress trait
+
+[Term]
+id: CO_320:0000062
+name: heat tolerance
+def: "tolerance to warm temperatures if plant is exposed to above than permissive temperature limits." [CO:rs]
+synonym: "HTol" EXACT []
+xref: IRIS_TRAITID:1210
+xref: TO:0000259
+is_a: CO_320:0000162 ! temperature stress trait
+
+[Term]
+id: CO_320:0000063
+name: iron toxicity
+def: "Sensitivity to the iron ion content in the growth environment." [CO:rs]
+synonym: "FeTox" EXACT []
+synonym: "iron sensitivity" RELATED []
+xref: IRIS_TRAITID:1211
+xref: TO:0000224
+is_a: CO_320:0000161 ! physicochemical stress trait
+
+[Term]
+id: CO_320:0000064
+name: kneeing ability
+def: "The tiller angle measurement for kneeing." [CO:rs]
+synonym: "KnA" EXACT []
+xref: IRIS_TRAITID:1212
+xref: TO:0000337
+is_a: CO_320:0000164 ! deepwater stress trait
+
+[Term]
+id: CO_320:0000065
+name: phosphorus deficiency
+def: "Sensitivity to the phosphorous content in the growth environment." [CO:rs]
+synonym: "PDef" EXACT []
+synonym: "phosphorus sensitivity" RELATED []
+xref: IRIS_TRAITID:1213
+xref: TO:0000102
+is_a: CO_320:0000161 ! physicochemical stress trait
+
+[Term]
+id: CO_320:0000066
+name: salt tolerance
+def: "Tolerance to the high salt content in the growth medium." [CO:rs]
+synonym: "Sal" RELATED []
+synonym: "salinity tolerance" RELATED []
+synonym: "salt injury" RELATED []
+synonym: "salt sensitivity" RELATED []
+synonym: "SALTOL" EXACT []
+xref: IRIS_TRAITID:1214
+xref: TO:0000429
+xref: TO:0006001
+is_a: CO_320:0000161 ! physicochemical stress trait
+
+[Term]
+id: CO_320:0000067
+name: submergence tolerance
+comment: Greenhouse screening: For greenhouse screening count or % survival (S) of test entries and resistant control entry such as FR13A. Compute for % comparative survival value as follows: % S of entry / % S of control x 100. At growth stage: 2.
+synonym: "Sub" EXACT []
+synonym: "submergence sensitivity" RELATED []
+xref: IRIS_TRAITID:1215
+xref: TO:0000286
+xref: TO:0000524
+is_a: CO_320:0000164 ! deepwater stress trait
+Field evaluation: The period of submergence varies and often is not under full experimental control. Record actual % of plants that survived.
+
+[Term]
+id: CO_320:0000068
+name: survival ability (plant)
+xref: IRIS_TRAITID:1216
+is_a: CO_320:0000160 ! abiotic stress trait
+
+[Term]
+id: CO_320:0000069
+name: zinc deficiency
+synonym: "ZDef" EXACT []
+synonym: "zinc sensitivity" RELATED []
+xref: IRIS_TRAITID:1217
+xref: TO:0000351
+is_a: CO_320:0000161 ! physicochemical stress trait
+
+[Term]
+id: CO_320:0000070
+name: agronomic trait
+relationship: part_of CO_320:0000000 ! CGIAR rice trait ontology
+
+[Term]
+id: CO_320:0000071
+name: fertile panicles
+xref: IRIS_TRAITID:1001
+is_a: CO_320:0000070 ! agronomic trait
+
+[Term]
+id: CO_320:0000072
+name: grain filling
+def: "Stage of rapid, nearly linear increase in kernel dry matter, that begins about 2 weeks after pollination and lasts almost until physiological maturity." [CO:rs]
+synonym: "filled grain" RELATED []
+xref: GRO:0007029
+xref: IRIS_TRAITID:1002
+is_a: CO_320:0000070 ! agronomic trait
+
+[Term]
+id: CO_320:0000073
+name: grain yield
+def: "The grain yield, measured in kilograms per hectare at 14 percent moisture." [CO:rs]
+synonym: "yield (grain)" RELATED []
+synonym: "Yld" EXACT []
+xref: IRIS_TRAITID:1003
+xref: TO:0000396
+is_a: CO_320:0000070 ! agronomic trait
+
+[Term]
+id: CO_320:0000074
+name: panicle exsertion
+def: "Trait is monitored by observing the extent of coverage of panicle by the flag leaf sheath." [CO:rs]
+comment: At growth stage: 7-9.
+synonym: "Exs" RELATED []
+synonym: "panicle exsertion of male sterile lines" RELATED []
+xref: IRIS_TRAITID:1004
+xref: TO:0000165
+is_a: CO_320:0000070 ! agronomic trait
+is_a: CO_320:0000123 ! hybrid trait
+
+[Term]
+id: CO_320:0000075
+name: phenotypic acceptability
+def: "Breeding objectives for each variety and trait varies. The evaluation should reflect the overall acceptability of the variety." [CO:rs]
+comment: At growth stage 9.
+synonym: "PAcp" EXACT []
+synonym: "phenotyphic acceptability" RELATED []
+xref: IRIS_TRAITID:1005
+xref: TO:0000322
+is_a: CO_320:0000070 ! agronomic trait
+
+[Term]
+id: CO_320:0000076
+name: plant height
+def: "Plant height measured from the soil surface to the tip of the tallest panicle (awn excluded)." [CO:rs]
+comment: At growth stage 7-9.
+synonym: "Ht" RELATED []
+synonym: "PLHT" RELATED []
+xref: IRIS_TRAITID:1006
+xref: TO:0000207
+is_a: CO_320:0000001 ! morphological trait
+is_a: CO_320:0000070 ! agronomic trait
+
+[Term]
+id: CO_320:0000077
+name: seedling vigor
+def: "Represents the seedling growth of the plant." [CO:rs]
+comment: At growth stage 2.
+synonym: "germination vigor" RELATED []
+synonym: "GRVG" RELATED []
+synonym: "plant vigor" RELATED []
+synonym: "PLVG" RELATED []
+synonym: "SDVG" RELATED []
+synonym: "seedling vigor" RELATED []
+synonym: "Vg" RELATED []
+xref: IRIS_TRAITID:1007
+xref: TO:0000280
+is_a: CO_320:0000070 ! agronomic trait
+
+[Term]
+id: CO_320:0000078
+name: panicle threshability
+def: "Percentage of shattered grains, determined by firmly grasping and pulling the hand over the panicle." [CO:rs]
+synonym: "leaf shattering" RELATED []
+synonym: "PNTHR" RELATED []
+synonym: "SHAT" RELATED []
+synonym: "Thr" EXACT []
+synonym: "threshability" RELATED []
+xref: IRIS_TRAITID:1008
+xref: TO:0000406
+is_a: CO_320:0000070 ! agronomic trait
+
+[Term]
+id: CO_320:0000079
+name: tillering ability
+def: "Degree of tillering is affected by variety, spacing of plants in the field, season of planting, and environmental conditions e.g. nitrogen levels." [CO:rs]
+comment: At growth stage 5.
+synonym: "Ti" RELATED []
+synonym: "tiller number" RELATED []
+synonym: "TN" RELATED []
+xref: IRIS_TRAITID:1009
+xref: TO:0000329
+is_a: CO_320:0000070 ! agronomic trait
+
+[Term]
+id: CO_320:0000080
+name: lodging incidence
+def: "Indicates percentage of plants that lodged." [CO:rs]
+comment: At growth stage: 6-9.
+synonym: "Lg" EXACT []
+xref: IRIS_TRAITID:1010
+is_a: CO_320:0000070 ! agronomic trait
+
+[Term]
+id: CO_320:0000081
+name: heterosis in F1 hybrid
+def: "Exceptional plant growth vigor in F1 hydrid." [CO:rs]
+xref: IRIS_TRAITID:1011
+xref: TO:0000355
+is_a: CO_320:0000070 ! agronomic trait
+
+[Term]
+id: CO_320:0000082
+name: days to maturity
+def: "Number of days required from seeding to seed/grain ripening (85% grains on panicle are mature)." [CO:rs]
+comment: At growth stage: 9.
+synonym: "DTM" RELATED []
+synonym: "Mat" EXACT []
+synonym: "maturity" RELATED []
+xref: IRIS_TRAITID:1012
+xref: TO:0000469
+is_a: CO_320:0000070 ! agronomic trait
+
+[Term]
+id: CO_320:0000083
+name: days to flowering
+def: "Number of days from the seed sowing or the seedling transplant date to the anthesis (flowering) stage." [CO:rs]
+synonym: "days to flower" RELATED []
+synonym: "DTF" RELATED []
+synonym: "FLW" EXACT []
+xref: IRIS_TRAITID:1013
+xref: TO:0000344
+is_a: CO_320:0000070 ! agronomic trait
+
+[Term]
+id: CO_320:0000084
+name: culm strength
+def: "The test gives indication of culm stiffness and resilience." [CO:rs]
+synonym: "CMST" RELATED []
+synonym: "Cs" RELATED []
+synonym: "stem strength" RELATED []
+xref: IRIS_TRAITID:1014
+is_a: CO_320:0000070 ! agronomic trait
+
+[Term]
+id: CO_320:0000085
+name: leaf senescence
+def: "A measure of aging of leaf. Rapid senescence of leaves can be detrimental to yield." [CO:rs]
+comment: It is commonly thought that rapid senescence of leaves can be detrimental to yield if the rice grains have not completely filled. \nAt growth stage: 9.
+synonym: "Sen" EXACT []
+xref: IRIS_TRAITID:1015
+xref: TO:0000249
+is_a: CO_320:0000070 ! agronomic trait
+
+[Term]
+id: CO_320:0000086
+name: seed germination
+def: "The physiological and developmental changes that occur in a seed commencing with water uptake (imbibition) and terminating with the elongation of the embryonic axis." [CO:rs]
+xref: GO:0009845
+xref: IRIS_TRAITID:1016
+is_a: CO_320:0000070 ! agronomic trait
+
+[Term]
+id: CO_320:0000087
+name: growth stage
+def: "The gross developmental stages defined for the plant." [CO:rs]
+comment: When reporting results for specific characters, use this code to identify the stage of plant growth at which the observation was recorded.
+xref: GRO:0007001
+xref: IRIS_TRAITID:1017
+is_a: CO_320:0000070 ! agronomic trait
+
+[Term]
+id: CO_320:0000088
+name: days to heading
+def: "Number of days required for the inflorescence (head/cob/panicle) to emerge from the flag leaf of a plant or a group of plants in a study." [CO:rs]
+synonym: "DTH" RELATED []
+synonym: "HEAD" RELATED []
+synonym: "heading" RELATED []
+xref: IRIS_TRAITID:1019
+xref: TO:0000137
+is_a: CO_320:0000070 ! agronomic trait
+
+[Term]
+id: CO_320:0000089
+name: yield (biomass)
+def: "The material produced by the growth of plants, especially as a product of farming." [CO:rs]
+synonym: "biomass" RELATED []
+synonym: "YLDBIO" EXACT []
+xref: IRIS_TRAITID:1020
+xref: TO:0000327
+is_a: CO_320:0000070 ! agronomic trait
+
+[Term]
+id: CO_320:0000090
+name: spikelet fertility
+def: "Determined by pressing the spikelets with the fingers and counting those that have no grains or the percent seed setting." [CO:rs]
+comment: At growth stage 9.
+synonym: "fertile spikelets" RELATED []
+synonym: "SpFert" EXACT []
+xref: IRIS_TRAITID:1021
+xref: TO:0000180
+is_a: CO_320:0000070 ! agronomic trait
+
+[Term]
+id: CO_320:0000091
+name: male sterility group
+xref: IRIS_TRAITID:1022
+is_a: CO_320:0000123 ! hybrid trait
+
+[Term]
+id: CO_320:0000092
+name: abortion pattern
+def: "Observations are made on staining behavior and number of nuclei in most of the pollens." [CO:rs]
+synonym: "abortion pattern of male sterile line" RELATED []
+synonym: "pollen abortion type" RELATED []
+xref: IRIS_TRAITID:1023
+xref: TO:0000218
+is_a: CO_320:0000123 ! hybrid trait
+
+[Term]
+id: CO_320:0000093
+name: stigma exsertion
+def: "Trait is monitored by counting number of flowers or florets that have completed anthesis on a given day and showing exserted stigma. Trait expressed as percent stigma exsertion." [CO:rs]
+synonym: "stigma exsertion in male sterile lines" RELATED []
+xref: IRIS_TRAITID:1024
+xref: TO:0000044
+is_a: CO_320:0000070 ! agronomic trait
+
+[Term]
+id: CO_320:0000094
+name: glume opening
+def: "Angle of opening of glumes is measured on each floret, assessment based on mean angle of glume opening." [CO:rs]
+synonym: "glume opening" RELATED []
+synonym: "opening of glume of male sterile lines" RELATED []
+xref: IRIS_TRAITID:1025
+is_a: CO_320:0000070 ! agronomic trait
+
+[Term]
+id: CO_320:0000095
+name: male sterility
+def: "In plants, it represents the incompetence of the pollen to fertilize the ovum. Reasons could be non-viable pollen, incompatibility, pollen abortion, toxicity, genetic etc. Usually determined by either the pollen sterility or spikelet fertility (percent seed set)." [CO:rs]
+synonym: "degree of male sterility of male sterile lines" RELATED []
+xref: IRIS_TRAITID:1026
+xref: TO:0000437
+is_a: CO_320:0000123 ! hybrid trait
+
+[Term]
+id: CO_320:0000096
+name: outcrossing potential
+def: "It is a measure of percent seed set on the out-pollinated primary panicle." [CO:rs]
+synonym: "extent of outcrossing on male sterile lines" RELATED []
+xref: IRIS_TRAITID:1027
+xref: TO:0000330
+is_a: CO_320:0000123 ! hybrid trait
+
+[Term]
+id: CO_320:0000097
+name: fertility
+xref: IRIS_TRAITID:1028
+xref: TO:0000392
+is_a: CO_320:0000070 ! agronomic trait
+
+[Term]
+id: CO_320:0000098
+name: fertility restoration
+synonym: "fertility restoration in F1 hybrids" RELATED []
+synonym: "male fertility restoration trait" RELATED []
+xref: IRIS_TRAITID:1029
+xref: TO:0000497
+is_a: CO_320:0000123 ! hybrid trait
+
+[Term]
+id: CO_320:0000099
+name: anthesis
+def: "The trait associated with the timing of the flowering." [CO:rs]
+synonym: "6.1-flowering stage" RELATED []
+synonym: "ANTH" EXACT []
+synonym: "DTA" RELATED []
+xref: GRO:0007151
+xref: IRIS_TRAITID:1030
+xref: TO:0002616
+is_a: CO_320:0000070 ! agronomic trait
+
+[Term]
+id: CO_320:0000100
+name: grain weight
+def: "Weight of the dehulled grains. Expressed in kilograms or grams." [CO:rs]
+synonym: "100-grain weight" RELATED []
+synonym: "1000-grain weight" RELATED []
+synonym: "1000GW" RELATED []
+synonym: "100GW" RELATED []
+xref: IRIS_TRAITID:1264
+xref: TO:0000181
+xref: TO:0000269
+xref: TO:0000590
+is_a: CO_320:0000070 ! agronomic trait
+is_a: CO_320:0000101 ! grain quality trait
+
+[Term]
+id: CO_320:0000101
+name: grain quality trait
+relationship: part_of CO_320:0000000 ! CGIAR rice trait ontology
+
+[Term]
+id: CO_320:0000102
+name: amylose content
+def: "Percent amylose of milled rice." [CO:rs]
+synonym: "AMY" RELATED []
+synonym: "amylose content of grain" RELATED []
+xref: IRIS_TRAITID:1251
+xref: TO:0000196
+is_a: CO_320:0000101 ! grain quality trait
+
+[Term]
+id: CO_320:0000103
+name: aroma
+def: "The aroma of the cooked/uncooked grains." [CO:rs]
+synonym: "scent" RELATED []
+synonym: "SCT" RELATED []
+xref: IRIS_TRAITID:1252
+xref: TO:0000087
+is_a: CO_320:0000101 ! grain quality trait
+
+[Term]
+id: CO_320:0000104
+name: chalkiness of endosperm
+def: "Defines a representative milled sample for the degree (extent) of chalkiness that will best describe the sample with respect to (a) white belly, (b) white center, (c) white back." [CO:rs]
+synonym: "CLK" RELATED []
+xref: IRIS_TRAITID:1253
+xref: TO:0000266
+is_a: CO_320:0000101 ! grain quality trait
+
+[Term]
+id: CO_320:0000105
+name: elongation in deepwater
+def: "Elongation or growing of rice in areas annually flooded to varying depths. The scale is based on the performance of check varieties." [CO:rs]
+comment: Specify water depth under which the data was recorded. At growth stage: 5-6.
+synonym: "elongation (grain)" RELATED []
+xref: IRIS_TRAITID:1254
+xref: TO:0000377
+is_a: CO_320:0000101 ! grain quality trait
+
+[Term]
+id: CO_320:0000106
+name: gel consistency
+def: "Scoring of carbohydrate composition in grain by gel consistency type in mm. It measures the tendency of cooked rice to harden when it cools down." [CO:rs]
+comment: It is classified as hard (27-35 mm), medium hard (36-40), medium (41-60) and soft (61-100).
+synonym: "GELC" EXACT []
+xref: IRIS_TRAITID:1255
+xref: TO:0000211
+is_a: CO_320:0000101 ! grain quality trait
+
+[Term]
+id: CO_320:0000107
+name: gelatinization temperature
+def: "Temperature for the gelatinization process." [CO:rs]
+comment: it is observed by placing six milled-grains/kernels in 10ml 1.7% KOH in a shallow container and arrange them so that they do not touch.
+synonym: "GELT" EXACT []
+xref: IRIS_TRAITID:1256
+xref: TO:0000462
+is_a: CO_320:0000101 ! grain quality trait
+
+[Term]
+id: CO_320:0000108
+name: head rice
+def: "The 3/4 or longer whole milled kernels separated from the total milled rice." [CO:rs]
+synonym: "HDR" EXACT []
+xref: IRIS_TRAITID:1257
+xref: TO:0000222
+is_a: CO_320:0000101 ! grain quality trait
+
+[Term]
+id: CO_320:0000109
+name: brown rice shape
+def: "Shape of the brown rice. Measure after harvesting, cleaning, and dehulling." [CO:rs]
+synonym: "BRLWR" RELATED []
+synonym: "brown rice length-width ratio" RELATED []
+synonym: "BRS" EXACT []
+synonym: "kernel length/width ratio" RELATED []
+synonym: "KLWR" RELATED []
+xref: IRIS_TRAITID:1258
+xref: TO:0000287
+is_a: CO_320:0000101 ! grain quality trait
+
+[Term]
+id: CO_320:0000110
+name: brown rice length
+def: "Length of the grain monitored after dehulling but before polishing. The grain should contain pericarp." [CO:rs]
+synonym: "KLEN" RELATED []
+synonym: "LEN" EXACT []
+synonym: "length of kernel" RELATED []
+xref: IRIS_TRAITID:1259
+xref: TO:0000041
+is_a: CO_320:0000101 ! grain quality trait
+
+[Term]
+id: CO_320:0000111
+name: brown rice protein
+def: "Percent of total brown rice weight (at 14% moisture) to one decimal place." [CO:rs]
+comment: At growth stage: 9 (after dehulling).
+synonym: "protein content" RELATED []
+synonym: "PRT" EXACT []
+xref: IRIS_TRAITID:1260
+xref: TO:0000138
+is_a: CO_320:0000101 ! grain quality trait
+
+[Term]
+id: CO_320:0000112
+name: milled rice
+def: "Kernels that have been milled to remove the bran, leaving \"white\" or milled rice." [CO:rs]
+xref: IRIS_TRAITID:1261
+xref: TO:0000144
+is_a: CO_320:0000101 ! grain quality trait
+
+[Term]
+id: CO_320:0000113
+name: endosperm quality
+def: "Quality of endosperm associated with texture, content, composition, size etc." [CO:rs]
+synonym: "END" EXACT []
+synonym: "endosperm type" RELATED []
+xref: IRIS_TRAITID:1262
+xref: TO:0000150
+xref: TO:0000587
+is_a: CO_320:0000101 ! grain quality trait
+
+[Term]
+id: CO_320:0000114
+name: grain moisture
+def: "Moisture content of grain. Expressed in percentage." [CO:rs]
+synonym: "moisture (grain)" RELATED []
+xref: IRIS_TRAITID:1263
+xref: TO:0000057
+is_a: CO_320:0000101 ! grain quality trait
+
+[Term]
+id: CO_320:0000115
+name: seed coat color
+def: "The color of the seed coat." [CO:rs]
+comment: At growth stage: 9.\nColor code: 1, white; 2, light brown; 3, speckled brown; 4, brown; 5, red; 6, variable purple and 7, purple.
+synonym: "bran color" RELATED []
+synonym: "BRC" RELATED []
+synonym: "SCC" EXACT []
+xref: IRIS_TRAITID:1266
+xref: TO:0000190
+is_a: CO_320:0000101 ! grain quality trait
+
+[Term]
+id: CO_320:0000116
+name: alkali digestion
+def: "Indirect measure of gelatinization temperature. Observed by placing six milled-rice kernels in 10ml 1.7% KOH in a shallow container and arrange them so that they do not touch. Let them stand for 23hrs at 30degC temperature and score for spreading. Measure for Alkali digestion is inversely proportional to the gelatinization temperature, e.g. if alkali digestion is low, the gelatinization temperature is high." [CO:rs]
+synonym: "ALKD" EXACT []
+xref: IRIS_TRAITID:1267
+xref: TO:0000134
+is_a: CO_320:0000101 ! grain quality trait
+
+[Term]
+id: CO_320:0000117
+name: brown rice width
+def: "Width of the grain monitored after dehulling but before polishing." [CO:rs]
+comment: The grain should contain pericarp.
+synonym: "KWID" RELATED []
+synonym: "WID" EXACT []
+synonym: "width of kernel" RELATED []
+xref: IRIS_TRAITID:1268
+is_a: CO_320:0000101 ! grain quality trait
+
+[Term]
+id: CO_320:0000118
+name: seed viability
+synonym: "SDVIA" EXACT []
+xref: IRIS_TRAITID:1031
+xref: TO:0000345
+is_a: CO_320:0000070 ! agronomic trait
+
+[Term]
+id: CO_320:0000119
+name: grain shape
+def: "An assay to determine the variation in the shape of the dehulled grain." [CO:rs]
+synonym: "GRS" EXACT []
+xref: IRIS_TRAITID:1053
+xref: TO:0002730
+is_a: CO_320:0000001 ! morphological trait
+
+[Term]
+id: CO_320:0000120
+name: sterile lemma texture
+xref: IRIS_TRAITID:1501
+is_a: CO_320:0000001 ! morphological trait
+
+[Term]
+id: CO_320:0000121
+name: sterile lemma shape
+def: "Shape of sterile lemma." [CO:rs]
+xref: IRIS_TRAITID:1502
+xref: TO:0002726
+is_a: CO_320:0000001 ! morphological trait
+
+[Term]
+id: CO_320:0000122
+name: sterile lemma apex
+xref: IRIS_TRAITID:1503
+is_a: CO_320:0000001 ! morphological trait
+
+[Term]
+id: CO_320:0000123
+name: hybrid trait
+relationship: part_of CO_320:0000000 ! CGIAR rice trait ontology
+
+[Term]
+id: CO_320:0000124
+name: rhizome formation
+xref: IRIS_TRAITID:1506
+xref: TO:0002767
+is_a: CO_320:0000001 ! morphological trait
+
+[Term]
+id: CO_320:0000125
+name: rachilla shape
+def: "Shape of rachilla." [CO:rs]
+xref: IRIS_TRAITID:1507
+is_a: CO_320:0000001 ! morphological trait
+
+[Term]
+id: CO_320:0000126
+name: pedicel presence
+def: "Presence or absence of pedicel." [CO:rs]
+xref: IRIS_TRAITID:1508
+is_a: CO_320:0000001 ! morphological trait
+
+[Term]
+id: CO_320:0000127
+name: pedicel length
+def: "Length of pedicel." [CO:rs]
+xref: IRIS_TRAITID:1509
+is_a: CO_320:0000001 ! morphological trait
+
+[Term]
+id: CO_320:0000128
+name: panicle axis texture
+xref: IRIS_TRAITID:1510
+is_a: CO_320:0000001 ! morphological trait
+
+[Term]
+id: CO_320:0000129
+name: nodal septum color
+def: "Color of nodal septum." [CO:rs]
+xref: IRIS_TRAITID:1511
+is_a: CO_320:0000001 ! morphological trait
+
+[Term]
+id: CO_320:0000130
+name: leaf texture
+xref: IRIS_TRAITID:1513
+is_a: CO_320:0000001 ! morphological trait
+
+[Term]
+id: CO_320:0000131
+name: lemma and palea surface
+xref: IRIS_TRAITID:1514
+is_a: CO_320:0000001 ! morphological trait
+
+[Term]
+id: CO_320:0000132
+name: ligule pubescence
+def: "Presence or absence of hairs in ligule." [CO:rs]
+xref: IRIS_TRAITID:1516
+is_a: CO_320:0000001 ! morphological trait
+
+[Term]
+id: CO_320:0000133
+name: life cycle
+xref: IRIS_TRAITID:1517
+is_a: CO_320:0000070 ! agronomic trait
+
+[Term]
+id: CO_320:0000134
+name: grain attachment to pedicel
+xref: IRIS_TRAITID:1520
+is_a: CO_320:0000001 ! morphological trait
+
+[Term]
+id: CO_320:0000135
+name: growth habit
+def: "Estimated by the angle of inclination of the main shoot/stem against the soil/growth medium surface." [CO:rs]
+xref: IRIS_TRAITID:1521
+xref: TO:0002756
+is_a: CO_320:0000001 ! morphological trait
+
+[Term]
+id: CO_320:0000136
+name: flag leaf ligule
+xref: IRIS_TRAITID:1522
+is_a: CO_320:0000001 ! morphological trait
+
+[Term]
+id: CO_320:0000137
+name: flag leaf width
+def: "Width of flag leaf." [CO:rs]
+xref: IRIS_TRAITID:1523
+is_a: CO_320:0000001 ! morphological trait
+
+[Term]
+id: CO_320:0000138
+name: flag leaf length
+def: "Length of flag leaf." [CO:rs]
+xref: IRIS_TRAITID:1524
+is_a: CO_320:0000001 ! morphological trait
+
+[Term]
+id: CO_320:0000139
+name: fertile lemma texture
+def: "Texture of fertile lemma." [CO:rs]
+xref: IRIS_TRAITID:1525
+is_a: CO_320:0000001 ! morphological trait
+
+[Term]
+id: CO_320:0000140
+name: embryo size
+def: "Measurement of embryo size." [CO:rs]
+xref: IRIS_TRAITID:1526
+is_a: CO_320:0000001 ! morphological trait
+
+[Term]
+id: CO_320:0000141
+name: panicle distance from base
+xref: IRIS_TRAITID:1527
+is_a: CO_320:0000001 ! morphological trait
+
+[Term]
+id: CO_320:0000142
+name: panicle distance to spikelet
+xref: IRIS_TRAITID:1528
+is_a: CO_320:0000001 ! morphological trait
+
+[Term]
+id: CO_320:0000143
+name: panicle base pubescence
+def: "Presence or absence of hairs in panicle base." [CO:rs]
+xref: IRIS_TRAITID:1530
+is_a: CO_320:0000001 ! morphological trait
+
+[Term]
+id: CO_320:0000144
+name: awn thickness
+xref: IRIS_TRAITID:1531
+is_a: CO_320:0000001 ! morphological trait
+
+[Term]
+id: CO_320:0000145
+name: awn texture
+def: "Texture of own." [CO:rs]
+xref: IRIS_TRAITID:1532
+is_a: CO_320:0000001 ! morphological trait
+
+[Term]
+id: CO_320:0000146
+name: awn length
+def: "Length of own. Expressed in mm." [CO:rs]
+xref: IRIS_TRAITID:1063
+xref: IRIS_TRAITID:1533
+xref: TO:0000072
+is_a: CO_320:0000001 ! morphological trait
+
+[Term]
+id: CO_320:0000147
+name: auricle pubescence
+def: "Presence of hairs in auricle." [CO:rs]
+xref: IRIS_TRAITID:1534
+is_a: CO_320:0000001 ! morphological trait
+
+[Term]
+id: CO_320:0000148
+name: auricle presence
+def: "Presence or absence of auricle." [CO:rs]
+xref: IRIS_TRAITID:1535
+is_a: CO_320:0000001 ! morphological trait
+
+[Term]
+id: CO_320:0000149
+name: apiculus pubescence
+def: "Presence or absence of hairs in apiculus." [CO:rs]
+xref: IRIS_TRAITID:1536
+is_a: CO_320:0000001 ! morphological trait
+
+[Term]
+id: CO_320:0000150
+name: anther length
+def: "Anther length in mm." [CO:rs]
+xref: IRIS_TRAITID:1537
+is_a: CO_320:0000001 ! morphological trait
+
+[Term]
+id: CO_320:0000151
+name: varietal group
+synonym: "variety group" RELATED []
+xref: IRIS_TRAITID:1538
+is_a: CO_320:0000001 ! morphological trait
+
+[Term]
+id: CO_320:0000152
+name: panicle shattering
+def: "Measurement of extent of panicle shattering." [CO:rs]
+xref: IRIS_TRAITID:1540
+is_a: CO_320:0000001 ! morphological trait
+
+[Term]
+id: CO_320:0000153
+name: population composition
+xref: IRIS_TRAITID:1541
+is_a: CO_320:0000070 ! agronomic trait
+
+[Term]
+id: CO_320:0000154
+name: node color
+def: "Color of node." [CO:rs]
+xref: IRIS_TRAITID:1543
+is_a: CO_320:0000001 ! morphological trait
+
+[Term]
+id: CO_320:0000155
+name: culm diameter
+def: "Measurement of culm diameter." [CO:rs]
+synonym: "culm width" RELATED []
+synonym: "stem width" RELATED []
+xref: IRIS_TRAITID:1545
+xref: TO:0001035
+is_a: CO_320:0000001 ! morphological trait
+
+[Term]
+id: CO_320:0000156
+name: awn presence
+def: "The presence or absence of awn. Observation may include relative awn size." [CO:rs]
+xref: IRIS_TRAITID:1548
+xref: TO:0002734
+is_a: CO_320:0000001 ! morphological trait
+
+[Term]
+id: CO_320:0000157
+name: seedling recovery
+comment: Scores are taken after 10 days following soaking rain or watering. Indicate the degree of stress before recovery.
+xref: IRIS_TRAITID:1566
+is_a: CO_320:0000160 ! abiotic stress trait
+
+[Term]
+id: CO_320:0000158
+name: pollen sterility
+def: "Determination of sterile pollen. Expressed in percentage." [CO:rs]
+comment: Observed under a microscope at magnification 10x10 after staining with 1% iodine potassium iodide (IKI) solution.
+xref: TO:0000053
+is_a: CO_320:0000095 ! male sterility
+
+[Term]
+id: CO_320:0000159
+name: spikelet sterility
+xref: TO:0000436
+is_a: CO_320:0000095 ! male sterility
+
+[Term]
+id: CO_320:0000160
+name: abiotic stress trait
+is_a: CO_320:0000053 ! stress trait
+
+[Term]
+id: CO_320:0000161
+name: physicochemical stress trait
+synonym: "chemical stress sensitivity" RELATED []
+xref: TO:0000482
+is_a: CO_320:0000160 ! abiotic stress trait
+
+[Term]
+id: CO_320:0000162
+name: temperature stress trait
+synonym: "temperature response trait" RELATED []
+xref: TO:0000432
+is_a: CO_320:0000160 ! abiotic stress trait
+
+[Term]
+id: CO_320:0000163
+name: drought stress trait
+synonym: "drought related trait" RELATED []
+xref: TO:0000394
+is_a: CO_320:0000160 ! abiotic stress trait
+
+[Term]
+id: CO_320:0000164
+name: deepwater stress trait
+is_a: CO_320:0000160 ! abiotic stress trait
+
+[Term]
+id: CO_320:0000165
+name: 100-grain weight
+def: "Weight of the 100-dehulled grain having pericarp (seed coat). Expressed in grams." [CO:rs]
+xref: IRIS_TRAITID:1264
+xref: TO:0000591
+is_a: CO_320:0000100 ! grain weight
+created_by: RSHRESTHA
+creation_date: 2010-01-19T11:02:48Z
+
+[Term]
+id: CO_320:0000166
+name: 1000-grain weight
+def: "Weight of the 1000-dehulled grains having pericarp (seed coat). Expressed in grams." [CO:rs]
+xref: IRIS_TRAITID:1264
+xref: TO:0000592
+is_a: CO_320:0000100 ! grain weight
+created_by: RSHRESTHA
+creation_date: 2010-01-19T11:07:31Z
+
+[Term]
+id: CO_320:0000167
+name: vegetative vigor
+def: "Represents the growth of plant." [CO:rs]
+comment: Used to evaluate genetic material under stress and non-stress conditions, several factors may interact, influencing the seedling vigor (e.g. tillering ability, plant height, etc).\nAt growth stage 3.
+xref: TO:0000296
+is_a: CO_320:0000070 ! agronomic trait
+created_by: RSHRESTHA
+creation_date: 2010-01-19T12:05:14Z
+
+[Term]
+id: CO_320:0000168
+name: biotic stress trait
+is_a: CO_320:0000053 ! stress trait
+creation_date: 2010-08-02T09:57:23Z
+
+[Term]
+id: CO_320:0000169
+name: bacterial disease
+def: "The trait is scored for the plant response to the diseases caused by several bacteria." [CO:rs]
+is_a: CO_320:0000168 ! biotic stress trait
+created_by: RSHRESTHA
+creation_date: 2010-08-02T09:57:49Z
+
+[Term]
+id: CO_320:0000170
+name: fungal disease
+def: "The trait is scored for the plant response to fungi  causing several fungal diseases." [CO:rs]
+is_a: CO_320:0000168 ! biotic stress trait
+created_by: RSHRESTHA
+creation_date: 2010-08-02T10:00:03Z
+
+[Term]
+id: CO_320:0000171
+name: viral disease
+def: "The trait is scored for plant response to the diseases caused by several viruses." [CO:rs]
+is_a: CO_320:0000168 ! biotic stress trait
+created_by: RSHRESTHA
+creation_date: 2010-08-02T10:00:45Z
+
+[Term]
+id: CO_320:0000172
+name: insect damage
+def: "The trait is scored for the damages caused by insects." [CO:rs]
+xref: TO:0000261
+is_a: CO_320:0000168 ! biotic stress trait
+created_by: RSHRESTHA
+creation_date: 2010-08-02T10:01:20Z
+
+[Term]
+id: CO_320:0000173
+name: bacterial leaf blight
+def: "The trait is scored for the plant response to the agent Xanthomonas oryzae pv. oryzae causing bacterial leaf blight." [CO:rs]
+comment: Symptoms: Lesions usually start near the leaf tips or leaf margins or both, and extend down the outer edge(s).
+synonym: "Bacterial blight (BB)" RELATED []
+synonym: "Bacterial Blight Kreak (BBK)" RELATED []
+synonym: "Bacterial Blight Race 1 (BB1)" RELATED []
+synonym: "Bacterial Blight Race 2 (BB2)" RELATED []
+xref: TO:0000175
+xref: TRAITID_IRIS:1101
+is_a: CO_320:0000169 ! bacterial disease
+created_by: RSHRESTHA
+creation_date: 2010-08-02T10:03:11Z
+
+[Term]
+id: CO_320:0000174
+name: bacterial leaf streak
+def: "The trait is scored for the plant response to the agent Xanthomonas oryzae pv. oryzicola causing bacterial leaf streak." [CO:rs]
+xref: TO:0000203
+xref: TRAITID_IRIS:1102
+is_a: CO_320:0000169 ! bacterial disease
+created_by: RSHRESTHA
+creation_date: 2010-08-02T10:10:21Z
+
+[Term]
+id: CO_320:0000175
+name: black streak dwarf virus
+def: "The trait is scored for the plant response to the agent black streak dwarf virus (BSDV)." [CO:rs]
+xref: TO:0000020
+xref: TRAITID_IRIS:1103
+is_a: CO_320:0000171 ! viral disease
+created_by: RSHRESTHA
+creation_date: 2010-08-02T10:11:46Z
+
+[Term]
+id: CO_320:0000176
+name: rice leaf blast
+synonym: "Blast" RELATED []
+synonym: "leaf blast" RELATED []
+synonym: "rice blast" RELATED []
+xref: TRAITID_IRIS:1104
+is_a: CO_320:0000170 ! fungal disease
+created_by: RSHRESTHA
+creation_date: 2010-08-02T10:13:48Z
+
+[Term]
+id: CO_320:0000177
+name: brown spot
+def: "The trait is scored for the plant response to the agent Cochliobolus miyabeanus (Bipolaris oryzae, Drechslera oryzae) causing brown spot." [CO:rs]
+xref: TO:0000356
+xref: TRAITID_IRIS:1105
+is_a: CO_320:0000170 ! fungal disease
+created_by: RSHRESTHA
+creation_date: 2010-08-02T10:20:00Z
+
+[Term]
+id: CO_320:0000178
+name: false smut
+def: "The trait is scored for the plant response to the agent Ustilaginoidea virens causing false smut." [CO:rs]
+xref: TO:0000129
+xref: TRAITID_IRIS:1106
+is_a: CO_320:0000170 ! fungal disease
+created_by: RSHRESTHA
+creation_date: 2010-08-02T10:21:31Z
+
+[Term]
+id: CO_320:0000179
+name: grassy stunt virus
+def: "The trait is scored for the plant response to the agent rice grassy stunt virus (RGSV). There are two known RGSV strains, rice grassy stunt virus 1 ( RGSV1) and rice grassy stunt virus 2 (RGSV2)." [CO:rs]
+synonym: "RSGV" RELATED []
+synonym: "RSGV1" RELATED []
+synonym: "RSGV2" RELATED []
+xref: TO:0000213
+xref: TRAITID_IRIS:1108
+is_a: CO_320:0000171 ! viral disease
+created_by: RSHRESTHA
+creation_date: 2010-08-02T10:27:26Z
+
+[Term]
+id: CO_320:0000180
+name: kernel smut
+def: "The trait is scored for the plant response to the agent Tilletia barclayana causing kernel smut." [CO:rs]
+comment: Symptoms: Infected grains show minute black pustules or streaks bursting through the glumes. In severe infection, the rupturing glumes produce short beak-like or spur-like growths.\nAt growth stage: 9.
+xref: TRAITID_IRIS:1109
+is_a: CO_320:0000170 ! fungal disease
+created_by: RSHRESTHA
+creation_date: 2010-08-02T10:31:09Z
+
+[Term]
+id: CO_320:0000181
+name: leaf scald
+def: "The trait is scored for the plant response to the agent Monographella albescens (Microdochium oryzae) causing leaf scald." [CO:rs]
+comment: Symptoms: The lesions occurs mostly near leaf tips, but sometimes starts at the margin of the blade and develops into large ellipsoid areas encircled by dark-brown, narrow bands accompanied by a light-brown halo.\n\nAt growth stage: 5-8.
+xref: TRAITID_IRIS:1110
+is_a: CO_320:0000170 ! fungal disease
+created_by: RSHRESTHA
+creation_date: 2010-08-02T10:33:22Z
+
+[Term]
+id: CO_320:0000182
+name: narrow brown leaf spot
+def: "The trait is scored for the plant response to the agent Sphaerulina oryzina (Cercospora janseana) causing narrow brown leaf spot." [CO:rs]
+synonym: "NBLS" RELATED []
+xref: TRAITID_IRIS:1111
+is_a: CO_320:0000170 ! fungal disease
+created_by: RSHRESTHA
+creation_date: 2010-08-02T10:35:04Z
+
+[Term]
+id: CO_320:0000183
+name: ragged stunt
+xref: TRAITID_IRIS:1112
+is_a: CO_320:0000170 ! fungal disease
+created_by: RSHRESTHA
+creation_date: 2010-08-02T10:36:18Z
+
+[Term]
+id: CO_320:0000184
+name: rice tungro virus
+def: "The trait is scored for the plant response to the agent rice tungro bacilliform virus (RTBV) and rice tungro spherical virus (RTSV)." [CO:rs]
+xref: TO:0000413
+xref: TRAITID_IRIS:1113
+is_a: CO_320:0000171 ! viral disease
+created_by: RSHRESTHA
+creation_date: 2010-08-02T10:37:50Z
+
+[Term]
+id: CO_320:0000185
+name: sheath rot
+def: "The trait is scored for the plant response to the agent Soracladium oryzae causing sheath rot." [CO:rs]
+comment: Symptoms: Oblong or irregular brown to grey lesions on the leaf sheath near panicle; sometimes coalescing to prevent emergence of panicle.\n\nAt growth stage: 7-9.
+xref: TRAITID_IRIS:1114
+is_a: CO_320:0000170 ! fungal disease
+created_by: RSHRESTHA
+creation_date: 2010-08-02T10:39:29Z
+
+[Term]
+id: CO_320:0000186
+name: stem rot
+xref: TRAITID_IRIS:1115
+is_a: CO_320:0000170 ! fungal disease
+created_by: RSHRESTHA
+creation_date: 2010-08-02T10:42:40Z
+
+[Term]
+id: CO_320:0000187
+name: ufra
+def: "The trait is scored for the plant response to the agent Nymphula depunctalis causing ufra." [CO:rs]
+xref: TRAITID_IRIS:1116
+is_a: CO_320:0000170 ! fungal disease
+created_by: RSHRESTHA
+creation_date: 2010-08-02T10:43:53Z
+
+[Term]
+id: CO_320:0000188
+name: seedling blight
+xref: TRAITID_IRIS:1117
+is_a: CO_320:0000170 ! fungal disease
+created_by: RSHRESTHA
+creation_date: 2010-08-02T10:44:40Z
+
+[Term]
+id: CO_320:0000189
+name: sheath blight
+def: "The trait is scored for the plant response to the agent Thanethoporus cucumeris (Rhizoctonia solani) causing narrow sheath blight." [CO:rs]
+comment: Symptoms: Grayish-green lesions may enlarge and coalesce with other lesions, mostly on lower leaf sheaths, but occasionally on the leaves.
+xref: TRAITID_IRIS:1117
+is_a: CO_320:0000170 ! fungal disease
+created_by: RSHRESTHA
+creation_date: 2010-08-02T10:45:15Z
+
+[Term]
+id: CO_320:0000190
+name: neck blast
+xref: TRAITID_IRIS:1119
+is_a: CO_320:0000170 ! fungal disease
+created_by: RSHRESTHA
+creation_date: 2010-08-02T10:47:05Z
+
+[Term]
+id: CO_320:0000191
+name: leaf smut
+xref: TRAITID_IRIS:1120
+is_a: CO_320:0000170 ! fungal disease
+created_by: RSHRESTHA
+creation_date: 2010-08-02T10:48:50Z
+
+[Term]
+id: CO_320:0000192
+name: yellow mottle
+def: "The trait is scored for the plant response to the agent rice yellow mottle virus (RYMV)." [CO:rs]
+synonym: "RYMV" RELATED []
+xref: TO:0000088
+xref: TRAITID_IRIS:1121
+is_a: CO_320:0000171 ! viral disease
+created_by: RSHRESTHA
+creation_date: 2010-08-02T10:50:18Z
+
+[Term]
+id: CO_320:0000193
+name: hoja blanca
+def: "The trait is scored for the plant response to the agent rice hoja blanca virus (RHBV) causing hoja blanca." [CO:rs]
+synonym: "HBVRS" RELATED []
+synonym: "RHBV " RELATED []
+xref: TO:0000147
+xref: TRAITID_IRIS:1122
+is_a: CO_320:0000171 ! viral disease
+created_by: RSHRESTHA
+creation_date: 2010-08-02T10:53:02Z
+
+[Term]
+id: CO_320:0000194
+name: udbatta disease
+def: "The trait is scored for the plant response to the agent Balansia oryzae-sativae (Ephelis oryzae) causing udbatta disease." [CO:rs]
+comment: Symptoms: A white mycelial mat ties panicle branches together so that they emerge as single, small, cylindrical rods.
+xref: TRAITID_IRIS:1123
+is_a: CO_320:0000170 ! fungal disease
+created_by: RSHRESTHA
+creation_date: 2010-08-02T10:54:49Z
+
+[Term]
+id: CO_320:0000195
+name: bakanae disease
+def: "The trait is scored for the plant response to the agent Gibberella fujikuroi causing bakanae disease." [CO:rs]
+comment: Causal agent: Gibberella fujikuroi. Symptoms: the plant elongates abnormally, has few tillers and usually dies before producing grains.
+xref: TRAITID_IRIS:1124
+is_a: CO_320:0000170 ! fungal disease
+created_by: RSHRESTHA
+creation_date: 2010-08-02T10:55:35Z
+
+[Term]
+id: CO_320:0000196
+name: brown planthopper damage
+def: "The trait is scored for the plant damage caused by brown plant hopper (Nilparvata lugens)." [CO:rs]
+synonym: "BPH1" RELATED []
+synonym: "BPH2" RELATED []
+synonym: "BPH3" RELATED []
+xref: TO:0000424
+xref: TRAITID_IRIS:1152
+is_a: CO_320:0000215 ! planthopper damage
+created_by: RSHRESTHA
+creation_date: 2010-08-02T11:01:44Z
+
+[Term]
+id: CO_320:0000197
+name: case worm damage
+def: "The trait is scored for the plant damage caused by caseworm (Nymphula depunctalis)." [CO:rs]
+xref: TO:0000405
+xref: TRAITID_IRIS:1153
+is_a: CO_320:0000172 ! insect damage
+created_by: RSHRESTHA
+creation_date: 2010-08-02T11:10:57Z
+
+[Term]
+id: CO_320:0000198
+name: cutworm damage
+def: "The trait is scored for the plant damage caused by cutworm (Spodoptera litura)." [CO:rs]
+xref: TO:0000317
+xref: TRAITID_IRIS:1154
+is_a: CO_320:0000172 ! insect damage
+created_by: RSHRESTHA
+creation_date: 2010-08-02T12:31:33Z
+
+[Term]
+id: CO_320:0000199
+name: gall midge damage
+def: "The trait is scored for the plant damage caused by gall midge (Orseolia oryzae)." [CO:rs]
+comment: At growth stage: 2-5.\nNote: For the field test to be valid more than 60% of the plants should be affected with not less than 15% silver shoot in the susceptible check.
+xref: TO:0000423
+xref: TRAITID_IRIS:1155
+is_a: CO_320:0000172 ! insect damage
+created_by: RSHRESTHA
+creation_date: 2010-08-02T12:32:52Z
+
+[Term]
+id: CO_320:0000200
+name: green leafhopper damage
+def: "The trait is scored for the plant damage caused by green leafhopper (Nephotettix virescens and Nephotettix cincticeps)." [CO:rs]
+xref: TO:0000212
+xref: TRAITID_IRIS:1156
+is_a: CO_320:0000172 ! insect damage
+created_by: RSHRESTHA
+creation_date: 2010-08-02T12:34:11Z
+
+[Term]
+id: CO_320:0000201
+name: leaf folder
+def: "The trait is scored for the plant damage caused by leaf folder (Marasmia patnalis)." [CO:rs]
+xref: TO:0000403
+xref: TRAITID_IRIS:1157
+is_a: CO_320:0000172 ! insect damage
+created_by: RSHRESTHA
+creation_date: 2010-08-02T12:36:07Z
+
+[Term]
+id: CO_320:0000202
+name: leaf roller
+def: "The trait is scored for the plant damage caused by leaf-roller (Cnaphalocrocis medinalis)." [CO:rs]
+xref: TO:0000192
+xref: TRAITID_IRIS:1157
+is_a: CO_320:0000172 ! insect damage
+created_by: RSHRESTHA
+creation_date: 2010-08-02T12:36:49Z
+
+[Term]
+id: CO_320:0000203
+name: rice bug damage
+def: "The trait is scored for the plant damage caused by rice bug (Leptocorisa oratorisa)." [CO:rs]
+xref: TO:0000220
+xref: TRAITID_IRIS:1159
+is_a: CO_320:0000172 ! insect damage
+created_by: RSHRESTHA
+creation_date: 2010-08-02T12:37:43Z
+
+[Term]
+id: CO_320:0000204
+name: rice hispa damage
+def: "The trait is scored for the plant damage caused by rice hispa (Dicladispa armigera)." [CO:rs]
+xref: TO:0000191
+xref: TRAITID_IRIS:1160
+is_a: CO_320:0000172 ! insect damage
+created_by: RSHRESTHA
+creation_date: 2010-08-02T12:40:42Z
+
+[Term]
+id: CO_320:0000205
+name: rice skipper damage
+def: "The trait is scored for the plant damage caused by rice (Pelopidas mathias and Parnara guttata)." [CO:rs]
+xref: TO:0000151
+xref: TRAITID_IRIS:1161
+is_a: CO_320:0000172 ! insect damage
+created_by: RSHRESTHA
+creation_date: 2010-08-02T12:41:50Z
+
+[Term]
+id: CO_320:0000206
+name: rice whorl maggot
+def: "The trait is scored for the plant damage caused by rice whorl maggot (Hydrellia philippina)." [CO:rs]
+xref: TO:0000332
+xref: TRAITID_IRIS:1162
+is_a: CO_320:0000172 ! insect damage
+created_by: RSHRESTHA
+creation_date: 2010-08-02T12:42:52Z
+
+[Term]
+id: CO_320:0000207
+name: sogatodes
+def: "The trait is scored for the plant damage caused by Sogatodes orizicola and S. cubanus." [CO:rs]
+comment: Sagotella orizicola is also a vector for the rice black streaked dwarf fijivirus and rice hoja blanca virus (RHBV).
+xref: TO:0000348
+xref: TRAITID_IRIS:1163
+is_a: CO_320:0000172 ! insect damage
+created_by: RSHRESTHA
+creation_date: 2010-08-02T12:44:17Z
+
+[Term]
+id: CO_320:0000208
+name: stem borer damage
+def: "The trait is scored for the plant damage caused by stem borers, Chilo suppressalis (striped), C. polychrysus (dark headed), Rupela albinella (South American white), Scirpophaga incertulas (yellow), S innotata (white), Sesamia inferens (pink), Maliarpha separatella (african whiteheads), Diopsis macrophthalma (stalked-eyed fly), and several other species." [CO:rs]
+comment: At growth stage: 3-5 (deadhearts); 8-9 (white heads).
+synonym: "stem borer deadheart" RELATED []
+synonym: "striped stem borer" RELATED []
+synonym: "yellow stem borer" RELATED []
+xref: TO:0000454
+xref: TRAITID_IRIS:164
+is_a: CO_320:0000172 ! insect damage
+created_by: RSHRESTHA
+creation_date: 2010-08-02T12:45:34Z
+
+[Term]
+id: CO_320:0000209
+name: stink bug damage
+def: "The trait is scored for the plant damage caused by stink bug (Oebalus pugnax)." [CO:rs]
+xref: TO:0000022
+xref: TRAITID_IRIS:1165
+is_a: CO_320:0000172 ! insect damage
+created_by: RSHRESTHA
+creation_date: 2010-08-02T12:48:57Z
+
+[Term]
+id: CO_320:0000210
+name: thrips damage
+def: "The trait is scored for the plant damage caused by thrips (Stenchaetothrips biformis)." [CO:rs]
+comment: At growth stage: 2-3
+xref: TO:0000154
+xref: TRAITID_IRIS:1166
+is_a: CO_320:0000172 ! insect damage
+created_by: RSHRESTHA
+creation_date: 2010-08-02T12:50:03Z
+
+[Term]
+id: CO_320:0000211
+name: whitebacked planthopper damage
+xref: TRAITID_IRIS:1167
+is_a: CO_320:0000215 ! planthopper damage
+created_by: RSHRESTHA
+creation_date: 2010-08-02T12:52:24Z
+
+[Term]
+id: CO_320:0000212
+name: zigzag leaf hopperdamage
+xref: TRAITID_IRIS:1168
+is_a: CO_320:0000215 ! planthopper damage
+created_by: RSHRESTHA
+creation_date: 2010-08-02T12:53:20Z
+
+[Term]
+id: CO_320:0000213
+name: bird damage
+def: "The trait is scored for the plant damage caused by bird." [CO:rs]
+synonym: "rodent damage" RELATED []
+xref: TRAITID_IRIS:1169
+is_a: CO_320:0000168 ! biotic stress trait
+created_by: RSHRESTHA
+creation_date: 2010-08-02T12:55:00Z
+
+[Term]
+id: CO_320:0000214
+name: rat damage
+def: "The trait is scored for the plant damage caused by rat." [CO:rs]
+xref: TO:0000117
+xref: TRAITID_IRIS:1170
+is_a: CO_320:0000168 ! biotic stress trait
+created_by: RSHRESTHA
+creation_date: 2010-08-02T12:55:50Z
+
+[Term]
+id: CO_320:0000215
+name: planthopper damage
+def: "The trait is scored for the plant damage caused by planthopper." [CO:rs]
+xref: TRAITID_IRIS:1171
+is_a: CO_320:0000172 ! insect damage
+created_by: RSHRESTHA
+creation_date: 2010-08-02T12:57:09Z
+
+[Term]
+id: CO_320:0000216
+name: rice delphacid damage
+def: "The trait is scored for the plant damage caused by rice delphacid [Sogatodes oryzicola (Tagosodes orizicolus)]." [CO:rs]
+comment: Symptoms: Similar to whitebacked planthopper (WBHP).\nAt growth stage: 2 (green house); 2-6 (field).\nNote: The scale is based on symptoms. Incidence of dead plants could be considered for final evaluation.
+synonym: "RDel" RELATED []
+xref: TO:0000246
+xref: TRAITID_IRIS:1172
+is_a: CO_320:0000172 ! insect damage
+created_by: RSHRESTHA
+creation_date: 2010-08-02T12:57:42Z
+
+[Term]
+id: CO_320:0000217
+name: army worm damage
+def: "The trait is scored for the plant damage caused by army worm (Pseudaletia unipuncta)." [CO:rs]
+xref: TO:0000273
+xref: TRAITID_IRIS:1151
+is_a: CO_320:0000172 ! insect damage
+created_by: RSHRESTHA
+creation_date: 2010-08-02T03:29:28Z
+
+[Term]
+id: CO_320:0000218
+name: seedling height
+def: "Actual measurements of 10 seedlings in centimeters, from the base of the shoot to the tip of the tallest leaf blade." [CO:rs]
+comment: At growth stage 2-3 (5-leaf stage)
+synonym: "SH" RELATED [SES:91]
+xref: IRIS_TRAITID:1006
+is_a: CO_320:0000001 ! morphological trait
+
+[Term]
+id: CO_320:0000219
+name: first heading
+def: "Date on which the first flush of flowers is observed. It is specified either as the number of days from effective seeding date to first heading date or as the date of effective seeding and date of first heading." [CO:rs]
+comment: The trait is mainly observed for wild rice.
+is_a: CO_320:0000070 ! agronomic trait
+
+[Term]
+id: CO_320:0000220
+name: method (anther length)
+def: "(Wild species). Record the average of five samples. Stage: at anthesis." [RD:7.4.3]
+relationship: method_of CO_320:0000150 ! anther length
+creation_date: 2011-10-10T11:28:05Z
+
+[Term]
+id: CO_320:0000221
+name: Continuous scale (anther length)
+def: "Measured in mm." [RD:7.4.3]
+relationship: scale_of CO_320:0000220 ! method (anther length)
+created_by: fborja
+creation_date: 2011-10-10T11:30:31Z
+
+[Term]
+id: CO_320:0000222
+name: method (sterile lemma length)
+def: "Record the average length of five spikelets. For spikelets with symmetrical sterile lemmas (i.e. sterile length the same on both sides), record the length here. For spikelets with asymmetrical sterile lemmas (i.e. sterile lemma on one side longer than that on the other), record here only the length of the shorter sterile lemma." [RD:7.5.10]
+relationship: method_of CO_320:0000042 ! sterile lemma length
+created_by: fborja
+creation_date: 2011-10-10T11:36:52Z
+
+[Term]
+id: CO_320:0000223
+name: Continuous scale (sterile lemma length)
+def: "Measured in mm." [RD:7.5.10]
+relationship: scale_of CO_320:0000222 ! method (sterile lemma length)
+created_by: fborja
+creation_date: 2011-10-10T11:38:17Z
+
+[Term]
+id: CO_320:0000224
+name: Categorical scale (sterile lemma length)
+def: "3 Short\n5 Medium\n7 Long\n9 Extra long." [RD:7.5.10]
+relationship: scale_of CO_320:0000222 ! method (sterile lemma length)
+created_by: fborja
+creation_date: 2011-10-10T11:38:49Z
+
+[Term]
+id: CO_320:0000225
+name: method (stigma color)
+def: "Observed at anthesis (between 0900 and 1400) using a hand lens." [RD:7.4.2]
+relationship: method_of CO_320:0000038 ! stigma color
+created_by: fborja
+creation_date: 2011-10-10T11:47:16Z
+
+[Term]
+id: CO_320:0000226
+name: Categorical scale (stigma color)
+def: "1 010 White\n2 061 Light green\n3 030 Yellow\n4 081 Light purple\n5 080 Purple." [RD:7.4.2]
+relationship: scale_of CO_320:0000225 ! method (stigma color)
+created_by: fborja
+creation_date: 2011-10-10T11:47:55Z
+
+[Term]
+id: CO_320:0000227
+name: Seedling Height RD Method
+def: "Measured from the base of the shoot to the tip of the tallest leaf blade, to nearest cm. Average of 10 seedlings. Stage: 5-leaf stage." [RD:7.3.2]
+relationship: method_of CO_320:0000218 ! seedling height
+creation_date: 2011-10-17T10:37:42Z
+
+[Term]
+id: CO_320:0000228
+name: Categorical scale (seedling height)
+def: "3 Short (<30 cm)\n5 Intermediate (~45 cm)\n7 Tall (>60 cm)." [RD:7.3.2]
+relationship: scale_of CO_320:0000227 ! Seedling Height RD Method
+created_by: fborja
+creation_date: 2011-10-17T10:43:58Z
+
+[Term]
+id: CO_320:0000229
+name: Measurement culm length (SES)
+def: "Measure from soil surface to panicle base in centimeters." [SES:104]
+relationship: method_of CO_320:0000030 ! culm length
+created_by: fborja
+creation_date: 2011-10-17T02:03:32Z
+
+[Term]
+id: CO_320:0000230
+name: Categorical scale (culm length)
+def: "1 Very short (<50 cm)\n2 Very short to short (51-70 cm)\n3 Short (71-90 cm)\n4 Short to intermediate (91-105 cm)\n5 Intermediate (106 -120 cm)\n6 Intermediate to long (121-140 cm)\n7 Long (141-155 cm)\n8 Long to very long (156-180 cm)\n9 Very long (>180 cm)." [RD:7.3.25]
+relationship: scale_of CO_320:0000229 ! Measurement culm length (SES)
+created_by: fborja
+creation_date: 2011-10-17T02:04:35Z
+
+[Term]
+id: CO_320:0000231
+name: Measurement of culm diameter (RD)
+def: "Measured as the outer diameter of basal portion of the main culm.\nCultivated species: record average of three representative plants during flowering or at late reproductive stage. Wild species: record average of five plants at late reproductive stage." [RD:7.3.27]
+relationship: method_of CO_320:0000155 ! culm diameter
+created_by: fborja
+creation_date: 2011-10-17T02:50:08Z
+
+[Term]
+id: CO_320:0000232
+name: Categorical scale (culm diameter)
+def: "1 Thin (<5 mm)\n2 Thick (>=5 mm)." [RD:7.3.27]
+relationship: scale_of CO_320:0000231 ! Measurement of culm diameter (RD)
+created_by: fborja
+creation_date: 2011-10-17T02:53:47Z
+
+[Term]
+id: CO_320:0000233
+name: Continuous scale (seedling height)
+def: "Measured in cm." [RD:7.3.2]
+relationship: scale_of CO_320:0000227 ! Seedling Height RD Method
+created_by: fborja
+creation_date: 2011-10-17T02:56:12Z
+
+[Term]
+id: CO_320:0000234
+name: Continuous scale (culm length)
+def: "Measured in cm." [RD:7.3.25]
+relationship: scale_of CO_320:0000229 ! Measurement culm length (SES)
+created_by: fborja
+creation_date: 2011-10-17T02:57:49Z
+
+[Term]
+id: CO_320:0000235
+name: method (leaf width)
+def: "Measure at the widest portion of the penultimate leaf (i.e. highest leaf below the flag leaf) on the main culm on five representative plants. Calculate average to nearest cm. Cultivated species: measure at early reproductive. Wild species: measure 7 days after anthesis." [RD:7.3.19]
+relationship: method_of CO_320:0000021 ! leaf width
+created_by: fborja
+creation_date: 2011-10-17T03:00:04Z
+
+[Term]
+id: CO_320:0000236
+name: method (awn length)
+def: "Record the average length of 10 representative spikelets. Cultivated species: measure the longest awn. Stage: maturity Wild species: measure random awns. Stage: after anthesis." [RD:7.4.11]
+relationship: method_of CO_320:0000146 ! awn length
+created_by: fborja
+creation_date: 2011-10-17T03:11:16Z
+
+[Term]
+id: CO_320:0000237
+name: Continuous scale
+def: "Measured in mm." [RD:7.4.11]
+relationship: scale_of CO_320:0000236 ! method (awn length)
+created_by: fborja
+creation_date: 2011-10-17T03:12:03Z
+
+[Term]
+id: CO_320:0000238
+name: Categorical scale
+def: "0 None (awnless)\n1 Very short (<5 mm)\n3 Short (~8 mm)\n5 Intermediate (~15 mm)\n7 Long (~30 mm)\n9 Very long (>40 mm)." [RD:7.4.11]
+relationship: scale_of CO_320:0000236 ! method (awn length)
+created_by: fborja
+creation_date: 2011-10-17T03:12:28Z
+
+[Term]
+id: CO_320:0000239
+name: Count of number of panicles (RD)
+def: "Record the number of panicles per plant. Stage:early ripening." [RD:7.4.17]
+relationship: method_of CO_320:0000009 ! number of panicles
+created_by: fborja
+creation_date: 2011-10-17T03:16:59Z
+
+[Term]
+id: CO_320:0000240
+name: Categorical scale
+def: "3 Low\n5 Intermediate\n7 High." [RD:7.4.17]
+relationship: scale_of CO_320:0000239 ! Count of number of panicles (RD)
+created_by: fborja
+creation_date: 2011-10-17T03:22:08Z
+
+[Term]
+id: CO_320:0000241
+name: method (panicle length)
+def: "Length of main axis of panicle measured from base to the tip. Record the average of five representative plants." [RD:7.5.1]
+relationship: method_of CO_320:0000033 ! panicle length
+created_by: fborja
+creation_date: 2011-10-17T04:05:49Z
+
+[Term]
+id: CO_320:0000242
+name: Categorical scale (panicle length)
+def: "1 Very short (<11 cm)\n3 Short (~15 cm)\n5 Medium (~25 cm)\n7 Long (~35 cm)\n9 Very long (>40 cm)." [RD:7.5.1]
+relationship: scale_of CO_320:0000241 ! method (panicle length)
+created_by: fborja
+creation_date: 2011-10-17T04:06:28Z
+
+[Term]
+id: CO_320:0000243
+name: Continuous scale (panicle length)
+def: "Measured in cm." [RD:7.5.1]
+relationship: scale_of CO_320:0000241 ! method (panicle length)
+created_by: fborja
+creation_date: 2011-10-17T04:10:22Z
+
+[Term]
+id: CO_320:0000244
+name: Determination of gel consistency (RD)
+def: "Ground rice (0.1 g) is placed in a test tube with thymol blue (0.025% in ethanol, 0.2 ml) and KOH (0.2N, 2 ml). The tube is shaken to ensure contents are mixed, boiled (8 min), rested (5 min) and then placed in an ice-bath (15 min). Cooled tubes are laid flat on graph paper for 1 hour, and then the distance that the gel travels is measured." [RD:8.1.6]
+relationship: method_of CO_320:0000106 ! gel consistency
+created_by: fborja
+creation_date: 2011-10-17T04:20:31Z
+
+[Term]
+id: CO_320:0000245
+name: Categorical scale
+def: "Scale Gel length Gel consistency type\n1 81-100 mm Soft\n2 61-80 mm Soft\n3 41-60 mm Intermediate\n4 36-40 mm Hard\n5 <36 mm Hard." [RD:8.1.6]
+relationship: scale_of CO_320:0000244 ! Determination of gel consistency (RD)
+created_by: fborja
+creation_date: 2011-10-17T04:21:27Z
+
+[Term]
+id: CO_320:0000246
+name: method (basal leaf sheath color)
+def: "Colour of the outer surface of the leaf sheath. Stage: late vegetative." [RD:7.3.3]
+relationship: method_of CO_320:0000023 ! basal leaf sheath color
+created_by: fborja
+creation_date: 2011-10-17T06:39:49Z
+
+[Term]
+id: CO_320:0000247
+name: Categorical scale (basal leaf sheath color)
+def: "1 060 Green\n2 084 Green with purple lines\n3 081 Light purple\n4 080 Purple." [RD:7.3.3]
+relationship: scale_of CO_320:0000246 ! method (basal leaf sheath color)
+created_by: fborja
+creation_date: 2011-10-17T06:40:16Z
+
+[Term]
+id: CO_320:0000248
+name: Observation of leaf sheath color
+def: "Observation at growth stage 3-5. At Growth Stage 3-5;Vegetative Stage." []
+relationship: method_of CO_320:0000024 ! leaf sheath color
+created_by: fborja
+creation_date: 2011-10-17T06:49:18Z
+
+[Term]
+id: CO_320:0000249
+name: Categorical scale
+def: "1 = Yellow green\n2 = Light green\n3 = Green\n4 =Dark green\n5 = Light purple to red\n6 = Purple." []
+relationship: scale_of CO_320:0000248 ! Observation of leaf sheath color
+created_by: fborja
+creation_date: 2011-10-17T06:51:38Z
+
+[Term]
+id: CO_320:0000250
+name: method (leaf blade color)
+def: "Stage: late vegetative." [RD:7.3.5]
+relationship: method_of CO_320:0000006 ! leaf blade color
+creation_date: 2011-10-24T09:31:44Z
+
+[Term]
+id: CO_320:0000251
+name: Categorical scale (leaf blade color)
+def: "0 Absent\n1 Present." [RD:7.3.5]
+relationship: scale_of CO_320:0000250 ! method (leaf blade color)
+creation_date: 2011-10-24T09:32:28Z
+
+[Term]
+id: CO_320:0000252
+name: method (leaf blade pubescence)
+def: "Assess both visually and by touch, rubbing fingers over the leaf surface from the tip downwards. Stage: late vegetative." [RD:7.3.9]
+relationship: method_of CO_320:0000013 ! leaf blade pubescence
+creation_date: 2011-10-24T09:47:37Z
+
+[Term]
+id: CO_320:0000253
+name: Categorical scale (leaf blade pubescence)
+def: "1 Glabrous (smooth-including ciliated margins)\n2 Intermediate\n3 Pubescent." [RD:7.3.9]
+relationship: scale_of CO_320:0000252 ! method (leaf blade pubescence)
+creation_date: 2011-10-24T09:48:21Z
+
+[Term]
+id: CO_320:0000254
+name: method (auricle color)
+def: "Stage: late vegetative." [RD:7.3.11]
+relationship: method_of CO_320:0000029 ! auricle color
+creation_date: 2011-10-24T09:52:05Z
+
+[Term]
+id: CO_320:0000255
+name: Categorical scale (auricle color)
+def: "0 0 Absent (no auricles)\n1 011 Whitish\n2 062 Yellowish green\n3 080 Purple\n4 081 Light purple\n5 084 Purple lines." [RD:7.3.11]
+relationship: scale_of CO_320:0000254 ! method (auricle color)
+creation_date: 2011-10-24T09:52:25Z
+
+[Term]
+id: CO_320:0000256
+name: method (collar color)
+def: "Stage: late vegetative." [RD:7.3.12]
+relationship: method_of CO_320:0000028 ! collar color
+creation_date: 2011-10-24T09:59:46Z
+
+[Term]
+id: CO_320:0000257
+name: Categorical scale (collar color)
+def: "0 0 Absent (collarless)\n1 060 Green\n2 061 Light green\n3 080 Purple\n4 084 Purple lines." [RD:7.3.12]
+relationship: scale_of CO_320:0000256 ! method (collar color)
+creation_date: 2011-10-24T10:00:30Z
+
+[Term]
+id: CO_320:0000258
+name: method (ligule length)
+def: "Measured on five samples from base of collar to the tip of the ligule of the penultimate leaf, i.e. the leaf below the flag leaf. Stage: after anthesis." [RD:7.3.13]
+relationship: method_of CO_320:0000025 ! ligule length
+creation_date: 2011-10-24T10:07:18Z
+
+[Term]
+id: CO_320:0000259
+name: Continuous scale (ligule length)
+def: "Measured in mm." [RD:7.3.13]
+relationship: scale_of CO_320:0000258 ! method (ligule length)
+creation_date: 2011-10-24T10:08:07Z
+
+[Term]
+id: CO_320:0000260
+name: method (ligule shape)
+def: "Different scoring systems are used for cultivated and wild species. Stage: late vegetative (cultivated species). Stage: after anthesis (wild species)." [RD:7.3.14]
+relationship: method_of CO_320:0000027 ! ligule shape
+creation_date: 2011-10-24T10:10:36Z
+
+[Term]
+id: CO_320:0000261
+name: Categorical scale (ligule shape)
+def: "Cultivated species\n0 Absent\n1 Truncate\n2 Acute to acuminate\n3 2-cleft\n\nWild species\n0 Absent\n1 Fringe of hairs\n2 Truncate\n3 Obtuse or rounded\n4 Emarginate\n5 Acute\n6 Acuminate\n7 2-cleft." [RD:7.3.14]
+relationship: scale_of CO_320:0000260 ! method (ligule shape)
+creation_date: 2011-10-24T10:12:03Z
+
+[Term]
+id: CO_320:0000262
+name: method (ligule pubescence)
+def: "Visual assessment using hand lens. Stage: after anthesis." [RD:7.3.16]
+relationship: method_of CO_320:0000132 ! ligule pubescence
+creation_date: 2011-10-24T10:40:28Z
+
+[Term]
+id: CO_320:0000263
+name: Categorical scale (ligule pubescence)
+def: "1 Glabrous\n2 Partially hirsute: hairs covering less than 50% of the ligule\n3 Mostly or generally hirsute: hairs covering more than\n50% of the ligule." [RD:7.3.16]
+relationship: scale_of CO_320:0000262 ! method (ligule pubescence)
+creation_date: 2011-10-24T10:41:28Z
+
+[Term]
+id: CO_320:0000264
+name: method (ligule color)
+def: "Stage: late vegetative." [RD:7.3.17]
+relationship: method_of CO_320:0000026 ! ligule color
+creation_date: 2011-10-24T10:47:10Z
+
+[Term]
+id: CO_320:0000265
+name: Categorical scale (ligule color)
+def: "0 0 Absent (liguleless)\n1 011 Whitish\n2 062 Yellowish green\n3 080 Purple\n4 081 Light purple\n5 084 Purple lines." [RD:7.3.17]
+relationship: scale_of CO_320:0000264 ! method (ligule color)
+creation_date: 2011-10-24T10:48:01Z
+
+[Term]
+id: CO_320:0000266
+name: method (leaf length)
+def: "Measure the penultimate leaf (i.e. highest leaf below the flag leaf) on the main\nculm, from the ligule to the tip of the blade, on five representative plants. Calculate average to nearest cm.\nCultivated species: measure at early reproductive stage.\nWild species: measure 7 days after anthesis." [RD:7.3.18]
+relationship: method_of CO_320:0000011 ! leaf length
+creation_date: 2011-10-24T10:53:48Z
+
+[Term]
+id: CO_320:0000267
+name: Continuous scale (leaf length)
+def: "Measured in cm." [RD:7.3.18]
+relationship: scale_of CO_320:0000266 ! method (leaf length)
+creation_date: 2011-10-24T10:55:00Z
+
+[Term]
+id: CO_320:0000268
+name: Categorical scale (leaf length)
+def: "1 Very short (<21 cm)\n3 Short (~30 cm)\n5 Intermediate (~50 cm)\n7 Long (~70 cm)\n9 Very long (>80 cm)." [RD:7.3.18]
+relationship: scale_of CO_320:0000266 ! method (leaf length)
+creation_date: 2011-10-24T10:55:39Z
+
+[Term]
+id: CO_320:0000269
+name: Categorical scale (leaf width)
+def: "3 Narrow (<1 cm)\n5 Intermediate\n7 Broad (>2 cm)." [RD:7.3.19]
+relationship: scale_of CO_320:0000235 ! method (leaf width)
+creation_date: 2011-10-24T10:58:44Z
+
+[Term]
+id: CO_320:0000270
+name: method (flag leaf length)
+def: "Measure length of the flag leaf, from the ligule to the tip of the blade, on five\nrepresentative plants. Calculate average to nearest cm. Stage: 7 days after\nanthesis." [RD:7.3.20]
+relationship: method_of CO_320:0000138 ! flag leaf length
+creation_date: 2011-10-24T10:59:56Z
+
+[Term]
+id: CO_320:0000271
+name: Continuous scale (flag leaf length)
+def: "Measured in cm." [RD:7.3.20]
+relationship: scale_of CO_320:0000270 ! method (flag leaf length)
+creation_date: 2011-10-24T11:00:22Z
+
+[Term]
+id: CO_320:0000272
+name: method (flag leaf width)
+def: "Measure width at the widest portion of the flag leaf on five representative plants. Calculate average to nearest cm. Stage: 7 days after anthesis." [RD:7.3.21]
+relationship: method_of CO_320:0000137 ! flag leaf width
+creation_date: 2011-10-24T11:02:28Z
+
+[Term]
+id: CO_320:0000273
+name: Continuous scale (flag leaf width)
+def: "Measured in cm." [RD:7.3.21]
+relationship: scale_of CO_320:0000272 ! method (flag leaf width)
+creation_date: 2011-10-24T11:02:43Z
+
+[Term]
+id: CO_320:0000274
+name: Measurement of angle between the flag leaf blade and the main panicle axis (RD)
+def: "Measured near the collar. Angle of attachment between the flag leaf blade and the main panicle axis. Record the average of five samples.\nCultivated species: score at anthesis.\nWild species: score 7 days after anthesis." [RD:7.3.22]
+relationship: method_of CO_320:0000017 ! flag leaf angle
+creation_date: 2011-10-24T11:05:24Z
+
+[Term]
+id: CO_320:0000275
+name: Categorical scale (flag leaf angle)
+def: "1 Erect\n3 Semi-erect (intermediate)\n5 Horizontal\n7 Descending." [RD:7.3.22]
+relationship: scale_of CO_320:0000274 ! Measurement of angle between the flag leaf blade and the main panicle axis (RD)
+creation_date: 2011-10-24T11:05:33Z
+
+[Term]
+id: CO_320:0000276
+name: method (culm angle)
+def: "The estimated average angle of inclination of the base of the main culm from vertical.\nStage: after flowering." [RD:7.3.23]
+relationship: method_of CO_320:0000031 ! culm angle
+creation_date: 2011-10-24T11:20:26Z
+
+[Term]
+id: CO_320:0000277
+name: Categorical scale (culm angle)
+def: "1 Erect (<15°)\n3 Semi-erect (intermediate) (~20°)\n5 Open (~40°)\n7 Spreading (>60-80°, culms not resting on the ground)\n9 Procumbent (culm or its lower part rests on ground surface)." [RD:7.3.23]
+relationship: scale_of CO_320:0000276 ! method (culm angle)
+creation_date: 2011-10-24T11:21:03Z
+
+[Term]
+id: CO_320:0000278
+name: method (culm internode color)
+def: "The presence and distribution of purple colour from anthocyanin, observed on the outer surface of the internodes on the culm. Stage: near colouration maturity." [RD:7.3.30]
+relationship: method_of CO_320:0000016 ! culm internode color
+creation_date: 2011-10-24T01:28:43Z
+
+[Term]
+id: CO_320:0000279
+name: Categorical scale (culm internode color)
+def: "0 0 Absent\n1 080 Purple\n2 084 Purple lines." [RD:7.3.30]
+relationship: scale_of CO_320:0000278 ! method (culm internode color)
+creation_date: 2011-10-24T01:29:36Z
+
+[Term]
+id: CO_320:0000280
+name: Test for culm strength (RD)
+def: "Assessed by gently pushing the tillers back and forth at a distance of about 30 cm from the ground. This test gives some indication of stiffness and resilience. Stage: at harvest." [RD:7.3.33]
+relationship: method_of CO_320:0000084 ! culm strength
+creation_date: 2011-10-24T01:55:44Z
+
+[Term]
+id: CO_320:0000281
+name: Categorical scale (culm strength)
+def: "1 Very weak\n3 Weak\n5 Intermediate\n7 Strong\n9 Very strong." [RD:7.3.33]
+relationship: scale_of CO_320:0000280 ! Test for culm strength (RD)
+creation_date: 2011-10-24T01:58:54Z
+
+[Term]
+id: CO_320:0000282
+name: method (leaf senescence)
+def: "Estimated by observing all leaves below the flag leaf for their retention of greenness. Stage: at harvest." [RD:7.3.35]
+relationship: method_of CO_320:0000085 ! leaf senescence
+creation_date: 2011-10-24T02:11:59Z
+
+[Term]
+id: CO_320:0000283
+name: Categorical scale (leaf senescence)
+def: "1 Very early (all leaves lost their green colour before grain maturity)\n3 Early (all leaves have lost their green colour at harvest)\n5 Intermediate (one leaf still green at harvest)\n7 Late (two or more leaves still green at harvest)\n9 Very late (all leaves still green at harvest)." [RD:7.3.35, SES:6]
+relationship: scale_of CO_320:0000282 ! method (leaf senescence)
+creation_date: 2011-10-24T02:12:36Z
+
+[Term]
+id: CO_320:0000284
+name: method (rhizome formation)
+def: "Observe when plants are ready for harvest." [RD:7.3.36]
+relationship: method_of CO_320:0000124 ! rhizome formation
+creation_date: 2011-10-24T02:16:08Z
+
+[Term]
+id: CO_320:0000285
+name: Categorical scale (rhizome formation)
+def: "1 Vegetative crown\n2 Vegetative crown and stolon\n3 Vegetative crown and weak rhizomes\n4 Vegetative crown, stolon and weak rhizomes\n5 Strong rhizomes and no tubers\n6 Strong rhizomes with tubers." [RD:7.3.36]
+relationship: scale_of CO_320:0000284 ! method (rhizome formation)
+creation_date: 2011-10-24T02:16:25Z
+
+[Term]
+id: CO_320:0000286
+name: method (lemma and palea color)
+def: "Stage: after anthesis to hard dough stage (pre-ripening stage)." [RD:7.4.5]
+relationship: method_of CO_320:0000039 ! lemma and palea color
+creation_date: 2011-10-24T02:45:07Z
+
+[Term]
+id: CO_320:0000287
+name: scale (lemma and palea color)
+def: "1 010 White\n2 012 Green-stripped white\n3 042 Gold and gold furrows\n4 052 Brown (tawny)\n5 053 Brown spots on green\n6 054 Brown furrows on green\n7 056 Blackish brown\n8 060 Green\n9 062 Yellowish green\n10 080 Purple\n11 082 Reddish to light purple\n12 083 Purple shade\n13 090 Purple spots on green\n14 091 Purple furrows on green\n15 100 Black." [RD:7.4.5]
+relationship: scale_of CO_320:0000286 ! method (lemma and palea color)
+creation_date: 2011-10-24T02:46:06Z
+
+[Term]
+id: CO_320:0000288
+name: Detection for awn presence (RD)
+def: "Stage: flowering to maturity." [RD:7.4.8]
+relationship: method_of CO_320:0000156 ! awn presence
+creation_date: 2011-10-24T02:56:29Z
+
+[Term]
+id: CO_320:0000289
+name: Categorical scale (awn presence)
+def: "0 Absent\n1 Partly awned\n2 Fully awned." [RD:7.4.8]
+relationship: scale_of CO_320:0000288 ! Detection for awn presence (RD)
+creation_date: 2011-10-24T02:56:40Z
+
+[Term]
+id: CO_320:0000290
+name: method (awn color)
+def: "Stage: after anthesis." [RD:7.4.10]
+relationship: method_of CO_320:0000036 ! awn color
+creation_date: 2011-10-24T03:02:47Z
+
+[Term]
+id: CO_320:0000291
+name: Categorical scale (awn color)
+def: "0 0 Absent (awnless)\n1 011 Whitish\n2 020 Straw\n3 040 Gold\n4 052 Brown (tawny)\n5 061 Light green\n6 070 Red\n7 080 Purple\n8 100 Black." [RD:7.4.10]
+relationship: scale_of CO_320:0000290 ! method (awn color)
+creation_date: 2011-10-24T03:03:02Z
+
+[Term]
+id: CO_320:0000292
+name: method (awn thickness)
+def: "(Wild species). Record the average width of 10 representative spikelets, at 1 cm from the apiculus of the spikelet. Stage: after anthesis." [RD:7.4.12]
+relationship: method_of CO_320:0000144 ! awn thickness
+creation_date: 2011-10-24T03:10:59Z
+
+[Term]
+id: CO_320:0000293
+name: Continuous scale (awn thickness)
+def: "Measured in mm." [RD:7.4.12]
+relationship: scale_of CO_320:0000292 ! method (awn thickness)
+creation_date: 2011-10-24T03:11:20Z
+
+[Term]
+id: CO_320:0000294
+name: method (panicle threshability)
+def: "(Cultivated species). Determined by grasping the panicle with the hand, applying a slight rolling pressure with the palm and fingers, and assessing the percentage of grains that are removed by the action." [RD:7.5.2]
+relationship: method_of CO_320:0000078 ! panicle threshability
+creation_date: 2011-10-24T03:50:26Z
+
+[Term]
+id: CO_320:0000295
+name: Categorical scale (panicle threshability)
+def: "1 Difficult (few or no grains removed)\n2 Intermediate (25-50% of grains removed)\n3 Easy (>50% of grains removed)." [RD:7.5.2]
+relationship: scale_of CO_320:0000294 ! method (panicle threshability)
+creation_date: 2011-10-24T03:50:39Z
+
+[Term]
+id: CO_320:0000296
+name: method (lemma and palea pubescence)
+relationship: method_of CO_320:0000040 ! lemma and palea pubescence
+creation_date: 2011-10-24T04:26:42Z
+
+[Term]
+id: CO_320:0000297
+name: Categorical scale (lemma and palea pubescence)
+def: "1 Glabrous\n2 Hairs on lemma keel\n3 Hairs on upper portion\n4 Short hairs\n5 Long hairs (velvety)." [SES:118]
+relationship: scale_of CO_320:0000296 ! method (lemma and palea pubescence)
+creation_date: 2011-10-24T04:27:36Z
+
+[Term]
+id: CO_320:0000298
+name: method (sterile lemma shape)
+def: "For wild species." [RD:7.5.12]
+relationship: method_of CO_320:0000121 ! sterile lemma shape
+creation_date: 2011-10-25T09:27:59Z
+
+[Term]
+id: CO_320:0000299
+name: Categorical scale (sterile lemma shape)
+def: "0 Absent\n1 Linear (long and slender)\n2 Subulate or setaceous (linear and tapering to a fine point, set with\nor consisting of bristles)\n3 Triangular (and very small)." [RD:7.5.12]
+relationship: scale_of CO_320:0000298 ! method (sterile lemma shape)
+creation_date: 2011-10-25T09:28:32Z
+
+[Term]
+id: CO_320:0000300
+name: method (sterile lemma color)
+def: "Observe five representative plants." [RD:7.5.13]
+relationship: method_of CO_320:0000041 ! sterile lemma color
+creation_date: 2011-10-25T09:31:05Z
+
+[Term]
+id: CO_320:0000301
+name: Categorical scale (sterile lemma color)
+def: "1 020 Straw\n2 040 Gold\n3 070 Red\n4 080 Purple." [RD:7.5.13]
+relationship: scale_of CO_320:0000300 ! method (sterile lemma color)
+creation_date: 2011-10-25T09:31:21Z
+
+[Term]
+id: CO_320:0000302
+name: method (spikelet fertility)
+def: "The abundance of well-developed spikelets as a percentage of the total number of spikelets on five representative panicles." [RD:7.5.14.]
+relationship: method_of CO_320:0000090 ! spikelet fertility
+creation_date: 2011-10-25T09:42:36Z
+
+[Term]
+id: CO_320:0000303
+name: Categorical scale (spikelet fertility)
+def: "1 Completely sterile (0%)\n2 Highly sterile (1-49%)\n3 Partly sterile (50-74%)\n4 Fertile (75-90%)\n5 Highly fertile (>90%)." [RD:7.5.14]
+relationship: scale_of CO_320:0000302 ! method (spikelet fertility)
+creation_date: 2011-10-25T09:42:43Z
+
+[Term]
+id: CO_320:0000304
+name: Measurement of grain length (RD)
+def: "Measured as the distance from the base of the lowermost glume to the tip (apiculus) of the fertile lemma or palea, whichever is longer. On awned cultivars, measure to a point comparable to the tip of the apiculus (exclude the awn). Preferably, measure with calliper or photo-enlarger. Average of 10 representative grains." [RD:7.5.15]
+relationship: method_of CO_320:0000004 ! grain length
+creation_date: 2011-10-25T09:46:29Z
+
+[Term]
+id: CO_320:0000305
+name: Continuous scale (grain length)
+def: "Measured in mm." [RD:7.5.15]
+relationship: scale_of CO_320:0000304 ! Measurement of grain length (RD)
+creation_date: 2011-10-25T09:46:43Z
+
+[Term]
+id: CO_320:0000306
+name: method (grain width)
+def: "Measured as the distance across the fertile lemma and palea at the widest point. Preferably, measure with calliper or photo-enlarger. Average of 10 representative grains." [RD:7.5.16]
+relationship: method_of CO_320:0000005 ! grain width
+creation_date: 2011-10-25T09:50:06Z
+
+[Term]
+id: CO_320:0000307
+name: Continuous scale (grain width)
+def: "Measured in mm." [RD:7.5.16]
+relationship: scale_of CO_320:0000306 ! method (grain width)
+creation_date: 2011-10-25T09:50:26Z
+
+[Term]
+id: CO_320:0000308
+name: Measurement of grain thickness (RD)
+def: "(Wild species). Preferably, measure with a calliper or photo-enlarger. Average of 10 representative grains. Stage: after harvest." [RD:7.5.17]
+relationship: method_of CO_320:0000020 ! grain thickness
+creation_date: 2011-10-25T10:05:34Z
+
+[Term]
+id: CO_320:0000309
+name: Continuous scale (grain thickness)
+def: "Measured in mm." [RD:7.5.17]
+relationship: scale_of CO_320:0000308 ! Measurement of grain thickness (RD)
+creation_date: 2011-10-25T10:05:52Z
+
+[Term]
+id: CO_320:0000310
+name: Weight of 100 grain (SES)
+def: "(Cultivated species). Random sample of 100 well-developed, whole grains, dried to 13% moisture content. Weigh on a precision balance." [RD:7.5.18]
+relationship: method_of CO_320:0000165 ! 100-grain weight
+creation_date: 2011-10-25T01:52:24Z
+
+[Term]
+id: CO_320:0000311
+name: Continuous scale (100-grain weight)
+def: "Measured in g." [RD:7.5.18]
+relationship: scale_of CO_320:0000310 ! Weight of 100 grain (SES)
+creation_date: 2011-10-25T01:52:41Z
+
+[Term]
+id: CO_320:0000312
+name: Evaluation of plant vigor (SES)
+def: "At growth stage: Tillering." [SES:1]
+relationship: method_of CO_320:0000167 ! vegetative vigor
+creation_date: 2011-10-28T01:59:30Z
+
+[Term]
+id: CO_320:0000313
+name: Categorical scale (vegetative vigor)
+def: "1 Extra vigorous (very fast growing; plants at 5-6 leaf stage have\n2 or more tillers in majority of population)\n3 Vigorous (fast growing; plants at 4-5 stage have 1-2 tillers in majority of population)\n5 Normal (plant at 4-leaf stage)\n7 Weak (plants somewhat stunted; 3-4 leaves; thin population; no tiller formation)\n9 Very weak (stunted growth; yellowing of leaves)." [SES:1]
+relationship: scale_of CO_320:0000312 ! Evaluation of plant vigor (SES)
+creation_date: 2011-10-28T02:01:47Z
+
+[Term]
+id: CO_320:0000314
+name: Evaluation of tillering ability (SES)
+relationship: method_of CO_320:0000079 ! tillering ability
+creation_date: 2011-10-28T02:05:41Z
+
+[Term]
+id: CO_320:0000315
+name: Categorical scale (tillering ability)
+def: "1 Very high (more than 25 tillers/plant)\n3 Good (20/25 tillers/plant)\n5 Medium (10-19 tillers/plant)\n7 Low (5-9 tillers/plant)\n9 Very low (less than 5 tillers/plant)." [SES:2]
+relationship: scale_of CO_320:0000314 ! Evaluation of tillering ability (SES)
+creation_date: 2011-10-28T02:06:22Z
+
+[Term]
+id: CO_320:0000316
+name: method (panicle exsertion)
+def: "Stage: near maturity." [RD:7.4.22]
+relationship: method_of CO_320:0000074 ! panicle exsertion
+creation_date: 2011-10-28T03:58:11Z
+
+[Term]
+id: CO_320:0000317
+name: Categorical scale (panicle exsertion)
+def: "1 Enclosed (panicle is partly or entirely enclosed within the leaf sheath of the flag leaf blade)\n3 Partly exserted (panicle base is slightly beneath the collar of the flag leaf blade)\n5 Just exserted (panicle base coincides with the collar of the flag leaf blade)\n7 Moderately well exserted (panicle base is above the collar of the flag leaf blade)\n9 Well exserted (panicle base appears well above the collar of the flag leaf blade)." [RD:7.4.22]
+relationship: scale_of CO_320:0000316 ! method (panicle exsertion)
+creation_date: 2011-10-28T03:58:57Z
+
+[Term]
+id: CO_320:0000318
+name: Evaluation of threshability (SES)
+def: "Extent to which the panicle is exserted above the flag leaf sheath.\nAt growth stage: Milk stage - Mature grain (near maturity)." [SES:7]
+relationship: method_of CO_320:0000078 ! panicle threshability
+creation_date: 2011-11-04T02:19:56Z
+
+[Term]
+id: CO_320:0000319
+name: Categorical scale (panicle threshability)
+def: "1 Enclosed (panicle is partly or entirely enclosed within the leaf\n3 Partly exserted (panicle base is slightly beneath the collar of the flag leaf blade)\n5 Just exserted (panicle base coincides with the collar of the flag leaf blade)\n7 Moderately well exserted (panicle base is above the collar of the flag leaf blade)\n9 Well exserted (panicle base appears well above the collar of the flag leaf blade)." [SES:7]
+relationship: scale_of CO_320:0000318 ! Evaluation of threshability (SES)
+creation_date: 2011-11-04T02:21:43Z
+
+[Term]
+id: CO_320:000032
+name: Categorical scale (spikelet sterility)
+def: "Scale Description Pollen Sterility (%)\n1 Completely sterile 100\n3 Highly sterile 99.0-99.9\n5 Sterile 95.0-98.9\n7 Partially sterile 70.0-94.9\n9 Partially fertile to fertile <70." [SES:21B]
+relationship: scale_of CO_320:0000328 ! method (spikelet sterility)
+creation_date: 2011-11-10T10:55:47Z
+
+[Term]
+id: CO_320:0000320
+name: Test for culm strength (SES)
+def: "Culm strength is first rated after heading\nby gently pushing the tillers (30 cm from the ground) back and forth a few times. This test gives some indication of culm stiffness and resilience. Final observation at maturity is made to record standing position of plants.\n\nStage: Heading - Mature grain." [SES:3]
+relationship: method_of CO_320:0000084 ! culm strength
+creation_date: 2011-11-04T03:54:13Z
+
+[Term]
+id: CO_320:0000321
+name: Categorical scale (culm strength)
+def: "1 Strong (no bending)\n3 Moderately strong (most plants bending)\n5 Intermediate (most plants moderately bending)\n7 Weak (most plants nearly flat)\n9 Very weak (all plants flat)." [SES:3]
+relationship: scale_of CO_320:0000320 ! Test for culm strength (SES)
+creation_date: 2011-11-04T03:54:27Z
+
+[Term]
+id: CO_320:0000322
+name: Evaluation of phenotypic acceptability (SES)
+def: "At growth stage: Mature grain." [SES:10]
+relationship: method_of CO_320:0000075 ! phenotypic acceptability
+creation_date: 2011-11-09T03:10:12Z
+
+[Term]
+id: CO_320:0000323
+name: Categorical scale (phenotypic acceptability)
+def: "1 Excellent\n3 Good\n5 Fair\n7 Poor\nUnacceptable." [SES:10]
+relationship: scale_of CO_320:0000322 ! Evaluation of phenotypic acceptability (SES)
+creation_date: 2011-11-09T03:10:37Z
+
+[Term]
+id: CO_320:0000324
+name: method (male sterility group)
+relationship: method_of CO_320:0000091 ! male sterility group
+creation_date: 2011-11-09T03:28:58Z
+
+[Term]
+id: CO_320:0000325
+name: Categorical scale (male sterility group)
+def: "1 Cytoplasmic-nuclear interaction type\n2 Thermosensitive-genic type (TGMS)\n3 Photoperiod-sensitive genic type (PGMS)\n4 Thermo-photoperiod genic type (TPGMS)\n5 Genetically engineered (transgenic type)\n6 Nuclear type." [SES:20]
+relationship: scale_of CO_320:0000324 ! method (male sterility group)
+creation_date: 2011-11-09T03:29:20Z
+
+[Term]
+id: CO_320:0000326
+name: method (pollen sterility)
+relationship: method_of CO_320:0000158 ! pollen sterility
+creation_date: 2011-11-09T03:34:10Z
+
+[Term]
+id: CO_320:0000327
+name: Categorical scale (pollen sterility)
+relationship: scale_of CO_320:0000326 ! method (pollen sterility)
+creation_date: 2011-11-09T03:34:30Z
+
+[Term]
+id: CO_320:0000328
+name: method (spikelet sterility)
+relationship: method_of CO_320:0000159 ! spikelet sterility
+creation_date: 2011-11-10T10:55:28Z
+
+[Term]
+id: CO_320:0000329
+name: Determination of percentage of amylose content (SES)
+def: "Use standard laboratory procedure to determine amylose content. Give amylose content in actual percentage." []
+relationship: method_of CO_320:0000102 ! amylose content
+created_by: fborja
+creation_date: 2012-05-04T01:19:57Z
+
+[Term]
+id: CO_320:0000330
+name: method (abortion pattern)
+relationship: method_of CO_320:0000092 ! abortion pattern
+creation_date: 2011-11-10T11:19:03Z
+
+[Term]
+id: CO_320:0000331
+name: Categorical scale (abortion pattern)
+def: "Scale Description Pollen Sterility (%)\n1 Pollen free TGMS line Norin PL12\n3 Abortion at uni-nucleate stage of pollen \"CMS-WA\" type\n5 Abortion at binucleate stage of pollen \"CMS-HL\" type\n7 Abortion at trinucleate stage of pollen \"CMS-boro\" type\n9 Abortion at later stage and pollen looks like a fertile pollen\n518A (O. nivara cytoplasm)." [SES:22]
+is_a: CO_320:0000330 ! method (abortion pattern)
+creation_date: 2011-11-10T11:19:36Z
+
+[Term]
+id: CO_320:0000332
+name: method (outcrossing potential)
+relationship: method_of CO_320:0000096 ! outcrossing potential
+creation_date: 2011-11-10T11:36:26Z
+
+[Term]
+id: CO_320:0000333
+name: Categorical scale (outcrossing potential)
+def: "Scale Seed set (%) on out-pollinated primary panicles\n1 Above 30\n3 20-29.9\n5 10-19.9\n7 5-9.9\n9 0-4.9." [SES:23]
+relationship: scale_of CO_320:0000332 ! method (outcrossing potential)
+creation_date: 2011-11-10T11:36:58Z
+
+[Term]
+id: CO_320:0000334
+name: method (stigma exsertion)
+def: "This trait is monitored at growth stage Heading - Milk stage by counting number of florets which have completed anthesis on a given day and the number of florets showing exserted stigma on one or both sides of the florets and expressed as percent stigma exsertion." [SES:25]
+is_a: CO_320:0000093 ! stigma exsertion
+creation_date: 2011-11-14T03:27:43Z
+
+[Term]
+id: CO_320:0000335
+name: Categorical scale (stigma exsertion)
+def: "Scale Stigma exsertion\n1 Above 70\n3 41-70\n5 21-40\n7 20-Nov\n9 0-10." [SES:25]
+is_a: CO_320:0000334 ! method (stigma exsertion)
+creation_date: 2011-11-14T03:32:05Z
+
+[Term]
+id: CO_320:0000336
+name: Evaluation of seedling vigor (SES)
+def: "At growth stage: seedling." [SES:2]
+relationship: method_of CO_320:0000077 ! seedling vigor
+creation_date: 2012-03-08T09:27:20Z
+
+[Term]
+id: CO_320:0000337
+name: Categorical scale (seedling vigor)
+def: "SCALE\n1 Extra vigorous (very fast growing; plants at 5-6 leaf stage have\n2 or more tillers in majority of population)\n3 Vigorous (fast growing; plants at 4-5 stage have 1-2 tillers in majority of population)\n5 Normal (plant at 4-leaf stage)\n7 Weak (plants somewhat stunted; 3-4 leaves; thin population; no tiller formation)\n9 Very weak (stunted growth; yellowing of leaves)." [SES:1]
+relationship: scale_of CO_320:0000336 ! Evaluation of seedling vigor (SES)
+created_by: fborja
+creation_date: 2012-03-08T09:28:27Z
+
+[Term]
+id: CO_320:0000338
+name: method (fertility restoration)
+relationship: method_of CO_320:0000098 ! fertility restoration
+creation_date: 2011-11-17T08:36:27Z
+
+[Term]
+id: CO_320:0000339
+name: Categorical scale (fertility restoration)
+def: "Scale Pollen Sterility (%) Spikelet Fertility (%)\n1 90 and above 90 and above\n2 80-89 90 and above\n3 90 and above 75-89\n4 80-89 75-89\n5 70-79 75-89\n6 70-79 60-74\n7 60-69 60-74\n9 <60 <60." [SES:27]
+relationship: scale_of CO_320:0000338 ! method (fertility restoration)
+creation_date: 2011-11-17T08:36:53Z
+
+[Term]
+id: CO_320:0000340
+name: method (rice leaf blast)
+relationship: method_of CO_320:0000176 ! rice leaf blast
+creation_date: 2011-11-28T08:31:56Z
+
+[Term]
+id: CO_320:0000341
+name: Categorical scale (rice leaf blast)
+def: "SCALE (for blast nursery)\n0 No lesions observed\n1 Small brown specks of pin-point size or larger brown specks without sporulating center\n2 Small roundish to slightly elongated, necrotic gray spots, about 1-2 mm in diameter, with a distinct brown margin\n3 Lesion type is the same as in scale 2, but a significant number of lesions are on the upper leaves\n4 Typical susceptible blast lesions2 3 mm or longer, infecting less than 4% of the leaf area\n5 Typical blast lesions infecting 4-10% of the leaf area\n6 Typical blast lesions infection 11-25% of the leaf area\n7 Typical blast lesions infection 26-50% of the leaf area\n8 Typical blast lesions infection 51-75% of the leaf area and many leaves are dead\n9 More than 75% leaf area affected.\n\n\nCODE (Predominant lesion type)\n0 No lesions observed\n1 Small brown specks of pinpoint size or larger brown specks without sporulating center\n3 Small, roundish to slightly elongated necrotic sporulating spots, about 1-2 mm in diameter with a distinct brown margin or yellow halo\n5 Narrow or slightly elliptical lesions, 1-2 mm in breadth, more than 3 mm long with a brown margin\n7 Broad spindle-shaped lesion with yellow, brown, or purple margin\n9 Rapidly coalescing small, whitish, grayish, or bluish lesions without distinct margins." [SES:30]
+relationship: scale_of CO_320:0000340 ! method (rice leaf blast)
+creation_date: 2011-11-28T08:32:15Z
+
+[Term]
+id: CO_320:0000342
+name: method (brown spot)
+relationship: method_of CO_320:0000177 ! brown spot
+creation_date: 2011-11-28T08:43:23Z
+
+[Term]
+id: CO_320:0000343
+name: Categorical scale (brown spot)
+def: "SCALE (Severity: % leaf area diseased)\n1 No disease observed\n2 Less than 1%\n3 1-3%\n4 4-5%\n5 11-15%\n6 16-25%\n7 26-50%\n8 51-75%\n9 76-100%." [SES:32]
+relationship: scale_of CO_320:0000342 ! method (brown spot)
+creation_date: 2011-11-28T08:44:12Z
+
+[Term]
+id: CO_320:0000344
+name: method (narrow brown leaf spot)
+relationship: method_of CO_320:0000182 ! narrow brown leaf spot
+creation_date: 2011-11-28T08:46:54Z
+
+[Term]
+id: CO_320:0000345
+name: Categorical scale (narrow brown leaf spot)
+def: "SCALE (Severity: % leaf area diseased)\n0 No disease observed\n1 Less than 1%\n3 1-5%\n5 6-25%\n7 26-50%\n9 51-100%." [SES:33]
+relationship: scale_of CO_320:0000344 ! method (narrow brown leaf spot)
+creation_date: 2011-11-28T08:47:18Z
+
+[Term]
+id: CO_320:0000346
+name: method (leaf scald)
+relationship: method_of CO_320:0000181 ! leaf scald
+creation_date: 2011-11-28T08:49:46Z
+
+[Term]
+id: CO_320:0000347
+name: Categorical scale (leaf scald)
+def: "SCALE (Severity: % leaf area diseased)\n0 No disease observed\n1 Less than 1% (apical lesions)\n3 1-5% (apical lesions)\n5 6-25% (apical and some marginal lesions)\n7 26-50% (apical and marginal lesions)\n9 51-100% (apical and marginal lesions)." [SES:34]
+relationship: scale_of CO_320:0000346 ! method (leaf scald)
+creation_date: 2011-11-28T08:49:58Z
+
+[Term]
+id: CO_320:0000348
+name: method (bacterial leaf blight)
+relationship: method_of CO_320:0000173 ! bacterial leaf blight
+creation_date: 2011-11-28T08:53:02Z
+
+[Term]
+id: CO_320:0000349
+name: Categorical scale (bacterial leaf blight)
+def: "SCALE (greenhouse test, severity: % leaf area diseased)\n1 No disease observed\n2 Less than 1%\n3 1-3%\n4 4-5%\n5 11-15%\n6 16-25%\n7 26-50%\n8 51-75%\n9 76-100%.\n\n\nSCALE (field test, severity: % leaf area diseased)\n1 1-5%\n3 6-12%\n5 13-25%\n7 26-50%\n9 51-100%." [SES:35]
+relationship: scale_of CO_320:0000348 ! method (bacterial leaf blight)
+creation_date: 2011-11-28T08:53:19Z
+
+[Term]
+id: CO_320:0000350
+name: method (rice tungro virus)
+relationship: method_of CO_320:0000184 ! rice tungro virus
+creation_date: 2011-11-28T09:15:48Z
+
+[Term]
+id: CO_320:0000351
+name: Categorical scale (rice tungro virus)
+def: "1 No symptom observed\n3 1-10% height reduction, no distinct yellow to yellow orange leaf discoloration\n5 11-30% height reduction, no distinct yellow to yellow orange leaf discoloration\n7 31-50% height reduction, with distinct yellow to yellow orange leaf discoloration More than 50% height reduction, with distinct yellow to yellow orange discoloration." [SES:36]
+relationship: scale_of CO_320:0000350 ! method (rice tungro virus)
+creation_date: 2011-11-28T09:16:13Z
+
+[Term]
+id: CO_320:0000352
+name: method (grassy stunt virus)
+relationship: method_of CO_320:0000179 ! grassy stunt virus
+creation_date: 2011-11-28T01:51:48Z
+
+[Term]
+id: CO_320:0000353
+name: Categorical scale (grassy stunt virus)
+def: "SCALE (RGSV1)\n1 No symptom observed\n3 Pale green and slightly narrow leaves, no height reduction and with few small tillers.\n5 Pale green and slightly narrow leaves, 1-10% height reduction, and with numerous small tillers.\n7 Pale green to yellow and narrow leaves with some rusty spots, 11-30% height reduction, and with numerous small tillers.\n9 Pale green to yellow and narrow leaves with numerous rusty spots, more than 30% height reduction and with numerous small tillers.\n\nSCALE (RGSV2)\nNo symptom observed\n3 Pale yellow and slightly narrow leaves, no height reduction, and with numerous small tillers\n5 Distinct yellow and narrow leaves, 1-10% height reduction, and with numerous small tillers\n7 Yellow to orange and narrow leaves with some rusty spots, 11-30% height reduction, and with few small tillers\n9 Yellow to orange and narrow leaves with numerous rusty spots, >30% height reduction and with few small tillers." [SES:36]
+relationship: scale_of CO_320:0000352 ! method (grassy stunt virus)
+creation_date: 2011-11-28T02:31:17Z
+
+[Term]
+id: CO_320:0000354
+name: method (sheath blight)
+relationship: method_of CO_320:0000189 ! sheath blight
+creation_date: 2011-11-28T03:13:20Z
+
+[Term]
+id: CO_320:0000355
+name: Categorical scale (sheath blight)
+def: "SCALE (relative lesion height: disease progress relative to plant height; Ahn and Mew, 1986)\n0 No infection observed\n1 Lesions limited to lower 20% of\nthe plant height\n3 20-30%\n5 31-45%\n7 46-65%\n9 More than 65%." [SES:37]
+relationship: scale_of CO_320:0000354 ! method (sheath blight)
+creation_date: 2011-11-28T03:13:34Z
+
+[Term]
+id: CO_320:0000356
+name: method (yellow mottle)
+relationship: method_of CO_320:0000192 ! yellow mottle
+creation_date: 2011-11-28T03:22:35Z
+
+[Term]
+id: CO_320:0000357
+name: Categorical scale (yellow mottle)
+def: "SCALE (for field test)\n1 No symptom observed\n3 Leaves green but with sparse dots or streaks and less than 5% of height reduction\n5 Leaves green or pale green with mottling and 6% to 25% of height reduction, flowering slightly delayed\n7 Leaves pale yellow or yellow and 26-75% of height reduction, flowering delayed\n9 Leaves turn yellow or orange, more than 75% of height reduction, no flowering or some plants dead." [SES:37]
+relationship: scale_of CO_320:0000356 ! method (yellow mottle)
+creation_date: 2011-11-28T03:23:33Z
+
+[Term]
+id: CO_320:0000358
+name: method (hoja blanca)
+relationship: method_of CO_320:0000193 ! hoja blanca
+creation_date: 2011-11-28T03:25:54Z
+
+[Term]
+id: CO_320:0000359
+name: Categorical scale (hoja blanca)
+def: "SCALE (Incidence: % plants or hills showing symptoms)\n0 No symptom observed\n1 Less than 1%\n3 1-10%\n5 11-30%\n7 31-60%\n9 61-100%." [SES:37]
+relationship: scale_of CO_320:0000358 ! method (hoja blanca)
+creation_date: 2011-11-28T03:26:11Z
+
+[Term]
+id: CO_320:0000360
+name: method (sheath rot)
+relationship: method_of CO_320:0000185 ! sheath rot
+creation_date: 2011-11-28T03:30:34Z
+
+[Term]
+id: CO_320:0000361
+name: Categorical scale (sheath rot)
+def: "SCALE (Incidence: % diseased tillers)\n0 No disease observed\n1 Less than 1%\n3 1-5%\n5 6-25%\n7 26-50%\n9 51-100%." [SES:38]
+relationship: scale_of CO_320:0000360 ! method (sheath rot)
+creation_date: 2011-11-28T03:30:51Z
+
+[Term]
+id: CO_320:0000362
+name: method (false smut)
+relationship: method_of CO_320:0000178 ! false smut
+creation_date: 2011-11-28T03:59:50Z
+
+[Term]
+id: CO_320:0000363
+name: Categorical scale (flase smut)
+def: "SCALE (Incidence: percentage of infected florets)\n0 No disease observed\n1 Less than 1%\n3 1-5%\n5 6-25%\n7 26-50%\n9 51-100%." [SES:40]
+relationship: method_of CO_320:0000362 ! method (false smut)
+creation_date: 2011-11-28T04:00:52Z
+
+[Term]
+id: CO_320:0000364
+name: method (udbatta disease)
+relationship: method_of CO_320:0000194 ! udbatta disease
+creation_date: 2011-11-29T08:40:26Z
+
+[Term]
+id: CO_320:0000365
+name: Categorical scale (udbatta disease)
+def: "SCALE (Incidence: percent infected tillers)\n0 No disease observed\n1 Less than1%\n5 1-25%\n9 26-100%." [SES:41]
+relationship: scale_of CO_320:0000364 ! method (udbatta disease)
+creation_date: 2011-11-29T08:40:40Z
+
+[Term]
+id: CO_320:0000366
+name: method (stem rot)
+relationship: method_of CO_320:0000186 ! stem rot
+creation_date: 2011-11-29T08:47:49Z
+
+[Term]
+id: CO_320:0000367
+name: Categorical scale (stem rot)
+def: "SCALE (Incidence: percentage of infected tillers)\n0 No disease observed\n1 Less than 1%\n3 1-5%\n5 6-25%\n7 26-50%\n9 51-100%." [SES:42]
+relationship: scale_of CO_320:0000366 ! method (stem rot)
+creation_date: 2011-11-29T08:48:00Z
+
+[Term]
+id: CO_320:0000368
+name: method (ufra)
+relationship: method_of CO_320:0000187 ! ufra
+creation_date: 2011-11-29T08:51:31Z
+
+[Term]
+id: CO_320:0000369
+name: Categorical scale (ufra)
+def: "Scale (Incidence percentage of infected tillers)\n0 0% (may or may not be visible)\n1 1-2% (visible symptoms)\n3 21-40% (visible symptoms)\n5 41-60% (visible symptoms)\n7 61-80% (visible symptoms)\n81-100% (visible symptoms)." [SES:43]
+relationship: scale_of CO_320:0000368 ! method (ufra)
+creation_date: 2011-11-29T08:51:53Z
+
+[Term]
+id: CO_320:0000370
+name: method (brown planthopper damage)
+relationship: method_of CO_320:0000196 ! brown planthopper damage
+creation_date: 2011-11-29T09:10:54Z
+
+[Term]
+id: CO_320:0000371
+name: Categorical scale (brown planthopper damage)
+def: "SCALE (For greenhouse test)\n0 No injury\n1 Very slight injury\n3 First and 2nd leaves of most plants partially yellowing\n5 Pronounced yellowing and stunting or about 10 to 25% of the plants wilting or dead and remaining plants severely stunted or dying\n7 More than half of the plants\n9 All plants dead.\n\nSCALE (For field test)\n0 No injury\n1 Slight yellowing of a few plants\n3 Leaves partially yellow but with no hopperburn\n5 Leaves with pronounced yellowing and some stunting or wilting and 10-25% of plants with hopperburn, remaining plants severely stunted\n7 More than half the plants wilting or with hopperburn, remaining plants severely stunted\n9 All plants dead." [SES:60]
+relationship: scale_of CO_320:0000370 ! method (brown planthopper damage)
+creation_date: 2011-11-29T09:11:08Z
+
+[Term]
+id: CO_320:0000372
+name: method (green leafhopper damage)
+relationship: method_of CO_320:0000200 ! green leafhopper damage
+creation_date: 2011-11-29T09:16:20Z
+
+[Term]
+id: CO_320:0000373
+name: Categorical scale (green leafhopper damage)
+def: "0 No injury\n1 Very slight injury\n3 First and 2nd leaves yellowing\n5 All leaves yellow; pronounced stunting or both\n7 More than half the plants dead;stunting or both remaining plants wilting; severely stunted\n9 All plants dead." [SES:61]
+relationship: scale_of CO_320:0000372 ! method (green leafhopper damage)
+creation_date: 2011-11-29T09:16:37Z
+
+[Term]
+id: CO_320:0000374
+name: method (whitebacked planthopper damage)
+relationship: method_of CO_320:0000211 ! whitebacked planthopper damage
+creation_date: 2011-11-29T09:21:43Z
+
+[Term]
+id: CO_320:0000375
+name: Categorical scale (whitebacked planthopper damage)
+def: "0 No injury\n1 Very slight injury\n3 First and 2nd leaves with orange tips; slight stunting\n5 More than half the leaves with yellow-orange tips; pronounced stunting\n7 More than half of plants dead; remaining plants severely stunted and wilted\n9 All plants dead." [SES:62]
+relationship: scale_of CO_320:0000374 ! method (whitebacked planthopper damage)
+creation_date: 2011-11-29T09:22:03Z
+
+[Term]
+id: CO_320:0000376
+name: method (rice delphacid damage)
+relationship: method_of CO_320:0000216 ! rice delphacid damage
+creation_date: 2011-11-29T09:27:42Z
+
+[Term]
+id: CO_320:0000377
+name: Categorical scale (rice delphacid damage)
+def: "0 No injury\n1 1-10%\n3 11-20%\n5 21-30%\n7 31-60%\n9 61% and above." [SES:62]
+relationship: scale_of CO_320:0000376 ! method (rice delphacid damage)
+creation_date: 2011-11-29T09:27:57Z
+
+[Term]
+id: CO_320:0000378
+name: method (stem borer damage)
+relationship: method_of CO_320:0000208 ! stem borer damage
+creation_date: 2011-12-01T09:36:45Z
+
+[Term]
+id: CO_320:0000379
+name: Categorical scale (stem borer damage)
+def: "SCALE (Deadhearts)\n0 No injury\n1 1-10%\n3 11-20%\n5 21-30%\n7 31-60%\n61% and above." [SES:63]
+relationship: scale_of CO_320:0000378 ! method (stem borer damage)
+creation_date: 2011-12-01T09:36:58Z
+
+[Term]
+id: CO_320:0000380
+name: method (leaf folder)
+def: "SCALE (Injured plants)\n0 No injury\n1 1-10%\n3 11-20%\n5 21-35%\n7 36-50%\n9 51-100%\n\nGreenhouse screening\nGrade Injury\n0 No injury\n1 Up to 1/3 of leaf area scraped\n2 1/3 to 1/2 of leaf area scraped\n3 More than 1/2 of leaf area scraped." [SES:64]
+relationship: method_of CO_320:0000201 ! leaf folder
+creation_date: 2011-12-01T09:40:47Z
+
+[Term]
+id: CO_320:0000381
+name: Categorical scale (leaf folder)
+relationship: scale_of CO_320:0000380 ! method (leaf folder)
+creation_date: 2011-12-01T09:41:02Z
+
+[Term]
+id: CO_320:0000382
+name: method (gall midge damage)
+relationship: method_of CO_320:0000199 ! gall midge damage
+creation_date: 2011-12-01T09:44:49Z
+
+[Term]
+id: CO_320:0000383
+name: Categorical scale (gall midge damage)
+def: "SCALE (Infected tillers in field test)\n0 No injury\n1 Less than 1%\n3 1-5%\n5 6-10%\n7 11-25%\n9 More than 25%\n\nSCALE (Plants with silver shoots in\ngreenhouse test)\n0 No injury\n1 Less than 5%\n3 6-10%\n5 11-20%\n7 21-50%\n9 More than 50%." [SES:65]
+relationship: scale_of CO_320:0000382 ! method (gall midge damage)
+creation_date: 2011-12-01T09:45:17Z
+
+[Term]
+id: CO_320:0000384
+name: method (case worm damage)
+relationship: method_of CO_320:0000197 ! case worm damage
+creation_date: 2011-12-01T09:57:00Z
+
+[Term]
+id: CO_320:0000385
+name: Categorical scale (case worm damage)
+relationship: scale_of CO_320:0000384 ! method (case worm damage)
+creation_date: 2011-12-01T09:57:23Z
+
+[Term]
+id: CO_320:0000386
+name: method (rice whorl maggot)
+relationship: method_of CO_320:0000206 ! rice whorl maggot
+creation_date: 2011-12-01T10:00:52Z
+
+[Term]
+id: CO_320:0000387
+name: Categorical scale (rice whorl maggot)
+def: "SCALE (for field test)\n0 No injury\n1 Less than 2 leaves/hill injured\n3 2 or more leaves/hill but less than 1/3 of leaves injured\n5 1/3 to 1/2 of leaves injured\n7 More than 1/2 of the leaves injured with no broken leaves\n9 More than 1/2 of the leaves injured with some broken leaves." [SES:67]
+relationship: scale_of CO_320:0000386 ! method (rice whorl maggot)
+creation_date: 2011-12-01T10:11:28Z
+
+[Term]
+id: CO_320:0000388
+name: method (rice bug damage)
+relationship: method_of CO_320:0000203 ! rice bug damage
+creation_date: 2011-12-01T10:24:13Z
+
+[Term]
+id: CO_320:0000389
+name: Categorical scale (rice bug damage)
+def: "Scale Injured grains per panicle (%)\n0 No injury\n1 Less than 3\n3 4-7\n5 8-15\n7 12-25\n9 26-100." [SES:68]
+relationship: scale_of CO_320:0000388 ! method (rice bug damage)
+creation_date: 2011-12-01T10:24:37Z
+
+[Term]
+id: CO_320:0000390
+name: methods (thrips damage)
+relationship: method_of CO_320:0000210 ! thrips damage
+creation_date: 2011-12-01T10:33:04Z
+
+[Term]
+id: CO_320:0000391
+name: Categorical scale (thrips damage)
+def: "1 Rolling of terminal 1/3 area of 1st leaf\n3 Rolling of terminal 1/3-1/2 area of 1st and 2nd leaves\n5 Rolling of terminal 1/2 area of 1st, 2nd, and 3rd leaves; yellowing of leaf tips\n7 Rolling of entire length of all leaves; pronounced yellowing\n9 Complete plant wilting, followed by severe yellowing and scorching." [SES:69]
+relationship: scale_of CO_320:0000390 ! methods (thrips damage)
+creation_date: 2011-12-01T10:33:33Z
+
+[Term]
+id: CO_320:0000392
+name: Determination of iron toxicity (SES)
+relationship: method_of CO_320:0000063 ! iron toxicity
+creation_date: 2011-12-01T10:55:37Z
+
+[Term]
+id: CO_320:0000393
+name: Categorical scale (iron toxicity)
+def: "SCALE (Injured panicles)\n0 Growth and tillering nearly normal\n1 Growth and tillering nearly normal; reddish-brown spots or orange discoloration on tips of older leaves\n3 Growth and tillering nearly normal; older leaves reddish-brown, purple, or orange yellow\n5 Growth and tillering retarded; many leaves discolored\n7 Growth and tillering ceases; most leaves discolored or dead\n9 Almost all plants dead or dying." [SES:72]
+relationship: scale_of CO_320:0000392 ! Determination of iron toxicity (SES)
+creation_date: 2011-12-01T10:55:53Z
+
+[Term]
+id: CO_320:0000394
+name: method (phosphorus deficiency)
+relationship: method_of CO_320:0000065 ! phosphorus deficiency
+creation_date: 2011-12-01T11:12:03Z
+
+[Term]
+id: CO_320:0000395
+name: Categorical scale (phosphorus deficiency)
+def: "SCALE (Relative tillers)\n1 80-100%\n3 60-79%\n5 40-59%\n7 20-39%\n9 0-19%." [SES:73]
+relationship: scale_of CO_320:0000394 ! method (phosphorus deficiency)
+creation_date: 2011-12-01T11:12:17Z
+
+[Term]
+id: CO_320:0000396
+name: method (zinc deficiency)
+relationship: method_of CO_320:0000069 ! zinc deficiency
+creation_date: 2011-12-01T11:14:25Z
+
+[Term]
+id: CO_320:0000397
+name: Categorical scale (zinc deficiency)
+relationship: scale_of CO_320:0000396 ! method (zinc deficiency)
+creation_date: 2011-12-01T11:14:44Z
+
+[Term]
+id: CO_320:0000398
+name: method (cold tolerance)
+relationship: method_of CO_320:0000057 ! cold tolerance
+creation_date: 2011-12-01T01:42:12Z
+
+[Term]
+id: CO_320:0000399
+name: Categorical scale (cold tolerance)
+def: "1 No damage to leaves, normal leaf color (strongly tolerant)\n3 Tip of leaves slightly dried, folded and light green (tolerant)\n5 Some seedlings moderately folded and wilted, 30-50% seedlings dried, pale green to yellowish leaves (Moderate tolerant)\n7 Seedlings severely rolled and dried; reddish-brown leaves (Sensitive)\n9 Most seedlings dead and dying. (Highly sensitive)\n\nSCALE (vegetative) Temp:17-18°C±1\n1-3 All leaves normal color (Tolerant)\n4-6 Pale green leaves (moderately tolerant)\n7-9 Yellowing of leaves and stunted growth (sensitive)\n\nSCALE (reproductive/booting)\nTemp:17-18°C±1\n1-3 Normal growth, spikelet fertility (>70%) (tolerant)\n4-6 Heading delay, spikelet fertility (11-69%) (moderately tolerant)\n7-9 Reduced plant height, delayed heading, high sterility (<10%) (sensitive)." [SES:75]
+relationship: scale_of CO_320:0000398 ! method (cold tolerance)
+creation_date: 2011-12-01T01:42:28Z
+
+[Term]
+id: CO_320:0000400
+name: method (heat tolerance)
+relationship: method_of CO_320:0000062 ! heat tolerance
+creation_date: 2011-12-05T08:28:22Z
+
+[Term]
+id: CO_320:0000401
+name: Categorical scale (heat tolerance)
+def: "1 More than 80%\n3 61-80%\n5 41-60%\n7 11-40%\n9 Less than 11%." [SES:76]
+relationship: scale_of CO_320:0000400 ! method (heat tolerance)
+creation_date: 2011-12-05T08:28:40Z
+
+[Term]
+id: CO_320:0000402
+name: Evaluation of drought sensitivity (SES)
+relationship: method_of CO_320:0000060 ! drought sensitivity
+creation_date: 2011-12-05T08:31:49Z
+
+[Term]
+id: CO_320:0000403
+name: Categorical scale (drought sensitivity)
+def: "SCALE (leaf rolling at vegetative stage)\n0 Leaves healthy\n1 Leaves start to fold (shallow)\n3 Leaves folding (deep V-shape)\n5 Leaves fully cupped (U-shape)\n7 Leaf margins touching (0-shape)\n9 Leaves tightly rolled\n\nSCALE (leaf drying at vegetative stage)\n0 No symptoms\n1 Slight tip drying\n3 Tip drying extended up to 1/4 length in most leaves\n5 One-fourth to 1/2 of all leaves dried\n7 More than 2/3 of all leaves fully dried\n9 All plants apparently dead\n\nSCALE (spikelet fertility)\n1 More than 80%\n3 61-80%\n5 41-60%\n7 11-40%\n9 Less than 11%." [SES:80]
+relationship: scale_of CO_320:0000402 ! Evaluation of drought sensitivity (SES)
+creation_date: 2011-12-05T08:33:31Z
+
+[Term]
+id: CO_320:0000404
+name: Count of number of plant recovered (SES)
+relationship: method_of CO_320:0000058 ! drought recovery
+creation_date: 2011-12-05T09:22:52Z
+
+[Term]
+id: CO_320:0000405
+name: Categorical scale (drought recovery)
+def: "SCALE (plants recovered)\n1 90-100%\n3 70-89%\n5 40-69%\n7 20-39%\n9 0-19%." [SES:80]
+relationship: scale_of CO_320:0000404 ! Count of number of plant recovered (SES)
+creation_date: 2011-12-05T09:23:17Z
+
+[Term]
+id: CO_320:0000406
+name: method (elongation ability)
+relationship: method_of CO_320:0000061 ! elongation ability
+creation_date: 2011-12-05T09:40:23Z
+
+[Term]
+id: CO_320:0000407
+name: Categorical scale (elongation ability)
+def: "Scale Description : Biological check\n1 Best elongation response : Best local floating variety (i.e. Leb Mue Nahng 111)\n3 Response better than that of elongating semidwarf, but not as good as that of the best local floating variety \n5 Response similar to that of Elongating semidwarf : Elongating semidwarf (i.e. lR11141-6-1-4)\n7 Response better than that of the nonelongating semidwarf, but not as good as that of elongating semidwarf\n9 Poorest elongation, or none : Non-elongating semidwarf (i.e. IR42)." [SES:85]
+relationship: scale_of CO_320:0000406 ! method (elongation ability)
+creation_date: 2011-12-05T09:40:43Z
+
+[Term]
+id: CO_320:0000408
+name: Evaluation of submergence tolerance (SES)
+relationship: method_of CO_320:0000067 ! submergence tolerance
+creation_date: 2011-12-05T09:45:43Z
+
+[Term]
+id: CO_320:0000409
+name: Categorical scale (submergence tolerance)
+def: "SCALE (% comparative survival)\n1 100\n3 95-99\n5 75-94\n7 50-74\n9 0-49." [SES:86]
+relationship: scale_of CO_320:0000408 ! Evaluation of submergence tolerance (SES)
+creation_date: 2011-12-05T09:50:46Z
+
+[Term]
+id: CO_320:0000410
+name: method (kneeing ability)
+relationship: method_of CO_320:0000064 ! kneeing ability
+creation_date: 2011-12-05T09:53:02Z
+
+[Term]
+id: CO_320:0000411
+name: Categorical scale (kneeing ability)
+def: "SCALE\n1 Tiller angle greater than 45° for 50% of tillers\n3 Tiller angle greater than 45° for 25% of tillers\n5 Maximum tiller angle is less than 45° for 50% of tillers (Tiller angle greater than 45° for 1 or 2 tillers)\n7 Maximum tiller angle less than 30°\n9 No kneeing." [SES:87]
+relationship: scale_of CO_320:0000410 ! method (kneeing ability)
+creation_date: 2011-12-05T09:53:22Z
+
+[Term]
+id: CO_320:0000412
+name: method (leaf blade color)
+relationship: method_of CO_320:0000006 ! leaf blade color
+creation_date: 2011-12-05T10:05:16Z
+
+[Term]
+id: CO_320:0000413
+name: Categorical scale (leaf blade color)
+def: "Code\n1 Light green\n2 Green\n3 Dark Green\n4 Purple tips\n5 Purple margins\n6 Purple blotch (purple mixed with green)\n7 Purple." [SES:95]
+relationship: scale_of CO_320:0000412 ! method (leaf blade color)
+creation_date: 2011-12-05T10:05:37Z
+
+[Term]
+id: CO_320:0000414
+name: method (leaf angle)
+relationship: method_of CO_320:0000014 ! leaf angle
+creation_date: 2011-12-06T08:48:46Z
+
+[Term]
+id: CO_320:0000415
+name: Categorical scale (leaf angle)
+def: "1 Erect\n5 Horizontal\n9 Drooping." [SES:97]
+relationship: scale_of CO_320:0000414 ! method (leaf angle)
+creation_date: 2011-12-06T08:49:02Z
+
+[Term]
+id: CO_320:0000416
+name: method (basal internode diameter)
+relationship: method_of CO_320:0000032 ! basal internode diameter
+creation_date: 2011-12-06T09:06:33Z
+
+[Term]
+id: CO_320:0000417
+name: Continuous scale (basal internode diameter)
+def: "Measure in mm." [SES:107]
+relationship: scale_of CO_320:0000416 ! method (basal internode diameter)
+creation_date: 2011-12-06T09:06:50Z
+
+[Term]
+id: CO_320:0000418
+name: method (panicle type)
+relationship: method_of CO_320:0000018 ! panicle type
+creation_date: 2011-12-06T09:10:30Z
+
+[Term]
+id: CO_320:0000419
+name: Categorical scale (panicle type)
+def: "1 Compact\n2 Intermediate\n3 Open." [SES:110]
+relationship: scale_of CO_320:0000418 ! method (panicle type)
+creation_date: 2011-12-06T09:10:45Z
+
+[Term]
+id: CO_320:0000420
+name: method (secondary branching panicles)
+relationship: method_of CO_320:0000034 ! secondary branching of panicles
+creation_date: 2011-12-06T09:12:30Z
+
+[Term]
+id: CO_320:0000421
+name: Categorical scale (secondary branching panicles)
+def: "0 Absent\n1 Light\n2 Heavy\n3 Clustered." [SES:111]
+relationship: scale_of CO_320:0000420 ! method (secondary branching panicles)
+creation_date: 2011-12-06T09:12:52Z
+
+[Term]
+id: CO_320:0000422
+name: method (panicle axis)
+relationship: method_of CO_320:0000035 ! panicle axis
+creation_date: 2011-12-06T09:14:15Z
+
+[Term]
+id: CO_320:0000423
+name: Categorical scale (panicle axis)
+def: "1 Straight\n2 Droopy." [SES:112]
+relationship: scale_of CO_320:0000422 ! method (panicle axis)
+creation_date: 2011-12-06T09:14:32Z
+
+[Term]
+id: CO_320:0000424
+name: Detection for awn presence (SES)
+def: "Observe for the presence of awn structure in the rice grain (kernel)." []
+relationship: method_of CO_320:0000015 ! Detection for awn presence (SES)
+creation_date: 2011-12-06T09:16:13Z
+
+[Term]
+id: CO_320:0000425
+name: Categorical scale (awning)
+def: "0 Absent\n1 Short and partly awned\n5 Short and fully awned\n7 Long and partly awned\n9 Long and fully awned." [SES:113]
+relationship: scale_of CO_320:0000424 ! Detection for awn presence (SES)
+creation_date: 2011-12-06T09:16:40Z
+
+[Term]
+id: CO_320:0000426
+name: method (apiculus color)
+relationship: method_of CO_320:0000037 ! apiculus color
+creation_date: 2011-12-06T09:19:04Z
+
+[Term]
+id: CO_320:0000427
+name: Categorical scale (apiculus color)
+def: "1 White\n2 Straw\n3 Brown (tawny)\n4 Red\n5 Red apex\n6 Purple\n7 Purple apex." [SES:115]
+relationship: scale_of CO_320:0000426 ! method (apiculus color)
+creation_date: 2011-12-06T09:19:21Z
+
+[Term]
+id: CO_320:0000428
+name: Evaluation of degree of chalkiness of milled rice (SES)
+def: "Evaluate a representative milled sample for the degree (extent) of chalkiness that will best describe the sample with respect to (a) white belly, (b) white center, (c) white back.\n\nAt growth stage: Mature grain." [SES:124]
+relationship: method_of CO_320:0000104 ! chalkiness of endosperm
+creation_date: 2011-12-06T09:37:33Z
+
+[Term]
+id: CO_320:0000429
+name: Categorical scale (chalkiness of endosperm)
+def: "SCALE (% of kernel area)\n0 None\n1 Small (less than 10%)\n5 Medium (11% to 20%)\n9 Large (more than 20%)." [SES:124]
+relationship: scale_of CO_320:0000428 ! Evaluation of degree of chalkiness of milled rice (SES)
+creation_date: 2011-12-06T09:37:51Z
+
+[Term]
+id: CO_320:0000430
+name: method (brown rice length)
+def: "At growth stage: Mature grain (after dehulling, before milling)." [SES:125]
+relationship: method_of CO_320:0000110 ! brown rice length
+creation_date: 2011-12-06T09:43:22Z
+
+[Term]
+id: CO_320:0000431
+name: Categorical scale (brown rice length)
+def: "1 Extra long (more than 7.5 mm)\n3 Long (6.6 to 7.5 mm)\n5 Medium (5.51 to 6.6 mm)\n7 Short (5.5mm or less)." [SES:125]
+relationship: scale_of CO_320:0000430 ! method (brown rice length)
+creation_date: 2011-12-06T09:44:37Z
+
+[Term]
+id: CO_320:0000432
+name: Continuous scale (brown rice length)
+def: "Measure in mm." [SES:125]
+relationship: scale_of CO_320:0000430 ! method (brown rice length)
+creation_date: 2011-12-06T09:45:53Z
+
+[Term]
+id: CO_320:0000433
+name: method (brown rice shape)
+relationship: method_of CO_320:0000109 ! brown rice shape
+creation_date: 2011-12-06T09:46:49Z
+
+[Term]
+id: CO_320:0000434
+name: Categorical scale (brown rice shape)
+def: "Scale Shape Ratio\n1 Slender Over 3.0\n3 Medium 2.1 to 3.0\n5 Bold 1.1 to 2.0\n9 Round Less than 1.1." [SES:126]
+relationship: scale_of CO_320:0000433 ! method (brown rice shape)
+creation_date: 2011-12-06T09:47:26Z
+
+[Term]
+id: CO_320:0000435
+name: method (seed coat color)
+relationship: method_of CO_320:0000115 ! seed coat color
+creation_date: 2011-12-06T09:51:17Z
+
+[Term]
+id: CO_320:0000436
+name: Categorical scale (seed coat color)
+def: "1 White\n2 Light brown\n3 Speckled brown\n4 Brown\n5 Red\n6 Variable purple\n7 Purple." [SES:128]
+relationship: scale_of CO_320:0000435 ! method (seed coat color)
+creation_date: 2011-12-06T09:51:40Z
+
+[Term]
+id: CO_320:0000437
+name: method (alkali digestion)
+relationship: method_of CO_320:0000116 ! alkali digestion
+creation_date: 2011-12-06T10:24:43Z
+
+[Term]
+id: CO_320:0000438
+name: Categorical scale (alkali digestion)
+def: "Code : Alkali Digestion : Gelatinization Temperature\n1-Not affected but chalky :  Low : High\n2-Swollen\n3-Swollen with collar : incomplete or narrow Low or intermediate : High or intermediate\n4-Swollen with collar complete and wide : Intermediate : Intermediate\n5-Split or segmented with collar complete and wide\n6-Dispersed merging with collar : High : High\n7-Completely dispersed and cleared." [SES:131]
+relationship: scale_of CO_320:0000437 ! method (alkali digestion)
+creation_date: 2011-12-06T10:25:09Z
+
+[Term]
+id: CO_320:0000439
+name: Weight of 1000 grain
+relationship: method_of CO_320:0000166 ! 1000-grain weight
+created_by: fborja
+creation_date: 2012-05-04T01:29:17Z
+
+[Term]
+id: CO_320:0000440
+name: Continuous scale (1000-grain weight)
+relationship: scale_of CO_320:0000439 ! Weight of 1000 grain
+created_by: fborja
+creation_date: 2012-05-04T01:32:28Z
+
+[Term]
+id: CO_320:0000441
+name: Count of number of days to flower
+def: "Determine the date when 80% flowering was observed, or express as number of days from seeding." []
+relationship: method_of CO_320:0000083 ! days to flowering
+created_by: fborja
+creation_date: 2012-05-04T01:44:03Z
+
+[Term]
+id: CO_320:0000442
+name: Continuous scale (days to flowering)
+relationship: scale_of CO_320:0000441 ! Count of number of days to flower
+created_by: fborja
+creation_date: 2012-05-04T01:44:47Z
+
+[Term]
+id: CO_320:0000443
+name: Count of number days to heading
+def: "Observe for the number of days required for the inflorescence (head/cob/panicle) to emerge from the flag leaf of a plant or a group of plants in a study." []
+relationship: method_of CO_320:0000088 ! days to heading
+created_by: fborja
+creation_date: 2012-05-04T01:45:55Z
+
+[Term]
+id: CO_320:0000444
+name: Continuous (days to heading)
+relationship: scale_of CO_320:0000443 ! Count of number days to heading
+created_by: fborja
+creation_date: 2012-05-04T01:46:41Z
+
+[Term]
+id: CO_320:0000445
+name: Count of number days to maturity (SES)
+def: "Use the number of days from seeding to grain ripening (85% of grains on panicle are mature)." []
+relationship: method_of CO_320:0000082 ! days to maturity
+created_by: fborja
+creation_date: 2012-05-04T01:48:05Z
+
+[Term]
+id: CO_320:0000446
+name: Continuous scale (days to maturity)
+relationship: scale_of CO_320:0000445 ! Count of number days to maturity (SES)
+created_by: fborja
+creation_date: 2012-05-04T01:48:30Z
+
+[Term]
+id: CO_320:0000447
+name: Evaluation of drought resistance
+def: "Taken at 15 days after sowing in upland culture." []
+relationship: method_of CO_320:0000059 ! drought resistance
+created_by: fborja
+creation_date: 2012-05-04T01:50:42Z
+
+[Term]
+id: CO_320:0000448
+name: Categorical scale (drought resistance)
+def: "Score Degree Resistance 5pt\n1= Moderately resistant\n3 = Intermediate\n5 = Moderately susceptible\n7 = Susceptible\n9 = No symptoms." []
+relationship: scale_of CO_320:0000447 ! Evaluation of drought resistance
+created_by: fborja
+creation_date: 2012-05-04T01:51:22Z
+
+[Term]
+id: CO_320:0000449
+name: Evaluation of fertile panicles
+relationship: method_of CO_320:0000071 ! fertile panicles
+created_by: fborja
+creation_date: 2012-05-04T01:55:17Z
+
+[Term]
+id: CO_320:0000450
+name: Continuous scale (fertile panicles)
+relationship: scale_of CO_320:0000449 ! Evaluation of fertile panicles
+created_by: fborja
+creation_date: 2012-05-04T01:55:37Z
+
+[Term]
+id: CO_320:0000451
+name: Count of number of filled grains
+relationship: method_of CO_320:0000097 ! fertility
+created_by: fborja
+creation_date: 2012-05-04T01:57:03Z
+
+[Term]
+id: CO_320:0000452
+name: Categorical scale (fertility)
+relationship: scale_of CO_320:0000451 ! Count of number of filled grains
+created_by: fborja
+creation_date: 2012-05-04T01:57:19Z
+
+[Term]
+id: CO_320:0000453
+name: Measurement of angle between the flag leaf blade and the main panicle axis (SES)
+def: "1 = Erect\n3 = Intermediate\n5 = Horizontal\n7 = Descending." []
+relationship: method_of CO_320:0000017 ! flag leaf angle
+created_by: fborja
+creation_date: 2012-05-04T01:58:45Z
+
+[Term]
+id: CO_320:0000454
+name: Categorical scale (flag leaf angle)
+relationship: scale_of CO_320:0000453 ! Measurement of angle between the flag leaf blade and the main panicle axis (SES)
+created_by: fborja
+creation_date: 2012-05-04T01:59:09Z
+
+[Term]
+id: CO_320:0000455
+name: Determination of gel consistency (SES)
+def: "Use standard laboratory procedures to determine the gel consistency." [SES:132]
+relationship: method_of CO_320:0000106 ! gel consistency
+created_by: fborja
+creation_date: 2012-05-04T02:01:13Z
+
+[Term]
+id: CO_320:0000456
+name: Categorical scale (gel consistency)
+def: "Scale (mm) : Gel Consistency type\n1 = 80-100 : Soft\n3 = 61-80 : Soft\n5 = 41-60 : Medium\n7 = 36-40 : Hard\n9 = Less than 35 : Hard." [SES:132]
+relationship: scale_of CO_320:0000455 ! Determination of gel consistency (SES)
+created_by: fborja
+creation_date: 2012-05-04T02:01:39Z
+
+[Term]
+id: CO_320:0000457
+name: Determination of gelatinization temperature
+def: "Place six milled-rice kernels in 10 ml 1.7% KOH in a shallow container and arrange them so that they do not touch. Let it stand for 23 hours at 30°C and score for spreading." []
+relationship: method_of CO_320:0000107 ! gelatinization temperature
+created_by: fborja
+creation_date: 2012-05-04T02:04:01Z
+
+[Term]
+id: CO_320:0000458
+name: Categorical scale (gelatinization temperature)
+def: "1 = High\n2 = High\n3 = High or intermediate\n4 = Intermediate\n5 = Intermediate\n6 = Low\n7 = Low." []
+relationship: scale_of CO_320:0000457 ! Determination of gelatinization temperature
+created_by: fborja
+creation_date: 2012-05-04T02:04:22Z
+
+[Term]
+id: CO_320:0000459
+name: Measurement of grain length (SES)
+def: "Enter the mean length in millimeters as the distance from the base of the lowermost sterile lemma to the tip (apiculus) of the fertile lemma or palea. In the case of awned varieties, the grain is measured to a point comparable to the tip of the apiculus." [SES:121]
+relationship: method_of CO_320:0000004 ! grain length
+creation_date: 2012-05-04T02:25:25Z
+
+[Term]
+id: CO_320:0000460
+name: Continuous scale
+def: "Measured in mm." []
+relationship: scale_of CO_320:0000459 ! Measurement of grain length (SES)
+created_by: fborja
+creation_date: 2012-05-04T02:25:47Z
+
+[Term]
+id: CO_320:0000461
+name: Determination of grain moisture
+def: "100*(Wt of sample - Dry Weight)/Wt of sample." []
+relationship: method_of CO_320:0000114 ! grain moisture
+created_by: fborja
+creation_date: 2012-05-04T02:26:43Z
+
+[Term]
+id: CO_320:0000462
+name: Continuous scale (grain moisture)
+relationship: scale_of CO_320:0000461 ! Determination of grain moisture
+created_by: fborja
+creation_date: 2012-05-04T02:27:26Z
+
+[Term]
+id: CO_320:0000463
+name: Evaluation of grain shape
+def: "Grain Length and Width Ratio." []
+relationship: method_of CO_320:0000119 ! grain shape
+created_by: fborja
+creation_date: 2012-05-04T02:28:11Z
+
+[Term]
+id: CO_320:0000464
+name: Continuous scale (grain shape)
+relationship: scale_of CO_320:0000463 ! Evaluation of grain shape
+created_by: fborja
+creation_date: 2012-05-04T02:28:31Z
+
+[Term]
+id: CO_320:0000465
+name: Measurement of grain size
+def: "Measurement of grain size from the mature grain, still with lemma and palea." []
+relationship: method_of CO_320:0000052 ! grain size
+created_by: fborja
+creation_date: 2012-05-04T02:29:23Z
+
+[Term]
+id: CO_320:0000466
+name: Continuous scale (grain size)
+relationship: scale_of CO_320:0000465 ! Measurement of grain size
+created_by: fborja
+creation_date: 2012-05-04T02:29:46Z
+
+[Term]
+id: CO_320:0000467
+name: Measurement of grain width (SES)
+def: "Enter the actual measurement of width in millimeters as the distance across the fertile lemma and the palea at the widest point." [SES:122]
+relationship: method_of CO_320:0000005 ! grain width
+created_by: fborja
+creation_date: 2012-05-04T02:30:36Z
+
+[Term]
+id: CO_320:0000468
+name: Continuous scale (grain width)
+def: "Measure in mm." [SES:122]
+relationship: scale_of CO_320:0000467 ! Measurement of grain width (SES)
+created_by: fborja
+creation_date: 2012-05-04T02:30:55Z
+
+[Term]
+id: CO_320:0000469
+name: Measurement of grain width (SES)
+def: "Area harvested should not be less than 5 m2/plot (at least three border rows should be discarded). Report yield in kilogram per hectare on rough (paddy) rice at 14% moisture." [SES:12]
+relationship: method_of CO_320:0000073 ! grain yield
+created_by: fborja
+creation_date: 2012-05-04T02:35:38Z
+
+[Term]
+id: CO_320:0000470
+name: Continuous scale (grain yield)
+relationship: scale_of CO_320:0000469 ! Measurement of grain width (SES)
+created_by: fborja
+creation_date: 2012-05-04T02:35:53Z
+
+[Term]
+id: CO_320:0000471
+name: Measurement of average length of 10 whole kernels
+def: "Average length of kernels computed from 10 randomly selected whole kernels.  8/10th of the average length is the minimum length for head rice.  All kernels with length equal to or more than this value are considered head rice." []
+relationship: method_of CO_320:0000108 ! head rice
+created_by: fborja
+creation_date: 2012-05-04T02:37:10Z
+
+[Term]
+id: CO_320:0000472
+name: Continuous scale (head rice)
+relationship: scale_of CO_320:0000471 ! Measurement of average length of 10 whole kernels
+created_by: fborja
+creation_date: 2012-05-04T02:37:29Z
+
+[Term]
+id: CO_320:0000473
+name: Percentage of lodging plants (SES)
+def: "Indicate% of plants that lodged.\nStage: Heading - Mature grain." [SES:4]
+relationship: method_of CO_320:0000080 ! lodging incidence
+created_by: fborja
+creation_date: 2012-05-04T02:48:42Z
+
+[Term]
+id: CO_320:0000474
+name: Continuous scale (lodging incidence)
+relationship: scale_of CO_320:0000473 ! Percentage of lodging plants (SES)
+created_by: fborja
+creation_date: 2012-05-04T02:49:22Z
+
+[Term]
+id: CO_320:0000475
+name: Measurement of panicle length (SES)
+def: "Enter actual measurements in centimeters from panicle base to tip." []
+relationship: method_of CO_320:0000033 ! panicle length
+created_by: fborja
+creation_date: 2012-05-04T02:54:18Z
+
+[Term]
+id: CO_320:0000476
+name: Continuous scale (panicle length)
+relationship: scale_of CO_320:0000475 ! Measurement of panicle length (SES)
+created_by: fborja
+creation_date: 2012-05-04T02:54:37Z
+
+[Term]
+id: CO_320:0000477
+name: Weight of panicles
+relationship: method_of CO_320:0000019 ! panicle weight
+created_by: fborja
+creation_date: 2012-05-04T02:56:01Z
+
+[Term]
+id: CO_320:0000478
+name: Continuous scale (panicle weight)
+relationship: scale_of CO_320:0000477 ! Weight of panicles
+created_by: fborja
+creation_date: 2012-05-04T02:56:17Z
+
+[Term]
+id: CO_320:0000479
+name: Measurement of plant height (SES)
+def: "Use actual measurement (cm) from soil surface to tip of the tallest panicle (awns excluded) or flag leaf. For height measurements at other growth stages, specify the stage. Record in whole numbers (do not use decimals)." []
+relationship: method_of CO_320:0000076 ! plant height
+created_by: fborja
+creation_date: 2012-05-04T03:01:10Z
+
+[Term]
+id: CO_320:0000480
+name: Continuous scale (plant height)
+relationship: scale_of CO_320:0000479 ! Measurement of plant height (SES)
+created_by: fborja
+creation_date: 2012-05-04T03:01:32Z
+
+[Term]
+id: CO_320:0000481
+name: Evaluation of spikelet fertility (SES)
+def: "Evaluator should identify fertile spikelets by pressing the spikelets with his/her fingers and noting those that do not have grains." []
+relationship: method_of CO_320:0000090 ! spikelet fertility
+created_by: fborja
+creation_date: 2012-05-04T03:55:28Z
+
+[Term]
+id: CO_320:0000482
+name: Categorical scale (spikelet fertility)
+def: "1 = Highly fertile (>90%)\n3 = Fertile (75-89%)\n5 = Partially Fertile (50-74%)\n7 = Highly Sterile (<50% to trace)\n9 = 0%." []
+relationship: scale_of CO_320:0000481 ! Evaluation of spikelet fertility (SES)
+created_by: fborja
+creation_date: 2012-05-04T03:55:46Z
+
+[Term]
+id: CO_320:0000483
+name: Estimation of yield
+def: "Estimate based on oven-dry grain, straw and unfilled spikelet yields from 12 sample hills." []
+relationship: method_of CO_320:0000089 ! yield (biomass)
+created_by: fborja
+creation_date: 2012-05-04T04:02:13Z
+
+[Term]
+id: CO_320:0000484
+name: Continuous scale (yield BIOMASS)
+relationship: scale_of CO_320:0000483 ! Estimation of yield
+created_by: fborja
+creation_date: 2012-05-04T04:02:33Z
+
+[Term]
+id: CO_320:0000485
+name: Identification of Varietal Group (SES)
+is_a: CO_320:0000151 ! varietal group
+created_by: fborja
+creation_date: 2012-05-04T04:03:44Z
+
+[Term]
+id: CO_320:0000486
+name: Categorical (varietal group)
+def: "1= Indica\n2= Japonica (Sinica)\n3= Javanica\n4= Intermediate (hybrids)." []
+relationship: scale_of CO_320:0000485 ! Identification of Varietal Group (SES)
+created_by: fborja
+creation_date: 2012-05-04T04:03:50Z
+
+[Typedef]
+id: derived_from
+name: derived_from
+is_transitive: true
+created_by: FBorja
+creation_date: 2012-03-20T09:42:08Z
+
+[Typedef]
+id: measured_by
+name: measured_by
+is_transitive: true
+is_obsolete: true
+creation_date: 2011-10-24T08:57:02Z
+
+[Typedef]
+id: measured_with
+name: measured_with
+is_transitive: true
+is_obsolete: true
+creation_date: 2011-10-24T08:56:31Z
+
+[Typedef]
+id: method_of
+name: method_of
+is_transitive: true
+creation_date: 2011-10-24T09:11:45Z
+
+[Typedef]
+id: part_of
+name: part_of
+is_transitive: true
+created_by: FBorja
+creation_date: 2012-03-20T09:43:54Z
+
+[Typedef]
+id: scale_of
+name: scale_of
+is_transitive: true
+creation_date: 2011-10-24T09:12:59Z
+
