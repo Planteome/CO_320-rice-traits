@@ -51,7 +51,6 @@ xref: IRIS_TRAITID:1052
 xref: TO:0000149
 xref: TO:0000402
 is_a: CO_320:0000001 ! morphological trait
-Sample size = 10. At growth stage: 9.
 
 [Term]
 id: CO_320:0000006
@@ -616,7 +615,6 @@ xref: IRIS_TRAITID:1215
 xref: TO:0000286
 xref: TO:0000524
 is_a: CO_320:0000164 ! deepwater stress trait
-Field evaluation: The period of submergence varies and often is not under full experimental control. Record actual % of plants that survived.
 
 [Term]
 id: CO_320:0000068
