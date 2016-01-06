@@ -7,73 +7,73 @@ ontology: co_320
 id: CO_320:0000004
 name: grain length
 namespace: RiceTrait
-def: "Length of whole grain including the hull, defined as the distance from the base of the lowermost sterile lemma to the tip (apiculus) of the fertile lemma or palea" []
+def: "Length of whole grain including the hull, defined as the distance from the base of the lowermost sterile lemma to the tip (apiculus) of the fertile lemma or palea" [CO:curators]
 synonym: "GrLng, GRLT" EXACT []
-xref: TO:0000734
 is_a: CO_320:Quality ! Quality
+is_a: TO:0000734
 
 [Term]
 id: CO_320:0000005
 name: grain width
 namespace: RiceTrait
-def: "Width of whole grain including the hull, defined as the distance across the fertile lemma and the palea at the widest point" []
+def: "Width of whole grain including the hull, defined as the distance across the fertile lemma and the palea at the widest point" [CO:curators]
 synonym: "GrWdt, GRWD" EXACT []
-xref: TO:0000402
-xref: TO:0000149
 is_a: CO_320:Quality ! Quality
+is_a: TO:0000402
+is_a: TO:0000149
 
 [Term]
 id: CO_320:0000006
 name: leaf blade color
 namespace: RiceTrait
-def: "Color of the leaf lamina/blade" []
+def: "Color of the leaf lamina/blade" [CO:curators]
 synonym: "LfBladCol" EXACT []
-xref: TO:0000299
 is_a: CO_320:Morphological ! Morphological
+is_a: TO:0000299
 
 [Term]
 id: CO_320:0000009
 name: panicle number
 namespace: RiceTrait
-def: "Number of panicles per plant" []
+def: "Number of panicles per plant" [CO:curators]
 synonym: "PanNo, PNO" EXACT []
-xref: TO:0000152
 is_a: CO_320:Agronomical ! Agronomical
+is_a: TO:0000152
 
 [Term]
 id: CO_320:0000011
 name: leaf length
 namespace: RiceTrait
-def: "Length of penultimate leaf blade" []
+def: "Length of penultimate leaf blade" [CO:curators]
 synonym: "leaf blade length" EXACT []
 synonym: "LfLng, LLT" EXACT []
-xref: TO:0000135
 is_a: CO_320:Morphological ! Morphological
+is_a: TO:0000135
 
 [Term]
 id: CO_320:0000013
 name: leaf blade pubescence
 namespace: RiceTrait
-def: "Describes the pubescence, i.e. the hairiness, of the surface of the penultimate leaf blade" []
+def: "Describes the pubescence, i.e. the hairiness, of the surface of the penultimate leaf blade" [CO:curators]
 synonym: "LfBladPub, blpub, LBP" EXACT []
-xref: TO:0000055
 is_a: CO_320:Morphological ! Morphological
+is_a: TO:0000055
 
 [Term]
 id: CO_320:0000014
 name: leaf angle
 namespace: RiceTrait
-def: "Position of the tip of the penultimate leaf blade relative to its base" []
+def: "Position of the tip of the penultimate leaf blade relative to its base" [CO:curators]
 synonym: "leaf attitude" EXACT []
 synonym: "LfAng, LA" EXACT []
-xref: TO:0000206
 is_a: CO_320:Morphological ! Morphological
+is_a: TO:0000206
 
 [Term]
 id: CO_320:0000015
 name: awning
 namespace: RiceTrait
-def: "Presence, distribution and length of awns" []
+def: "Presence, distribution and length of awns" [CO:curators]
 synonym: "awn type" EXACT []
 synonym: "AwType" EXACT []
 is_a: CO_320:Morphological ! Morphological
@@ -83,7 +83,7 @@ is_a: TO:0002718
 id: CO_320:0000016
 name: culm internode anthocyanin
 namespace: RiceTrait
-def: "Purplish markings, if any, on internodes on the culm/stem attributable to anthocyanin" []
+def: "Purplish markings, if any, on internodes on the culm/stem attributable to anthocyanin" [CO:curators]
 synonym: "CulmINodAnth" EXACT []
 synonym: "stem internode anthocyanin" EXACT []
 is_a: CO_320:Morphological ! Morphological
@@ -93,371 +93,371 @@ is_a: TO:0000071
 id: CO_320:0000017
 name: flag leaf angle
 namespace: RiceTrait
-def: "The angle of attachment between the flag leaf blade and the main panicle axis" []
+def: "The angle of attachment between the flag leaf blade and the main panicle axis" [CO:curators]
 synonym: "flag leaf attitude" EXACT []
 synonym: "FlgLfAng" EXACT []
-xref: TO:0000124
 is_a: CO_320:Morphological ! Morphological
+is_a: TO:0000124
 
 [Term]
 id: CO_320:0000018
 name: panicle type
 namespace: RiceTrait
-def: "Panicle type, defined by the orientation of primary branches" []
+def: "Panicle type, defined by the orientation of primary branches" [CO:curators]
 synonym: "branch attitude" EXACT []
 synonym: "PanTyp, PTY" EXACT []
-xref: TO:0000089
 is_a: CO_320:Morphological ! Morphological
+is_a: TO:0000089
 
 [Term]
 id: CO_320:0000020
 name: grain thickness
 namespace: RiceTrait
-def: "The weight of a sample of whole grains including the hull" []
+def: "The weight of a sample of whole grains including the hull" [CO:curators]
 synonym: "GrThk, GRTH" EXACT []
-xref: TO:0000399
 is_a: CO_320:Morphological ! Morphological
+is_a: TO:0000399
 
 [Term]
 id: CO_320:0000021
 name: leaf width
 namespace: RiceTrait
-def: "Width of penultimate leaf blade" []
+def: "Width of penultimate leaf blade" [CO:curators]
 synonym: "leaf blade width" EXACT []
 synonym: "LfWdt, LWD" EXACT []
-xref: TO:0000370
 is_a: CO_320:Morphological ! Morphological
+is_a: TO:0000370
 
 [Term]
 id: CO_320:0000023
 name: basal leaf sheath color
 namespace: RiceTrait
-def: "Colour of the outer surface of the basal leaf sheath" []
+def: "Colour of the outer surface of the basal leaf sheath" [CO:curators]
 synonym: "BLSCol, BLSCO" EXACT []
-xref: TO:0000367
 is_a: CO_320:Morphological ! Morphological
+is_a: TO:0000367
 
 [Term]
 id: CO_320:0000025
 name: ligule length
 namespace: RiceTrait
-def: "Length of ligule, defined as distance from the base of the collar to the tip of the ligule" []
+def: "Length of ligule, defined as distance from the base of the collar to the tip of the ligule" [CO:curators]
 synonym: "LigLng, LGL, LIGLT" EXACT []
-xref: TO:0000024
 is_a: CO_320:Morphological ! Morphological
+is_a: TO:0000024
 
 [Term]
 id: CO_320:0000026
 name: ligule color
 namespace: RiceTrait
-def: "Color of the ligule" []
+def: "Color of the ligule" [CO:curators]
 synonym: "LigCol, LIGCO" EXACT []
-xref: TO:0000197
 is_a: CO_320:Morphological ! Morphological
+is_a: TO:0000197
 
 [Term]
 id: CO_320:0000027
 name: ligule shape
 namespace: RiceTrait
-def: "Shape of the ligule" []
+def: "Shape of the ligule" [CO:curators]
 synonym: "LigShp, LIGSH" EXACT []
-xref: TO:0000335
 is_a: CO_320:Morphological ! Morphological
+is_a: TO:0000335
 
 [Term]
 id: CO_320:0000028
 name: collar color
 namespace: RiceTrait
-def: "Colour of the leaf collar" []
+def: "Colour of the leaf collar" [CO:curators]
 synonym: "CollCol, CCO" EXACT []
-xref: TO:0000364
 is_a: CO_320:Morphological ! Morphological
+is_a: TO:0000364
 
 [Term]
 id: CO_320:0000029
 name: auricle color
 namespace: RiceTrait
-def: "Color of the auricle" []
+def: "Color of the auricle" [CO:curators]
 synonym: "AurCol, AUCO" EXACT []
-xref: TO:0000294
 is_a: CO_320:Morphological ! Morphological
+is_a: TO:0000294
 
 [Term]
 id: CO_320:0000030
 name: culm length
 namespace: RiceTrait
-def: "Length of the main culm (stem), defined as the distance from the soil surface to the base of the panicle" []
+def: "Length of the main culm (stem), defined as the distance from the soil surface to the base of the panicle" [CO:curators]
 synonym: "CulmLng, CULT" EXACT []
 synonym: "stem length" EXACT []
-xref: TO:0000576
 is_a: CO_320:Morphological ! Morphological
+is_a: TO:0000576
 
 [Term]
 id: CO_320:0000031
 name: culm angle
 namespace: RiceTrait
-def: "Angle of inclination of the base of the main culm from vertical" []
+def: "Angle of inclination of the base of the main culm from vertical" [CO:curators]
 synonym: "Culm habit," EXACT []
 synonym: "CulmAng, CUAN" EXACT []
-xref: TO:0000427
 is_a: CO_320:Morphological ! Morphological
+is_a: TO:0000427
 
 [Term]
 id: CO_320:0000033
 name: panicle length
 namespace: RiceTrait
-def: "Length of panicle defined as the distance from the base to the tip of the panicle when the main axis of the panicle is held straight" []
+def: "Length of panicle defined as the distance from the base to the tip of the panicle when the main axis of the panicle is held straight" [CO:curators]
 synonym: "PanLng, PLT" EXACT []
-xref: TO:0000040
 is_a: CO_320:Morphological ! Morphological
+is_a: TO:0000040
 
 [Term]
 id: CO_320:0000034
 name: secondary panicle branching
 namespace: RiceTrait
-def: "The abundance and distribution of spikelets borne on secondary branches of the panicle" []
+def: "The abundance and distribution of spikelets borne on secondary branches of the panicle" [CO:curators]
 synonym: "Pan2ndBr, SECOND_BR" EXACT []
-xref: TO:0000142
 is_a: CO_320:Morphological ! Morphological
+is_a: TO:0000142
 
 [Term]
 id: CO_320:0000035
 name: panicle axis attitude
 namespace: RiceTrait
-def: "The attitude of the main axis of the panicle, which ranges from straight upright to droopy" []
+def: "The attitude of the main axis of the panicle, which ranges from straight upright to droopy" [CO:curators]
 synonym: "PanAxAtt, PA" EXACT []
 synonym: "Panicle attitude" EXACT []
-xref: TO:00000342
 is_a: CO_320:Morphological ! Morphological
+is_a: TO:00000342
 
 [Term]
 id: CO_320:0000036
 name: awn color
 namespace: RiceTrait
-def: "Colour of the awns, if present" []
+def: "Colour of the awns, if present" [CO:curators]
 synonym: "AwCol, AWCO" EXACT []
 synonym: "awn colour" EXACT []
-xref: TO:0000141
 is_a: CO_320:Morphological ! Morphological
+is_a: TO:0000141
 
 [Term]
 id: CO_320:0000037
 name: apiculus color
 namespace: RiceTrait
-def: "Color of the apiculus of the lemma" []
+def: "Color of the apiculus of the lemma" [CO:curators]
 synonym: "ApCol, APCO" EXACT []
-xref: TO:0000140
 is_a: CO_320:Morphological ! Morphological
+is_a: TO:0000140
 
 [Term]
 id: CO_320:0000038
 name: stigma color
 namespace: RiceTrait
-def: "Color of stigma" []
+def: "Color of stigma" [CO:curators]
 synonym: "StgmCol, STCO" EXACT []
-xref: TO:0000185
 is_a: CO_320:Morphological ! Morphological
+is_a: TO:0000185
 
 [Term]
 id: CO_320:0000039
 name: lemma and palea color
 namespace: RiceTrait
-def: "Colour of the lemma and palea" []
+def: "Colour of the lemma and palea" [CO:curators]
 synonym: "hull colour, glume colour" EXACT []
 synonym: "LmPCol" EXACT []
-xref: TO:0000264
 is_a: CO_320:Morphological ! Morphological
+is_a: TO:0000264
 
 [Term]
 id: CO_320:0000040
 name: lemma and palea pubescence
 namespace: RiceTrait
-def: "Describes the presence, distribution and type of hairs on the lemma and palea" []
+def: "Describes the presence, distribution and type of hairs on the lemma and palea" [CO:curators]
 synonym: "LmPb" EXACT []
 synonym: "LmPPub, LPPUB, LmPb" EXACT []
-xref: TO:0000417
 is_a: CO_320:Morphological ! Morphological
+is_a: TO:0000417
 
 [Term]
 id: CO_320:0000041
 name: sterile lemma color
 namespace: RiceTrait
-def: "Colour of the sterile lemmas" []
+def: "Colour of the sterile lemmas" [CO:curators]
 synonym: "glume color" EXACT []
 synonym: "StrLmCol, SLCO, SLmc," EXACT []
-xref: TO:0000400
 is_a: CO_320:Morphological ! Morphological
+is_a: TO:0000400
 
 [Term]
 id: CO_320:0000042
 name: sterile lemma length
 namespace: RiceTrait
-def: "Length of sterile lemmas" []
+def: "Length of sterile lemmas" [CO:curators]
 synonym: "glume length" EXACT []
 synonym: "StrLmLng, SLLT" EXACT []
-xref: TO:0000240
 is_a: CO_320:Morphological ! Morphological
+is_a: TO:0000240
 
 [Term]
 id: CO_320:0000055
 name: alkali injury
 namespace: RiceTrait
-def: "The extent to which plant growth is adversely affected in alkaline soils" []
+def: "The extent to which plant growth is adversely affected in alkaline soils" [CO:curators]
 synonym: "Alkali tolerance" EXACT []
 synonym: "AlkInj" EXACT []
-xref: TO:0000481
 is_a: CO_320:Abiotic_stress ! Abiotic_stress
+is_a: TO:0000481
 
 [Term]
 id: CO_320:0000057
 name: cold tolerance
 namespace: RiceTrait
-def: "Ability of a plant to grow and develop normally under cold conditions. Key periods of sensitivity are during seedling growth, tillering, and flowering" []
+def: "Ability of a plant to grow and develop normally under cold conditions. Key periods of sensitivity are during seedling growth, tillering, and flowering" [CO:curators]
 synonym: "ColdSens" EXACT []
-xref: TO:0000303
 is_a: CO_320:Abiotic_stress ! Abiotic_stress
+is_a: TO:0000303
 
 [Term]
 id: CO_320:0000058
 name: drought recovery
 namespace: RiceTrait
-def: "The extent to which plants recover when soaked with water after exposure to drought. The extent of recovery depends strongly on the severity of drought." []
+def: "The extent to which plants recover when soaked with water after exposure to drought. The extent of recovery depends strongly on the severity of drought." [CO:curators]
 synonym: "DhtRecov" EXACT []
-xref: TO:0000458
 is_a: CO_320:Abiotic_stress ! Abiotic_stress
+is_a: TO:0000458
 
 [Term]
 id: CO_320:0000060
 name: drought injury
 namespace: RiceTrait
-def: "The extent to which plant growth is adversely affected by drought. Leaf rolling precedes leaf drying during drought. Response to drought is highly responsive to crop phenology, plant growth prior to stress, and the timing, duration, and intensity of drought stress. For many soils, it takes at least 2 rainless weeks during the vegetative stage to cause marked differences in response and at least 7 rainless days during the reproductive stage to cause severe drought injury. Repeated ratings are recommended through progress of the drought. Record the stage of plant growth when the stress occurred and the number of stress days." []
+def: "The extent to which plant growth is adversely affected by drought. Leaf rolling precedes leaf drying during drought. Response to drought is highly responsive to crop phenology, plant growth prior to stress, and the timing, duration, and intensity of drought stress. For many soils, it takes at least 2 rainless weeks during the vegetative stage to cause marked differences in response and at least 7 rainless days during the reproductive stage to cause severe drought injury. Repeated ratings are recommended through progress of the drought. Record the stage of plant growth when the stress occurred and the number of stress days." [CO:curators]
 synonym: "DhtInj" EXACT []
 synonym: "drought sensitivity" EXACT []
-xref: TO:0000188
 is_a: CO_320:Abiotic_stress ! Abiotic_stress
+is_a: TO:0000188
 
 [Term]
 id: CO_320:0000061
 name: stem elongation
 namespace: RiceTrait
-def: "The ability of the stem to elongate as flood water rises and thus to keep the topmost leaves above water level" []
+def: "The ability of the stem to elongate as flood water rises and thus to keep the topmost leaves above water level" [CO:curators]
 synonym: "elongation ability, elongation in deepwater" EXACT []
 synonym: "StmElong" EXACT []
-xref: TO:0006036
 is_a: CO_320:Biotic_stress ! Biotic_stress
+is_a: TO:0006036
 
 [Term]
 id: CO_320:0000062
 name: heat injury
 namespace: RiceTrait
-def: "The extent to which plant growth is adversely affected by high temperature. The key period of sensitivity is during flowering" []
+def: "The extent to which plant growth is adversely affected by high temperature. The key period of sensitivity is during flowering" [CO:curators]
 synonym: "heat tolerance" EXACT []
 synonym: "HeatSens" EXACT []
-xref: TO:0000259
 is_a: CO_320:Abiotic_stress ! Abiotic_stress
+is_a: TO:0000259
 
 [Term]
 id: CO_320:0000063
 name: iron toxicity injury
 namespace: RiceTrait
-def: "The extent to which plant growth is adversely affected by high (toxic) iron content in the growing medium" []
+def: "The extent to which plant growth is adversely affected by high (toxic) iron content in the growing medium" [CO:curators]
 synonym: "iron toxicity" EXACT []
 synonym: "IronInj" EXACT []
-xref: TO:0000224
 is_a: CO_320:Abiotic_stress ! Abiotic_stress
+is_a: TO:0000224
 
 [Term]
 id: CO_320:0000064
 name: kneeing ability
 namespace: RiceTrait
-def: "The ability of a stem, after it has fallen flat e.g. after floodwater recedes, to start growing upright from a young node (the knee)) and bear panicles, typically an ability expressed by deepwater varieties (applicable only in conditions where culms have fallen flat)" []
+def: "The ability of a stem, after it has fallen flat e.g. after floodwater recedes, to start growing upright from a young node (the knee)) and bear panicles, typically an ability expressed by deepwater varieties (applicable only in conditions where culms have fallen flat)" [CO:curators]
 synonym: "CUKNEE, KnA" EXACT []
 synonym: "KneeAb, CUKNEE, KnA" EXACT []
-xref: TO:0000337
 is_a: CO_320:Biotic_stress ! Biotic_stress
+is_a: TO:0000337
 
 [Term]
 id: CO_320:0000065
 name: phosphorus deficiency damage
 namespace: RiceTrait
-def: "The extent to which plant growth is adversely affected by a deficiency of phosphorus in the growing medium" []
+def: "The extent to which plant growth is adversely affected by a deficiency of phosphorus in the growing medium" [CO:curators]
 synonym: "PDef" EXACT []
 synonym: "phosphorus deficiency" EXACT []
-xref: TO:0000102
 is_a: CO_320:Abiotic_stress ! Abiotic_stress
+is_a: TO:0000102
 
 [Term]
 id: CO_320:0000066
 name: salt injury
 namespace: RiceTrait
-def: "The extent to which plant growth is adversely affected in soils or other growth medium with high salt content" []
+def: "The extent to which plant growth is adversely affected in soils or other growth medium with high salt content" [CO:curators]
 synonym: "salt tolerance, salinity injury, salinity" EXACT []
 synonym: "SaltInj" EXACT []
-xref: TO:0000429
-xref: TO:0006001
 is_a: CO_320:Abiotic_stress ! Abiotic_stress
+is_a: TO:0000429
+is_a: TO:0006001
 
 [Term]
 id: CO_320:0000067
 name: submergence tolerance
 namespace: RiceTrait
-def: "The ability of plants to survive a period of submergence" []
+def: "The ability of plants to survive a period of submergence" [CO:curators]
 synonym: "SubTol" EXACT []
-xref: TO:0000286
-xref: TO:0000524
 is_a: CO_320:Abiotic_stress ! Abiotic_stress
+is_a: TO:0000286
+is_a: TO:0000524
 
 [Term]
 id: CO_320:0000069
 name: zinc deficiency injury
 namespace: RiceTrait
-def: "The extent to which plant growth is adversely affected by a deficiency of zinc in the growing medium" []
+def: "The extent to which plant growth is adversely affected by a deficiency of zinc in the growing medium" [CO:curators]
 synonym: "zinc deficiency" EXACT []
 synonym: "ZnDefInj" EXACT []
-xref: TO:0000351
 is_a: CO_320:Abiotic_stress ! Abiotic_stress
+is_a: TO:0000351
 
 [Term]
 id: CO_320:0000073
 name: grain yield
 namespace: RiceTrait
-def: "Grain yield" []
+def: "Grain yield" [CO:curators]
 synonym: "GrYld" EXACT []
-xref: TO:0000396
 is_a: CO_320:Agronomical ! Agronomical
+is_a: TO:0000396
 
 [Term]
 id: CO_320:0000074
 name: panicle exsertion
 namespace: RiceTrait
-def: "Extent to which the panicle is exserted above (i.e. protrudes from), as opposed to being enclosed within, the flag leaf sheath" []
+def: "Extent to which the panicle is exserted above (i.e. protrudes from), as opposed to being enclosed within, the flag leaf sheath" [CO:curators]
 synonym: "PanExs, PEX" EXACT []
-xref: TO:0000165
 is_a: CO_320:Agronomical ! Agronomical
+is_a: TO:0000165
 
 [Term]
 id: CO_320:0000075
 name: Phenotypic Acceptability
 namespace: RiceTrait
-def: "An overall assessment of phenotypic acceptability of the grains for the target breeding objectives, locations and markets" []
+def: "An overall assessment of phenotypic acceptability of the grains for the target breeding objectives, locations and markets" [CO:curators]
 synonym: "PhenAcc" EXACT []
-xref: TO:0000322
 is_a: CO_320:Agronomical ! Agronomical
+is_a: TO:0000322
 
 [Term]
 id: CO_320:0000076
 name: plant height
 namespace: RiceTrait
-def: "Plant height defined as distance from the soil surface to the highest point of the plant (panicle or flag leaf) excluding awns" []
+def: "Plant height defined as distance from the soil surface to the highest point of the plant (panicle or flag leaf) excluding awns" [CO:curators]
 synonym: "PlntHt" EXACT []
-xref: TO:0000207
 is_a: CO_320:Agronomical ! Agronomical
+is_a: TO:0000207
 
 [Term]
 id: CO_320:0000077
 name: vigor
 namespace: RiceTrait
-def: "An overall description of the vigour of plant growth, combining several components such as number of tillers, plant height, number of leaves, canopy density" []
+def: "An overall description of the vigour of plant growth, combining several components such as number of tillers, plant height, number of leaves, canopy density" [CO:curators]
 synonym: "PlntVg" EXACT []
 is_a: CO_320:Agronomical ! Agronomical
 is_a: TO:0000280
@@ -466,91 +466,91 @@ is_a: TO:0000280
 id: CO_320:0000078
 name: panicle threshability
 namespace: RiceTrait
-def: "Describes the ease with which grains are removed from the panicle during threshing" []
+def: "Describes the ease with which grains are removed from the panicle during threshing" [CO:curators]
 synonym: "PanThr, PTH" EXACT []
-xref: TO:0000406
 is_a: CO_320:Agronomical ! Agronomical
+is_a: TO:0000406
 
 [Term]
 id: CO_320:0000079
 name: tillering
 namespace: RiceTrait
-def: "Describes the abundance of tillers (shoots, stems) arising from the base of each plant" []
+def: "Describes the abundance of tillers (shoots, stems) arising from the base of each plant" [CO:curators]
 synonym: "Tillers per plant" EXACT []
 synonym: "TillNo" EXACT []
-xref: TO:0000329
 is_a: CO_320:Agronomical ! Agronomical
+is_a: TO:0000329
 
 [Term]
 id: CO_320:0000080
 name: lodging incidence
 namespace: RiceTrait
-def: "Describes the tendency of plants to lodge /(fall flat/)" []
+def: "Describes the tendency of plants to lodge /(fall flat/)" [CO:curators]
 synonym: "LodInc" EXACT []
-xref: TO:0000068
 is_a: CO_320:Agronomical ! Agronomical
+is_a: TO:0000068
 
 [Term]
 id: CO_320:0000082
 name: maturity
 namespace: RiceTrait
-def: "Time elapsed from effective seeding date to grain ripening defined as when 80-85% of grains on panicle are mature (growth stage 9)" []
+def: "Time elapsed from effective seeding date to grain ripening defined as when 80-85% of grains on panicle are mature (growth stage 9)" [CO:curators]
 synonym: "time of maturity" EXACT []
 synonym: "TMat" EXACT []
-xref: TO:0000469
 is_a: CO_320:Agronomical ! Agronomical
+is_a: TO:0000469
 
 [Term]
 id: CO_320:0000084
 name: culm strength
 namespace: RiceTrait
-def: "The stiffness of the culm and its resilience to being bent over" []
+def: "The stiffness of the culm and its resilience to being bent over" [CO:curators]
 synonym: "CulmStr, CUST" EXACT []
-xref: TO:0000051
 is_a: CO_320:Agronomical ! Agronomical
+is_a: TO:0000051
 
 [Term]
 id: CO_320:0000085
 name: leaf senescence
 namespace: RiceTrait
-def: "Describes how soon leaves senesce" []
+def: "Describes how soon leaves senesce" [CO:curators]
 synonym: "LfSen, LSEN" EXACT []
-xref: TO:0000249
 is_a: CO_320:Agronomical ! Agronomical
+is_a: TO:0000249
 
 [Term]
 id: CO_320:0000086
 name: seed germination
 namespace: RiceTrait
-def: "The physiological and developmental changes that occur in a seed commencing with water uptake (imbibition) and terminating with the elongation of the embryonic axis." []
+def: "The physiological and developmental changes that occur in a seed commencing with water uptake (imbibition) and terminating with the elongation of the embryonic axis." [CO:curators]
 synonym: "SdGerm" EXACT []
-xref: TO:0000202
 is_a: CO_320:Agronomical ! Agronomical
+is_a: TO:0000202
 
 [Term]
 id: CO_320:0000088
 name: Time to heading
 namespace: RiceTrait
-def: "Time elapsed from the effective date of seeding to flowering (heading)" []
+def: "Time elapsed from the effective date of seeding to flowering (heading)" [CO:curators]
 synonym: "days to flowering,  time of heading" EXACT []
 synonym: "HeadT, FLW" EXACT []
-xref: TO:0000344
 is_a: CO_320:Agronomical ! Agronomical
+is_a: TO:0000344
 
 [Term]
 id: CO_320:0000090
 name: spikelet fertility
 namespace: RiceTrait
-def: "The proportion of spikelets on a harvested panicle that contain filled grains" []
+def: "The proportion of spikelets on a harvested panicle that contain filled grains" [CO:curators]
 synonym: "SpkFer, SPKF, SpFert" EXACT []
-xref: TO:0000180
 is_a: CO_320:Agronomical ! Agronomical
+is_a: TO:0000180
 
 [Term]
 id: CO_320:0000091
 name: male sterility group
 namespace: RiceTrait
-def: "A classification of male sterility according to the type or cause of sterility" []
+def: "A classification of male sterility according to the type or cause of sterility" [CO:curators]
 synonym: "MaleSterGp" EXACT []
 is_a: CO_320:Fertility ! Fertility
 is_a: TO:0000437
@@ -559,259 +559,259 @@ is_a: TO:0000437
 id: CO_320:0000092
 name: abortion pattern
 namespace: RiceTrait
-def: "Describes the stage at which pollen grains abort in male sterile lines." []
+def: "Describes the stage at which pollen grains abort in male sterile lines." [CO:curators]
 synonym: "abortion stage" EXACT []
 synonym: "AP" EXACT []
-xref: TO:0000218
 is_a: CO_320:Phenological ! Phenological
+is_a: TO:0000218
 
 [Term]
 id: CO_320:0000093
 name: stigma exsertion
 namespace: RiceTrait
-def: "Describes the tendency of stigmas to be exserted on one or both sides of the florets" []
+def: "Describes the tendency of stigmas to be exserted on one or both sides of the florets" [CO:curators]
 synonym: "StgExers" EXACT []
-xref: TO:0000044
 is_a: CO_320:Morphological ! Morphological
+is_a: TO:0000044
 
 [Term]
 id: CO_320:0000094
 name: glume opening
 namespace: RiceTrait
-def: "The extent to which the glumes (i.e. the lemma and palea) of a floret open during blooming" []
+def: "The extent to which the glumes (i.e. the lemma and palea) of a floret open during blooming" [CO:curators]
 synonym: "GlOp" EXACT []
-xref: TO:0000474
 is_a: CO_320:Agronomical ! Agronomical
+is_a: TO:0000474
 
 [Term]
 id: CO_320:0000098
 name: fertility restoration
 namespace: RiceTrait
-def: "This is a compound trait used for F1 hybrids combining the proportion of fertile spikelets  at maturity with the proportion of fertile pollen at anthesis" []
+def: "This is a compound trait used for F1 hybrids combining the proportion of fertile spikelets  at maturity with the proportion of fertile pollen at anthesis" [CO:curators]
 synonym: "FertRest" EXACT []
-xref: TO:0000308
 is_a: CO_320:Fertility ! Fertility
+is_a: TO:0000308
 
 [Term]
 id: CO_320:0000100
 name: grain weight
 namespace: RiceTrait
-def: "The weight of a sample of whole grains including the hull" []
+def: "The weight of a sample of whole grains including the hull" [CO:curators]
 synonym: "GrnWt, GRWT" EXACT []
-xref: TO:0000181
-xref: TO:0000269
 is_a: CO_320:Agronomical ! Agronomical
+is_a: TO:0000181
+is_a: TO:0000269
 
 [Term]
 id: CO_320:0000102
 name: amylose content
 namespace: RiceTrait
-def: "Amylose content of milled rice as a proportion or percentage of the total amount of rice" []
+def: "Amylose content of milled rice as a proportion or percentage of the total amount of rice" [CO:curators]
 synonym: "AmyCt" EXACT []
-xref: TO:0000196
 is_a: CO_320:Quality ! Quality
+is_a: TO:0000196
 
 [Term]
 id: CO_320:0000103
 name: scent
 namespace: RiceTrait
-def: "Describes the aroma of rice grains" []
+def: "Describes the aroma of rice grains" [CO:curators]
 synonym: "Aroma, caryopsis scent" EXACT []
 synonym: "Sct" EXACT []
-xref: TO:0000087
 is_a: CO_320:Quality ! Quality
+is_a: TO:0000087
 
 [Term]
 id: CO_320:0000104
 name: chalkiness of endosperm
 namespace: RiceTrait
-def: "Describes the extent to which milled (polished, white) rice appears to be a chalky white colour as opposed to translucent white. The chalky appearance arises from the incomplete development of starch grains in the endosperm, which leaves tiny air pockets between starch granules and results in weak grains" []
+def: "Describes the extent to which milled (polished, white) rice appears to be a chalky white colour as opposed to translucent white. The chalky appearance arises from the incomplete development of starch grains in the endosperm, which leaves tiny air pockets between starch granules and results in weak grains" [CO:curators]
 synonym: "chalk, chalkiness" EXACT []
 synonym: "Clk" EXACT []
-xref: TO:0000266
 is_a: CO_320:Quality ! Quality
+is_a: TO:0000266
 
 [Term]
 id: CO_320:0000105
 name: grain elongation
 namespace: RiceTrait
-def: "The extend to which grains elongate during cooking. High elongation is typical of basmati types of rice" []
+def: "The extend to which grains elongate during cooking. High elongation is typical of basmati types of rice" [CO:curators]
 synonym: "GrElong" EXACT []
-xref: TO:0000377
 is_a: CO_320:Quality ! Quality
+is_a: TO:0000377
 
 [Term]
 id: CO_320:0000106
 name: gel consistency
 namespace: RiceTrait
-def: "Describes the consistency of a rice gel formed by grinding, chemically treating, boiling, and cooling a sample of grains. This measures the tendency of cooked rice to harden on cooling, a function of carbohydrate composition" []
+def: "Describes the consistency of a rice gel formed by grinding, chemically treating, boiling, and cooling a sample of grains. This measures the tendency of cooked rice to harden on cooling, a function of carbohydrate composition" [CO:curators]
 synonym: "GelC" EXACT []
-xref: TO:0000211
 is_a: CO_320:Quality ! Quality
+is_a: TO:0000211
 
 [Term]
 id: CO_320:0000107
 name: gelatinization temperature
 namespace: RiceTrait
-def: "Temperature at which the starch in endosperm gelatinizes, one of the key indicators of cooking quality" []
+def: "Temperature at which the starch in endosperm gelatinizes, one of the key indicators of cooking quality" [CO:curators]
 synonym: "GelTemp" EXACT []
-xref: TO:0000462
 is_a: CO_320:Quality ! Quality
+is_a: TO:0000462
 
 [Term]
 id: CO_320:0000108
 name: head rice
 namespace: RiceTrait
-def: "Describes how much of a sample of milled rice comprises whole rather than broken kernels. Head rice is defined as kernels longer than 8/10th of the average length of whole kernels" []
+def: "Describes how much of a sample of milled rice comprises whole rather than broken kernels. Head rice is defined as kernels longer than 8/10th of the average length of whole kernels" [CO:curators]
 synonym: "HdR" EXACT []
 synonym: "head rice percent" EXACT []
-xref: TO:0000222
 is_a: CO_320:Quality ! Quality
+is_a: TO:0000222
 
 [Term]
 id: CO_320:0000109
 name: caryopsis shape
 namespace: RiceTrait
-def: "Shape of the caryopsis" []
+def: "Shape of the caryopsis" [CO:curators]
 synonym: "CaryoShp" EXACT []
 synonym: "decorticated grain shape, brown rice shape" EXACT []
-xref: TO:0002730
 is_a: CO_320:Quality ! Quality
+is_a: TO:0002730
 
 [Term]
 id: CO_320:0000110
 name: caryopsis length
 namespace: RiceTrait
-def: "The length of the caryopsis, ie the seed with seed coat fused to pericarp, which is the structure that remains after dehulling  (decorticating) the grain and before milling, commonly known as brown rice" []
+def: "The length of the caryopsis, ie the seed with seed coat fused to pericarp, which is the structure that remains after dehulling  (decorticating) the grain and before milling, commonly known as brown rice" [CO:curators]
 synonym: "CaryoLng" EXACT []
 synonym: "decorticated grain length, brown rice length" EXACT []
-xref: TO:0000734
 is_a: CO_320:Quality ! Quality
+is_a: TO:0000734
 
 [Term]
 id: CO_320:0000111
 name: brown rice protein content
 namespace: RiceTrait
-def: "The concentration of protein in brown (dehulled) rice" []
+def: "The concentration of protein in brown (dehulled) rice" [CO:curators]
 synonym: "BRiceProtCt" EXACT []
-xref: TO:0000138
 is_a: CO_320:Quality ! Quality
+is_a: TO:0000138
 
 [Term]
 id: CO_320:0000115
 name: pericarp colour
 namespace: RiceTrait
-def: "Colour of the pericarp" []
+def: "Colour of the pericarp" [CO:curators]
 synonym: "PericCol" EXACT []
 synonym: "Seed coat colour, decorticated grain colour, bran colour" EXACT []
-xref: TO:0000707
 is_a: CO_320:Quality ! Quality
+is_a: TO:0000707
 
 [Term]
 id: CO_320:0000117
 name: caryopsis width
 namespace: RiceTrait
-def: "The width of the caryopsis at its widest point at right angles to its length (ie the seed with seed coat fused to pericarp, which is the structure that remains after dehulling the grain and before milling)" []
+def: "The width of the caryopsis at its widest point at right angles to its length (ie the seed with seed coat fused to pericarp, which is the structure that remains after dehulling the grain and before milling)" [CO:curators]
 synonym: "CaryoWdt" EXACT []
 synonym: "decorticated grain width, brown rice width" EXACT []
-xref: TO:0000975
 is_a: CO_320:Quality ! Quality
+is_a: TO:0000975
 
 [Term]
 id: CO_320:0000121
 name: sterile lemma shape
 namespace: RiceTrait
-def: "Shape of the sterile lemmas" []
+def: "Shape of the sterile lemmas" [CO:curators]
 synonym: "LemaShp" EXACT []
-xref: TO:0002726
 is_a: CO_320:Morphological ! Morphological
+is_a: TO:0002726
 
 [Term]
 id: CO_320:0000124
 name: rhizome and stolon formation
 namespace: RiceTrait
-def: "Describes the presence of rhizomes, stolons and/or tubers in the mature plant" []
+def: "Describes the presence of rhizomes, stolons and/or tubers in the mature plant" [CO:curators]
 synonym: "RhyzForm, RHIFOR" EXACT []
-xref: TO:0002767
 is_a: CO_320:Morphological ! Morphological
+is_a: TO:0002767
 
 [Term]
 id: CO_320:0000128
 name: panicle axis texture
 namespace: Trait
-def: "Texture of the main axis of the panicle" []
+def: "Texture of the main axis of the panicle" [CO:curators]
 synonym: "PanAxText" EXACT []
-xref: TO:0002754
 is_a: CO_320:Morphological ! Morphological
+is_a: TO:0002754
 
 [Term]
 id: CO_320:0000132
 name: ligule pubescence
 namespace: RiceTrait
-def: "Presence and distribution of hairs on ligules" []
+def: "Presence and distribution of hairs on ligules" [CO:curators]
 synonym: "LigPub, LIGPUB" EXACT []
-xref: TO:0002749
 is_a: CO_320:Morphological ! Morphological
+is_a: TO:0002749
 
 [Term]
 id: CO_320:0000137
 name: flag leaf width
 namespace: RiceTrait
-def: "Width of flag leaf" []
+def: "Width of flag leaf" [CO:curators]
 synonym: "FlgLfWdt, FLWD" EXACT []
-xref: TO:0002758
 is_a: CO_320:Morphological ! Morphological
+is_a: TO:0002758
 
 [Term]
 id: CO_320:0000138
 name: flag leaf length
 namespace: RiceTrait
-def: "Length of flag leaf" []
+def: "Length of flag leaf" [CO:curators]
 synonym: "FlgLfLng, FLLT" EXACT []
-xref: TO:0002757
 is_a: CO_320:Morphological ! Morphological
+is_a: TO:0002757
 
 [Term]
 id: CO_320:0000141
 name: panicle distance to basal branch
 namespace: Trait
-def: "Distance from the base of the panicle to the point of insertion of the lowest branch" []
+def: "Distance from the base of the panicle to the point of insertion of the lowest branch" [CO:curators]
 synonym: "PanBasBrDist" EXACT []
-xref: TO:0000545
 is_a: CO_320:Morphological ! Morphological
+is_a: TO:0000545
 
 [Term]
 id: CO_320:0000144
 name: awn thickness
 namespace: RiceTrait
-def: "Thickness of awns" []
+def: "Thickness of awns" [CO:curators]
 synonym: "AwThk, AWTH" EXACT []
-xref: TO:0002719
 is_a: CO_320:Morphological ! Morphological
+is_a: TO:0002719
 
 [Term]
 id: CO_320:0000146
 name: awn length
 namespace: RiceTrait
-def: "Length of awns" []
+def: "Length of awns" [CO:curators]
 synonym: "AwLng, AWLT" EXACT []
-xref: TO:0000072
 is_a: CO_320:Morphological ! Morphological
+is_a: TO:0000072
 
 [Term]
 id: CO_320:0000150
 name: anther length
 namespace: RiceTrait
-def: "Anther length" []
+def: "Anther length" [CO:curators]
 synonym: "AnLt" EXACT []
-xref: TO:0000531
 is_a: CO_320:Morphological ! Morphological
+is_a: TO:0000531
 
 [Term]
 id: CO_320:0000152
 name: panicle shattering
 namespace: RiceTrait
-def: "Describes the tendency of grains to fall off the panicle before it is threshed" []
+def: "Describes the tendency of grains to fall off the panicle before it is threshed" [CO:curators]
 synonym: "PanSh, PSH" EXACT []
 is_a: CO_320:Agronomical ! Agronomical
 is_a: TO:0000406
@@ -820,7 +820,7 @@ is_a: TO:0000406
 id: CO_320:0000154
 name: culm node underlying colour
 namespace: RiceTrait
-def: "Colour of nodes on the culm/stem underlying any anthocyanin markings" []
+def: "Colour of nodes on the culm/stem underlying any anthocyanin markings" [CO:curators]
 synonym: "CulmNodUndCol" EXACT []
 is_a: CO_320:Morphological ! Morphological
 is_a: TO:0000059
@@ -829,45 +829,45 @@ is_a: TO:0000059
 id: CO_320:0000155
 name: culm diameter
 namespace: RiceTrait
-def: "Diameter of basal portion of the main culm" []
+def: "Diameter of basal portion of the main culm" [CO:curators]
 synonym: "CulmDiam, CUDI, DBI" EXACT []
 synonym: "stem thickness, basal internode diameter" EXACT []
-xref: TO:0001035
 is_a: CO_320:Morphological ! Morphological
+is_a: TO:0001035
 
 [Term]
 id: CO_320:0000156
 name: awn presence
 namespace: RiceTrait
-def: "Presence of awns" []
+def: "Presence of awns" [CO:curators]
 synonym: "AwPres, AWPR" EXACT []
-xref: TO:0002734
 is_a: CO_320:Morphological ! Morphological
+is_a: TO:0002734
 
 [Term]
 id: CO_320:0000158
 name: pollen sterility
 namespace: RiceTrait
-def: "The degree of male (pollen) sterility" []
+def: "The degree of male (pollen) sterility" [CO:curators]
 synonym: "male sterility" EXACT []
 synonym: "MaleSter" EXACT []
-xref: TO:0000053
 is_a: CO_320:Fertility ! Fertility
+is_a: TO:0000053
 
 [Term]
 id: CO_320:0000159
 name: spikelet sterility
 namespace: RiceTrait
-def: "The degree of sterility of spikelets" []
+def: "The degree of sterility of spikelets" [CO:curators]
 synonym: "SpkSter, SPKF, SpFert" EXACT []
-xref: TO:0000436
 is_a: CO_320:Fertility ! Fertility
+is_a: TO:0000436
 
 [Term]
 id: CO_320:0000173
 name: bacterial blight damage
 namespace: RiceTrait
-def: "The type and severity of bacterial blight symptoms on leaves caused by the bacterial pathogen Xanthomonas oryzae pv. oryzae. Symptoms: lesions usually start near the leaf tip or leaf margins or both, and extend down the outer edge(s). Young lesions are pale green to grayish green, later turning yellow to gray (dead) with time. In very susceptible varieties, lesions may extend to the entire leaf length into the leaf sheath" []
+def: "The type and severity of bacterial blight symptoms on leaves caused by the bacterial pathogen Xanthomonas oryzae pv. oryzae. Symptoms: lesions usually start near the leaf tip or leaf margins or both, and extend down the outer edge(s). Young lesions are pale green to grayish green, later turning yellow to gray (dead) with time. In very susceptible varieties, lesions may extend to the entire leaf length into the leaf sheath" [CO:curators]
 synonym: "bacterial blight" EXACT []
 synonym: "BBDam" EXACT []
 is_a: CO_320:Biotic_stress ! Biotic_stress
@@ -877,323 +877,323 @@ is_a: TO:0000175
 id: CO_320:0000174
 name: bacterial leaf streak damage
 namespace: RiceTrait
-def: "The type and severity of bacterial leaf streak symptoms on leaves caused by the bacterial pathogen Xanthomonas oryzae pv. oryzicola. Symptoms: linear lesions with small bacterial exudates" []
+def: "The type and severity of bacterial leaf streak symptoms on leaves caused by the bacterial pathogen Xanthomonas oryzae pv. oryzicola. Symptoms: linear lesions with small bacterial exudates" [CO:curators]
 synonym: "bacterial leaf streak, bacterial leaf blight, leaf blight" EXACT []
 synonym: "BLS" EXACT []
-xref: TO:0000203
 is_a: CO_320:Biotic_stress ! Biotic_stress
+is_a: TO:0000203
 
 [Term]
 id: CO_320:0000176
 name: Leaf blast damage
 namespace: RiceTrait
-def: "The type and severity of leaf blast symptoms on leaves caused by the fungal pathogen Magnaporthe grisea (Pyricularia oryzae). Symptoms are necrotic lesions on the leaves, in severe cases leading to leaf death" []
+def: "The type and severity of leaf blast symptoms on leaves caused by the fungal pathogen Magnaporthe grisea (Pyricularia oryzae). Symptoms are necrotic lesions on the leaves, in severe cases leading to leaf death" [CO:curators]
 synonym: "blast, leaf blast, rice leaf blast" EXACT []
 synonym: "LfBlastDam" EXACT []
-xref: TO:0000468
 is_a: CO_320:Biotic_stress ! Biotic_stress
+is_a: TO:0000468
 
 [Term]
 id: CO_320:0000177
 name: brown spot damage
 namespace: RiceTrait
-def: "The type and severity of brown spot symptoms on leaves caused by the fungal pathogen Cochliobolus miyabeanus (Bipolaris oryzae, Drechslera oryzae). Symptoms: typical leaf spots are small, oval or circular and dark brown. Larger lesions usually have the same color on the edges but have a pale, usually grayish center. Most spots have a light yellow halo around the outer edge." []
+def: "The type and severity of brown spot symptoms on leaves caused by the fungal pathogen Cochliobolus miyabeanus (Bipolaris oryzae, Drechslera oryzae). Symptoms: typical leaf spots are small, oval or circular and dark brown. Larger lesions usually have the same color on the edges but have a pale, usually grayish center. Most spots have a light yellow halo around the outer edge." [CO:curators]
 synonym: "brown spot" EXACT []
 synonym: "BS" EXACT []
-xref: TO:0000356
 is_a: CO_320:Biotic_stress ! Biotic_stress
+is_a: TO:0000356
 
 [Term]
 id: CO_320:0000178
 name: false smut
 namespace: RiceTrait
-def: "The type and severity of false smut symptoms caused by Ustilaginoidea virens.  Symptoms: Infected grains are transformed into yellow-greenish or greenish-black velvety-looking spore balls." []
+def: "The type and severity of false smut symptoms caused by Ustilaginoidea virens.  Symptoms: Infected grains are transformed into yellow-greenish or greenish-black velvety-looking spore balls." [CO:curators]
 synonym: "false smut" EXACT []
 synonym: "FSmut" EXACT []
-xref: TO:0000129
 is_a: CO_320:Biotic_stress ! Biotic_stress
+is_a: TO:0000129
 
 [Term]
 id: CO_320:0000179
 name: grassy stunt 1 disease
 namespace: RiceTrait
-def: "The type and severity of grassy stunt symptoms caused by the grassy stunt 1 virus (RGSV1). Symptoms: severe stunting, excessive tillering, pale green to yellow and narrow leaves with small rusty spots" []
+def: "The type and severity of grassy stunt symptoms caused by the grassy stunt 1 virus (RGSV1). Symptoms: severe stunting, excessive tillering, pale green to yellow and narrow leaves with small rusty spots" [CO:curators]
 synonym: "RGSV1Sev" EXACT []
 synonym: "rice grassy stunt 1 disease" EXACT []
-xref: TO:0000127
 is_a: CO_320:Biotic_stress ! Biotic_stress
+is_a: TO:0000127
 
 [Term]
 id: CO_320:0000180
 name: kernel smut
 namespace: RiceTrait
-def: "The type and severity of kernel smut symptoms caused by Tilletia barclayana causing kernel smut." []
+def: "The type and severity of kernel smut symptoms caused by Tilletia barclayana causing kernel smut." [CO:curators]
 synonym: "kernel smut" EXACT []
 synonym: "KSmut" EXACT []
-xref: TO:0000048
 is_a: CO_320:Biotic_stress ! Biotic_stress
+is_a: TO:0000048
 
 [Term]
 id: CO_320:0000181
 name: leaf scald damage
 namespace: RiceTrait
-def: "The type and severity of leaf scald symptoms on leaves caused by the fungal pathogen Monographella albescens (Microdochium oryzae). Symptoms: lesions occur mostly near leaf tips, but sometimes start at the margin of the blade and develop into large ellipsoid areas encircled by dark-brown, narrow bands accompanied by a light-brown halo" []
+def: "The type and severity of leaf scald symptoms on leaves caused by the fungal pathogen Monographella albescens (Microdochium oryzae). Symptoms: lesions occur mostly near leaf tips, but sometimes start at the margin of the blade and develop into large ellipsoid areas encircled by dark-brown, narrow bands accompanied by a light-brown halo" [CO:curators]
 synonym: "leaf scald" EXACT []
 synonym: "LfScald" EXACT []
-xref: TO:0000378
 is_a: CO_320:Biotic_stress ! Biotic_stress
+is_a: TO:0000378
 
 [Term]
 id: CO_320:0000182
 name: narrow brown leaf spot damage
 namespace: RiceTrait
-def: "The type and severity of narrow brown leaf spot symptoms on leaves caused by the fungal pathogen Sphaerulina oryzina (Cercospora janseana)" []
+def: "The type and severity of narrow brown leaf spot symptoms on leaves caused by the fungal pathogen Sphaerulina oryzina (Cercospora janseana)" [CO:curators]
 synonym: "narrow brown leaf spot" EXACT []
 synonym: "NBLSDam" EXACT []
-xref: TO:0000422
 is_a: CO_320:Biotic_stress ! Biotic_stress
+is_a: TO:0000422
 
 [Term]
 id: CO_320:0000183
 name: ragged stunt disease
 namespace: RiceTrait
-def: "The type and severity of ragged stunt symptoms caused by rice ragged stunt virus (RRSV). Symptoms: plants are stunted but remain dark green. Leaves are ragged and twisted. Vein swelling on leaf collar, leaf blades and leaf sheaths" []
+def: "The type and severity of ragged stunt symptoms caused by rice ragged stunt virus (RRSV). Symptoms: plants are stunted but remain dark green. Leaves are ragged and twisted. Vein swelling on leaf collar, leaf blades and leaf sheaths" [CO:curators]
 synonym: "RaggedStuntSev" EXACT []
 synonym: "rice ragged stunt disease, ragged stunt" EXACT []
-xref: TO:0000386
 is_a: CO_320:Biotic_stress ! Biotic_stress
+is_a: TO:0000386
 
 [Term]
 id: CO_320:0000184
 name: rice tungro disease
 namespace: RiceTrait
-def: "The type and severity of tungro symptoms caused by the Rice tungro virus bacilliform virus (RTBV) and rice tungro spherical virus (RTSV). Symptoms: yellow to yellow orange leaves, stunting and slightly reduced tillering" []
+def: "The type and severity of tungro symptoms caused by the Rice tungro virus bacilliform virus (RTBV) and rice tungro spherical virus (RTSV). Symptoms: yellow to yellow orange leaves, stunting and slightly reduced tillering" [CO:curators]
 synonym: "RTungroSev" EXACT []
 synonym: "tungro, tungo disease, rice tungro virus" EXACT []
-xref: TO:0000413
 is_a: CO_320:Biotic_stress ! Biotic_stress
+is_a: TO:0000413
 
 [Term]
 id: CO_320:0000185
 name: sheath rot
 namespace: RiceTrait
-def: "The type and severity of sheath rot symptoms caused by  Soracladium oryzae. Symptoms: oblong or irregular brown to grey lesions on the leaf sheath near panicle, sometimes coalescing to prevent emergence of panicle." []
+def: "The type and severity of sheath rot symptoms caused by  Soracladium oryzae. Symptoms: oblong or irregular brown to grey lesions on the leaf sheath near panicle, sometimes coalescing to prevent emergence of panicle." [CO:curators]
 synonym: "sheath rot" EXACT []
 synonym: "ShRotInc" EXACT []
-xref: TO:0000086
 is_a: CO_320:Biotic_stress ! Biotic_stress
+is_a: TO:0000086
 
 [Term]
 id: CO_320:0000186
 name: stem rot
 namespace: RiceTrait
-def: "The type and severity of stem rot symptoms caused by Magnaporthe salvinii (Nakatea sigmoidea, Sclerotium oryzae) and Helminthosporium sigmoideum var. irregulare. Symptoms: dark lesions develop on the stems near the water line. Small, dark bodies (sclerotia) develop, weaken the stem and cause lodging." []
+def: "The type and severity of stem rot symptoms caused by Magnaporthe salvinii (Nakatea sigmoidea, Sclerotium oryzae) and Helminthosporium sigmoideum var. irregulare. Symptoms: dark lesions develop on the stems near the water line. Small, dark bodies (sclerotia) develop, weaken the stem and cause lodging." [CO:curators]
 synonym: "stem rot" EXACT []
 synonym: "StmRotInc" EXACT []
-xref: TO:0000323
 is_a: CO_320:Biotic_stress ! Biotic_stress
+is_a: TO:0000323
 
 [Term]
 id: CO_320:0000187
 name: ufra
 namespace: RiceTrait
-def: "The type and severity of stem rot symptoms caused by the stem nematode Ditylenchus angustus. Symptoms: leaf mottling or chlorotic discoloration in a splash pattern at base of young leaves in stem elongation or mid-tillering stage, brown stains may develop on leaves and sheaths which later intensify to a dark brown color, distortion (twisting and withering) of young leaves, distortion of panicles which either remain enclosed within a swollen sheath, or partially emerge but are twisted and with unfilled grains, or emerge completely but with unfilled grains and resembling a whitehead." []
+def: "The type and severity of stem rot symptoms caused by the stem nematode Ditylenchus angustus. Symptoms: leaf mottling or chlorotic discoloration in a splash pattern at base of young leaves in stem elongation or mid-tillering stage, brown stains may develop on leaves and sheaths which later intensify to a dark brown color, distortion (twisting and withering) of young leaves, distortion of panicles which either remain enclosed within a swollen sheath, or partially emerge but are twisted and with unfilled grains, or emerge completely but with unfilled grains and resembling a whitehead." [CO:curators]
 synonym: "ufra" EXACT []
 synonym: "UfraDam" EXACT []
-xref: TO:0000121
 is_a: CO_320:Biotic_stress ! Biotic_stress
+is_a: TO:0000121
 
 [Term]
 id: CO_320:0000189
 name: sheath blight
 namespace: RiceTrait
-def: "The type and severity of sheath blight symptoms caused by Thanethoporus cucumeris (Rhizoctonia solani).  Symptoms: ellipsoidal, necrotic grayish-green lesions, which may enlarge and coalesce with other lesions, initially on lower leaf sheaths" []
+def: "The type and severity of sheath blight symptoms caused by Thanethoporus cucumeris (Rhizoctonia solani).  Symptoms: ellipsoidal, necrotic grayish-green lesions, which may enlarge and coalesce with other lesions, initially on lower leaf sheaths" [CO:curators]
 synonym: "ShBltInc" EXACT []
-xref: TO:0000255
 is_a: CO_320:Biotic_stress ! Biotic_stress
+is_a: TO:0000255
 
 [Term]
 id: CO_320:0000192
 name: yellow mottle disease
 namespace: RiceTrait
-def: "The type and severity of yellow mottle disease symptoms caused by rice yellow mottle virus (RYMV). Symptoms: stunting, reduced tillering, mottling and yellowing streaking of the leaves, delayed flowering or incomplete emergence of the panicles, in extreme cases, death of plants" []
+def: "The type and severity of yellow mottle disease symptoms caused by rice yellow mottle virus (RYMV). Symptoms: stunting, reduced tillering, mottling and yellowing streaking of the leaves, delayed flowering or incomplete emergence of the panicles, in extreme cases, death of plants" [CO:curators]
 synonym: "yellow mottle, rice yellow mottle disease" EXACT []
 synonym: "YellowMottleSev" EXACT []
-xref: TO:0000088
 is_a: CO_320:Biotic_stress ! Biotic_stress
+is_a: TO:0000088
 
 [Term]
 id: CO_320:0000193
 name: hoja blanca disease
 namespace: RiceTrait
-def: "The type and severity of hoja blanca disease symptoms caused by rice hoja blanca virus (RHBV) causing hoja blanca. Symptoms: cream colored to yellow spots, elongating and coalescing fo form longitudinal yellowish green to pale green striations. Streaks may coalesce to cover the whole leaf. Brown and sterile glumes with typical parrot beak shape of deformation" []
+def: "The type and severity of hoja blanca disease symptoms caused by rice hoja blanca virus (RHBV) causing hoja blanca. Symptoms: cream colored to yellow spots, elongating and coalescing fo form longitudinal yellowish green to pale green striations. Streaks may coalesce to cover the whole leaf. Brown and sterile glumes with typical parrot beak shape of deformation" [CO:curators]
 synonym: "hoja blanca, rice hoja blanca" EXACT []
 synonym: "HojaBlancaSev" EXACT []
-xref: TO:0000147
 is_a: CO_320:Biotic_stress ! Biotic_stress
+is_a: TO:0000147
 
 [Term]
 id: CO_320:0000194
 name: udbatta disease
 namespace: RiceTrait
-def: "The type and severity of udbatta disease symptoms caused by Balansia oryzae-sativae (Ephelis oryzae). Symptoms: a white mycelial mat ties the panicle branches together so that they emerge as single, small, cylindrical rods." []
+def: "The type and severity of udbatta disease symptoms caused by Balansia oryzae-sativae (Ephelis oryzae). Symptoms: a white mycelial mat ties the panicle branches together so that they emerge as single, small, cylindrical rods." [CO:curators]
 synonym: "udbatta disease" EXACT []
 synonym: "UDInc" EXACT []
-xref: TO:0000045
 is_a: CO_320:Biotic_stress ! Biotic_stress
+is_a: TO:0000045
 
 [Term]
 id: CO_320:0000195
 name: bakanae disease
 namespace: RiceTrait
-def: "In of bakanae disease symptoms caused by Gibberella fujikuroi. Symptoms: the plant elongates abnormally, has few tillers, and usually dies before producing grains" []
+def: "In of bakanae disease symptoms caused by Gibberella fujikuroi. Symptoms: the plant elongates abnormally, has few tillers, and usually dies before producing grains" [CO:curators]
 synonym: "bakanae disease" EXACT []
 synonym: "BakInc" EXACT []
-xref: TO:0000418
 is_a: CO_320:Biotic_stress ! Biotic_stress
+is_a: TO:0000418
 
 [Term]
 id: CO_320:0000196
 name: brown planthopper damage
 namespace: RiceTrait
-def: "The extent of damage caused by brown planthopper (Nilparvata lugens). Symptoms: Partial to pronounced yellowing and increasing severity of stunting. Extreme signs are wilting to death of plants. Infested areas in the field may be patchy" []
+def: "The extent of damage caused by brown planthopper (Nilparvata lugens). Symptoms: Partial to pronounced yellowing and increasing severity of stunting. Extreme signs are wilting to death of plants. Infested areas in the field may be patchy" [CO:curators]
 synonym: "BPHDam" EXACT []
 synonym: "brown planthopper" EXACT []
-xref: TO:0000424
 is_a: CO_320:Biotic_stress ! Biotic_stress
+is_a: TO:0000424
 
 [Term]
 id: CO_320:0000197
 name: case worm damage
 namespace: RiceTrait
-def: "The extent of plant damage caused by caseworm (Nymphula depunctalis). Symptoms: only the papery upper epidermis of the leaf remains after larvae have fed on the internal leaf tissue" []
+def: "The extent of plant damage caused by caseworm (Nymphula depunctalis). Symptoms: only the papery upper epidermis of the leaf remains after larvae have fed on the internal leaf tissue" [CO:curators]
 synonym: "case worm" EXACT []
 synonym: "CaseWormDam" EXACT []
-xref: TO:0000405
 is_a: CO_320:Biotic_stress ! Biotic_stress
+is_a: TO:0000405
 
 [Term]
 id: CO_320:0000199
 name: gall midge damage
 namespace: RiceTrait
-def: "The extent of plant damage caused by gall midge (Orseolia oryzae).  Symptoms: light-colored tubular galls resembling an onion leaf on the youngest leaf of the shoot in a tiller." []
+def: "The extent of plant damage caused by gall midge (Orseolia oryzae).  Symptoms: light-colored tubular galls resembling an onion leaf on the youngest leaf of the shoot in a tiller." [CO:curators]
 synonym: "gall midge" EXACT []
 synonym: "GallMidgeDam" EXACT []
-xref: TO:0000423
 is_a: CO_320:Biotic_stress ! Biotic_stress
+is_a: TO:0000423
 
 [Term]
 id: CO_320:0000200
 name: green leafhopper damage
 namespace: RiceTrait
-def: "The extent of damage caused by green leafhopper (Nephotettix virescens and Nephotettix cincticeps). Symptoms: partial to pronounced yellowing and increasing severity of stunting. Extreme signs are wilting to death of plants. Infested areas in the field may be patchy." []
+def: "The extent of damage caused by green leafhopper (Nephotettix virescens and Nephotettix cincticeps). Symptoms: partial to pronounced yellowing and increasing severity of stunting. Extreme signs are wilting to death of plants. Infested areas in the field may be patchy." [CO:curators]
 synonym: "GLhDam" EXACT []
 synonym: "green leafhopper" EXACT []
-xref: TO:0000212
 is_a: CO_320:Biotic_stress ! Biotic_stress
+is_a: TO:0000212
 
 [Term]
 id: CO_320:0000201
 name: leaffolder damage
 namespace: RiceTrait
-def: "The extent of leaf damage caused by leaffolder (Cnaphalocrosis medinalis or Marasmia patnalis). Symptoms: Larvae consume the leaf tissue except the epidermis, causing typical white streaks. They create a leaf tube during later stages of feeding" []
+def: "The extent of leaf damage caused by leaffolder (Cnaphalocrosis medinalis or Marasmia patnalis). Symptoms: Larvae consume the leaf tissue except the epidermis, causing typical white streaks. They create a leaf tube during later stages of feeding" [CO:curators]
 synonym: "leaffolder" EXACT []
 synonym: "LfFolderDam" EXACT []
-xref: TO:0000403
 is_a: CO_320:Biotic_stress ! Biotic_stress
+is_a: TO:0000403
 
 [Term]
 id: CO_320:0000203
 name: rice bug damage
 namespace: RiceTrait
-def: "The extent of plant damage caused by rice bug (Leptocorisa oratorisa)." []
+def: "The extent of plant damage caused by rice bug (Leptocorisa oratorisa)." [CO:curators]
 synonym: "RBugDam" EXACT []
 synonym: "rice bug" EXACT []
-xref: TO:0000220
 is_a: CO_320:Biotic_stress ! Biotic_stress
+is_a: TO:0000220
 
 [Term]
 id: CO_320:0000206
 name: rice whorl maggot damage
 namespace: RiceTrait
-def: "The extent of plant damage caused by rice whorl maggot (Hydrellia philippina). Symptoms: maggots eat the leaf margins causing conspicuous injury and sometimes stunting of plants" []
+def: "The extent of plant damage caused by rice whorl maggot (Hydrellia philippina). Symptoms: maggots eat the leaf margins causing conspicuous injury and sometimes stunting of plants" [CO:curators]
 synonym: "rice whorl maggot" EXACT []
 synonym: "RWhorlMaggDam" EXACT []
-xref: TO:0000332
 is_a: CO_320:Biotic_stress ! Biotic_stress
+is_a: TO:0000332
 
 [Term]
 id: CO_320:0000208
 name: stem borer damage
 namespace: RiceTrait
-def: "The extent of damage caused by stem borers, which include Chilo suppressalis (striped), C. polychrysus (dark headed), Rupela albinella (South American white), Scirpophaga incertulas (yellow), S innotata (white), Sesamia inferens (pink), Maliarpha separatella (African whiteheads), Diopsis macrophthalma (Stalked-eyed fly), and several other species" []
+def: "The extent of damage caused by stem borers, which include Chilo suppressalis (striped), C. polychrysus (dark headed), Rupela albinella (South American white), Scirpophaga incertulas (yellow), S innotata (white), Sesamia inferens (pink), Maliarpha separatella (African whiteheads), Diopsis macrophthalma (Stalked-eyed fly), and several other species" [CO:curators]
 synonym: "stem borer" EXACT []
 synonym: "StemBorer" EXACT []
-xref: TO:0000454
 is_a: CO_320:Biotic_stress ! Biotic_stress
+is_a: TO:0000454
 
 [Term]
 id: CO_320:0000210
 name: thrip damage
 namespace: RiceTrait
-def: "The extent of damage caused by thrips (Stenchaetothrips biformis)" []
+def: "The extent of damage caused by thrips (Stenchaetothrips biformis)" [CO:curators]
 synonym: "ThripDam" EXACT []
 synonym: "thrips" EXACT []
-xref: TO:0000154
 is_a: CO_320:Biotic_stress ! Biotic_stress
+is_a: TO:0000154
 
 [Term]
 id: CO_320:0000211
 name: whitebacked planthopper damage
 namespace: RiceTrait
-def: "The extent of damage caused by whitebacked planthopper (Sogatella furcifera). Symptoms: partial to pronounced yellowing and increasing severity of stunting. Extreme signs are wilting and death of plants. Infested areas in the field may be patchy." []
+def: "The extent of damage caused by whitebacked planthopper (Sogatella furcifera). Symptoms: partial to pronounced yellowing and increasing severity of stunting. Extreme signs are wilting and death of plants. Infested areas in the field may be patchy." [CO:curators]
 synonym: "WBPH" EXACT []
 synonym: "whitebacked planthopper" EXACT []
-xref: TO:0000205
 is_a: CO_320:Biotic_stress ! Biotic_stress
+is_a: TO:0000205
 
 [Term]
 id: CO_320:0000213
 name: bird damage
 namespace: RiceTrait
-def: "The extent of damage caused by birds." []
+def: "The extent of damage caused by birds." [CO:curators]
 synonym: "BirdDam" EXACT []
-xref: TO:0000260
 is_a: CO_320:Biotic_stress ! Biotic_stress
+is_a: TO:0000260
 
 [Term]
 id: CO_320:0000214
 name: rat damage
 namespace: RiceTrait
-def: "The extent of damage caused by rats. Symptoms: the tiller is cut at a 45 degrees angle. Damage is typically heavier in the center of a crop (stadium effect). A tiller cut through by a rodent is likely to regrow, if this is after maximum tillering then the regrown tiller is unlikely to produce panicles prior to harvest. Often the regrown, but non productive, tillers are not scored as rodent damage." []
+def: "The extent of damage caused by rats. Symptoms: the tiller is cut at a 45 degrees angle. Damage is typically heavier in the center of a crop (stadium effect). A tiller cut through by a rodent is likely to regrow, if this is after maximum tillering then the regrown tiller is unlikely to produce panicles prior to harvest. Often the regrown, but non productive, tillers are not scored as rodent damage." [CO:curators]
 synonym: "RatDam" EXACT []
-xref: TO:0000117
 is_a: CO_320:Biotic_stress ! Biotic_stress
+is_a: TO:0000117
 
 [Term]
 id: CO_320:0000216
 name: rice delphacid
 namespace: RiceTrait
-def: "The extent of damage caused by rice delphacid (Sogatodes oryzicola (Tagosodes orizicolus)). Symptoms: partial to pronounced yellowing and increasing severity of stunting. Extreme signs are wilting and death of plants. Infested areas in the field may be patchy." []
+def: "The extent of damage caused by rice delphacid (Sogatodes oryzicola (Tagosodes orizicolus)). Symptoms: partial to pronounced yellowing and increasing severity of stunting. Extreme signs are wilting and death of plants. Infested areas in the field may be patchy." [CO:curators]
 synonym: "RDelphDam" EXACT []
 synonym: "rice delphacid" EXACT []
-xref: TO:0000246
 is_a: CO_320:Biotic_stress ! Biotic_stress
+is_a: TO:0000246
 
 [Term]
 id: CO_320:0000218
 name: seedling height
 namespace: RiceTrait
-def: "Height of seedlings, measured from the base of the shoot to the tip of the tallest leaf blade" []
+def: "Height of seedlings, measured from the base of the shoot to the tip of the tallest leaf blade" [CO:curators]
 synonym: "SeedlHt, SDHT" EXACT []
-xref: TO:0000019
 is_a: CO_320:Morphological ! Morphological
+is_a: TO:0000019
 
 [Term]
 id: CO_320:0000486
 name: apiculus shape
 namespace: RiceTrait
-def: "Shape of the apiculus of the lemma" []
+def: "Shape of the apiculus of the lemma" [CO:curators]
 synonym: "ApSh" EXACT []
 is_a: CO_320:Morphological ! Morphological
 is_a: TO:0000079
@@ -1202,7 +1202,7 @@ is_a: TO:0000079
 id: CO_320:0000487
 name: auricle anthocyanin
 namespace: RiceTrait
-def: "Describes the purplish pigmentation, if any, attributable to anthocyanin on the auricles" []
+def: "Describes the purplish pigmentation, if any, attributable to anthocyanin on the auricles" [CO:curators]
 synonym: "AurShp" EXACT []
 is_a: CO_320:Morphological ! Morphological
 is_a: TO:0000071
@@ -1211,7 +1211,7 @@ is_a: TO:0000071
 id: CO_320:0000488
 name: awn distribution
 namespace: RiceTrait
-def: "The proportion and distribution of awned spikelets on a panicle" []
+def: "The proportion and distribution of awned spikelets on a panicle" [CO:curators]
 synonym: "AwDist" EXACT []
 is_a: CO_320:Morphological ! Morphological
 is_a: TO:0000657
@@ -1220,7 +1220,7 @@ is_a: TO:0000657
 id: CO_320:0000489
 name: basal leaf sheath anthocyanin
 namespace: RiceTrait
-def: "Describes the purplish pigmentation, if any, attributable to anthocyanin on the outer surface of the basal leaf sheath" []
+def: "Describes the purplish pigmentation, if any, attributable to anthocyanin on the outer surface of the basal leaf sheath" [CO:curators]
 synonym: "BLSAnth" EXACT []
 is_a: CO_320:Morphological ! Morphological
 is_a: TO:0000071
@@ -1229,7 +1229,7 @@ is_a: TO:0000071
 id: CO_320:0000490
 name: chromosome number
 namespace: RiceTrait
-def: "The number of chromosomes in the nucleus" []
+def: "The number of chromosomes in the nucleus" [CO:curators]
 synonym: "ChrNo" EXACT []
 is_a: CO_320:Biochemical ! Biochemical
 is_a: TO:0002683
@@ -1238,7 +1238,7 @@ is_a: TO:0002683
 id: CO_320:0000491
 name: coleoptile anthocyanin
 namespace: RiceTrait
-def: "Purple pigmentation attributable to anthocyanin on the coleoptile" []
+def: "Purple pigmentation attributable to anthocyanin on the coleoptile" [CO:curators]
 synonym: "ColeoAnth" EXACT []
 is_a: CO_320:Morphological ! Morphological
 is_a: TO:0000071
@@ -1247,7 +1247,7 @@ is_a: TO:0000071
 id: CO_320:0000492
 name: collar anthocyanin
 namespace: RiceTrait
-def: "Describes the purplish pigmentation, if any, attributable to anthocyanin on the collars" []
+def: "Describes the purplish pigmentation, if any, attributable to anthocyanin on the collars" [CO:curators]
 synonym: "CollAnth" EXACT []
 is_a: CO_320:Morphological ! Morphological
 is_a: TO:0000071
@@ -1256,17 +1256,17 @@ is_a: TO:0000071
 id: CO_320:0000493
 name: culm internode color
 namespace: RiceTrait
-def: "Color of the internodes on the culm/stem." []
+def: "Color of the internodes on the culm/stem." [CO:curators]
 synonym: "CulmINodCol" EXACT []
 synonym: "stem internode color" EXACT []
-xref: TO:0000426
 is_a: CO_320:Morphological ! Morphological
+is_a: TO:0000426
 
 [Term]
 id: CO_320:0000494
 name: culm internode underlying colour
 namespace: RiceTrait
-def: "Colour of internodes on the culm/stem underlying any anthocyanin markings" []
+def: "Colour of internodes on the culm/stem underlying any anthocyanin markings" [CO:curators]
 synonym: "CulmINodUnderCol" EXACT []
 synonym: "stem internode underlying colour" EXACT []
 is_a: CO_320:Morphological ! Morphological
@@ -1276,7 +1276,7 @@ is_a: TO:0000427
 id: CO_320:0000495
 name: culm node anthocyanin
 namespace: RiceTrait
-def: "Purplish markings, if any, on nodes on the culm/stem attributable to anthocyanin" []
+def: "Purplish markings, if any, on nodes on the culm/stem attributable to anthocyanin" [CO:curators]
 synonym: "CulmNodAnth" EXACT []
 synonym: "Stem node anthocyanin" EXACT []
 is_a: CO_320:Morphological ! Morphological
@@ -1286,16 +1286,16 @@ is_a: TO:0000071
 id: CO_320:0000496
 name: culm number
 namespace: RiceTrait
-def: "total number of reproductive and non-reproductive tillers after full heading" []
+def: "total number of reproductive and non-reproductive tillers after full heading" [CO:curators]
 synonym: "CulmNo, CUNO" EXACT []
-xref: TO:0000027
 is_a: CO_320:Morphological ! Morphological
+is_a: TO:0000027
 
 [Term]
 id: CO_320:0000497
 name: endosperm type
 namespace: RiceTrait
-def: "A broad classification of the type of endosperm based on the presence or absence of amylose" []
+def: "A broad classification of the type of endosperm based on the presence or absence of amylose" [CO:curators]
 synonym: "EndoType" EXACT []
 is_a: CO_320:Quality ! Quality
 is_a: TO:0000575
@@ -1304,7 +1304,7 @@ is_a: TO:0000575
 id: CO_320:0000498
 name: flowering date
 namespace: RiceTrait
-def: "Date of flowering" []
+def: "Date of flowering" [CO:curators]
 synonym: "FlwDate" EXACT []
 synonym: "heading date" EXACT []
 is_a: CO_320:Agronomical ! Agronomical
@@ -1314,27 +1314,27 @@ is_a: TO:0000933
 id: CO_320:0000499
 name: grain discoloration
 namespace: RiceTrait
-def: "The extent of discoloration of glumes caused by species of Sarocladium, Bipolaris, Alternaria, Gerlachia, Fusarium, Phoma, Curcularia, Trichoconiella, and Pseudomonas. Symptoms: Darkening of glumes of spikelets, brown color to black including rotten glumes. Intensity ranges from sporadic discoloration to discoloration of the whole glume" []
+def: "The extent of discoloration of glumes caused by species of Sarocladium, Bipolaris, Alternaria, Gerlachia, Fusarium, Phoma, Curcularia, Trichoconiella, and Pseudomonas. Symptoms: Darkening of glumes of spikelets, brown color to black including rotten glumes. Intensity ranges from sporadic discoloration to discoloration of the whole glume" [CO:curators]
 synonym: "grain discoloration" EXACT []
 synonym: "GrDiscol" EXACT []
-xref: TO:0000023
 is_a: CO_320:Biotic_stress ! Biotic_stress
+is_a: TO:0000023
 
 [Term]
 id: CO_320:0000500
 name: grassy stunt 2 disease
 namespace: RiceTrait
-def: "The type and severity of grassy stunt symptoms caused by the grassy stunt 2 virus (RGSV2). Symptoms: severe stunting, excessive tillering, yellow to orange and narrow leaves with small rusty spots" []
+def: "The type and severity of grassy stunt symptoms caused by the grassy stunt 2 virus (RGSV2). Symptoms: severe stunting, excessive tillering, yellow to orange and narrow leaves with small rusty spots" [CO:curators]
 synonym: "RGSV2Sev" EXACT []
 synonym: "rice grassy stunt 2 disease" EXACT []
-xref: TO:0000126
 is_a: CO_320:Biotic_stress ! Biotic_stress
+is_a: TO:0000126
 
 [Term]
 id: CO_320:0000501
 name: keel anthocyanin
 namespace: RiceTrait
-def: "Intensity of purple colour attributable to anthocyanin on the keel of the lemma" []
+def: "Intensity of purple colour attributable to anthocyanin on the keel of the lemma" [CO:curators]
 synonym: "KeelAnth" EXACT []
 synonym: "Lemma keel anthocyanin" EXACT []
 is_a: CO_320:Morphological ! Morphological
@@ -1344,7 +1344,7 @@ is_a: TO:0000071
 id: CO_320:0000502
 name: leaf blade anthocyanin
 namespace: RiceTrait
-def: "Describes the purplish pigmentation, if any, attributable to anthocyanin on the penultimate leaf lamina/blade" []
+def: "Describes the purplish pigmentation, if any, attributable to anthocyanin on the penultimate leaf lamina/blade" [CO:curators]
 synonym: "LfBladAnth" EXACT []
 is_a: CO_320:Morphological ! Morphological
 is_a: TO:0000071
@@ -1353,7 +1353,7 @@ is_a: TO:0000071
 id: CO_320:0000503
 name: leaf blade greenness
 namespace: RiceTrait
-def: "Intensity of greenness on the penultimate leaf lamina/blade, if visible under any purplish colour attributable to anthocyanin" []
+def: "Intensity of greenness on the penultimate leaf lamina/blade, if visible under any purplish colour attributable to anthocyanin" [CO:curators]
 synonym: "LfBladGreen" EXACT []
 is_a: CO_320:Morphological ! Morphological
 is_a: TO:0000299
@@ -1362,16 +1362,16 @@ is_a: TO:0000299
 id: CO_320:0000504
 name: leaf margin pubescence
 namespace: RiceTrait
-def: "Describes the pubescence, i.e. the hairiness, of the leaf margin" []
+def: "Describes the pubescence, i.e. the hairiness, of the leaf margin" [CO:curators]
 synonym: "LfMargPub" EXACT []
-xref: TO:0002723
 is_a: CO_320:Morphological ! Morphological
+is_a: TO:0002723
 
 [Term]
 id: CO_320:0000505
 name: lemma and palea color ornementation
 namespace: RiceTrait
-def: "Colour ornamentation of the lemma and palea. It characterizes the colours present only on parts of the lemma and palea" []
+def: "Colour ornamentation of the lemma and palea. It characterizes the colours present only on parts of the lemma and palea" [CO:curators]
 synonym: "hull colour, glume colour" EXACT []
 synonym: "LmPColOrn" EXACT []
 is_a: CO_320:Morphological ! Morphological
@@ -1381,7 +1381,7 @@ is_a: TO:0000079
 id: CO_320:0000506
 name: lemma phenol reaction
 namespace: RiceTrait
-def: "Describes the change in colour of lemmas in response phenol" []
+def: "Describes the change in colour of lemmas in response phenol" [CO:curators]
 synonym: "PhenReac" EXACT []
 is_a: CO_320:Quality ! Quality
 is_a: TO:0000062
@@ -1390,73 +1390,73 @@ is_a: TO:0000062
 id: CO_320:0000507
 name: ligule margin shape
 namespace: RiceTrait
-def: "Describes the form of the margin of the ligule" []
+def: "Describes the form of the margin of the ligule" [CO:curators]
 synonym: "LigMargShp" EXACT []
-xref: TO:0002766
 is_a: CO_320:Morphological ! Morphological
+is_a: TO:0002766
 
 [Term]
 id: CO_320:0000508
 name: Outcrossing extent
 namespace: RiceTrait
-def: "Describes the extent of outcrossing of male sterile lines" []
+def: "Describes the extent of outcrossing of male sterile lines" [CO:curators]
 synonym: "OutXExt" EXACT []
-xref: TO:0000330
 is_a: CO_320:Fertility ! Fertility
+is_a: TO:0000330
 
 [Term]
 id: CO_320:0000509
 name: panicle basal branch number
 namespace: Trait
-def: "Number of primary branches on the basal whorl of the panicle" []
+def: "Number of primary branches on the basal whorl of the panicle" [CO:curators]
 synonym: "PanN" EXACT []
-xref: TO:0000050
 is_a: CO_320:Morphological ! Morphological
+is_a: TO:0000050
 
 [Term]
 id: CO_320:0000510
 name: panicle blast damage
 namespace: RiceTrait
-def: "The type and severity of panicle blast symptoms caused by the fungal pathogen Magnaporthe grisea (Pyricularia oryzae). Symptoms: Dark, necrotic lesions cover partially or completely around the panicle base (node) or the uppermost internode or the lower part pf panicle axis. The panicles are greyish and have either partially filled or unfilled grains" []
+def: "The type and severity of panicle blast symptoms caused by the fungal pathogen Magnaporthe grisea (Pyricularia oryzae). Symptoms: Dark, necrotic lesions cover partially or completely around the panicle base (node) or the uppermost internode or the lower part pf panicle axis. The panicles are greyish and have either partially filled or unfilled grains" [CO:curators]
 synonym: "panicle blast, neck blast" EXACT []
 synonym: "PBDam" EXACT []
-xref: TO:0000477
 is_a: CO_320:Biotic_stress ! Biotic_stress
+is_a: TO:0000477
 
 [Term]
 id: CO_320:0000511
 name: panicle blast severity
 namespace: RiceTrait
-def: "The type and severity of panicle blast symptoms caused by the fungal pathogen Magnaporthe grisea (Pyricularia oryzae). Symptoms: Dark, necrotic lesions cover partially or completely around the panicle base (node) or the uppermost internode or the lower part pf panicle axis. The panicles are greyish and have either partially filled or unfilled grains" []
+def: "The type and severity of panicle blast symptoms caused by the fungal pathogen Magnaporthe grisea (Pyricularia oryzae). Symptoms: Dark, necrotic lesions cover partially or completely around the panicle base (node) or the uppermost internode or the lower part pf panicle axis. The panicles are greyish and have either partially filled or unfilled grains" [CO:curators]
 synonym: "panicle blast, neck blast" EXACT []
 synonym: "PBSev" EXACT []
-xref: TO:0000477
 is_a: CO_320:Biotic_stress ! Biotic_stress
+is_a: TO:0000477
 
 [Term]
 id: CO_320:0000512
 name: panicle blast incidence
 namespace: RiceTrait
-def: "The type and severity of panicle blast symptoms caused by the fungal pathogen Magnaporthe grisea (Pyricularia oryzae). Symptoms: Dark, necrotic lesions cover partially or completely around the panicle base (node) or the uppermost internode or the lower part pf panicle axis. The panicles are greyish and have either partially filled or unfilled grains" []
+def: "The type and severity of panicle blast symptoms caused by the fungal pathogen Magnaporthe grisea (Pyricularia oryzae). Symptoms: Dark, necrotic lesions cover partially or completely around the panicle base (node) or the uppermost internode or the lower part pf panicle axis. The panicles are greyish and have either partially filled or unfilled grains" [CO:curators]
 synonym: "panicle blast, neck blast" EXACT []
 synonym: "PBInc" EXACT []
-xref: TO:0000477
 is_a: CO_320:Biotic_stress ! Biotic_stress
+is_a: TO:0000477
 
 [Term]
 id: CO_320:0000513
 name: panicle branch arrangement
 namespace: Trait
-def: "The arrangement of primary branches on the panicle axis, grouped into whorls or individually on alternate sides" []
+def: "The arrangement of primary branches on the panicle axis, grouped into whorls or individually on alternate sides" [CO:curators]
 synonym: "PanBrArr" EXACT []
-xref: TO:0002751
 is_a: CO_320:Morphological ! Morphological
+is_a: TO:0002751
 
 [Term]
 id: CO_320:0000514
 name: seeding date
 namespace: RiceTrait
-def: "Date of effective seeding, ie the date when seeds were first moistened This may be the date of soaking for pre-soaked seed, or the date of sowing for dry seed sown onto a wet seedbed, or the date when rain or other moisture becomes available to seed sown dry on a dry seedbed" []
+def: "Date of effective seeding, ie the date when seeds were first moistened This may be the date of soaking for pre-soaked seed, or the date of sowing for dry seed sown onto a wet seedbed, or the date when rain or other moisture becomes available to seed sown dry on a dry seedbed" [CO:curators]
 synonym: "SdDate" EXACT []
 is_a: CO_320:Agronomical ! Agronomical
 
@@ -1464,25 +1464,25 @@ is_a: CO_320:Agronomical ! Agronomical
 id: CO_320:0000515
 name: yellow dwarf
 namespace: RiceTrait
-def: "The type and severity of yellow dwarf symptoms caused by a mycoplasma. Symptoms: pale yellow, droopy leaves, excessive tillering and stunting" []
+def: "The type and severity of yellow dwarf symptoms caused by a mycoplasma. Symptoms: pale yellow, droopy leaves, excessive tillering and stunting" [CO:curators]
 synonym: "YellowDwarfSev" EXACT []
-xref: TO:0000292
 is_a: CO_320:Biotic_stress ! Biotic_stress
+is_a: TO:0000292
 
 [Term]
 id: CO_320:0000894
 name: anther colour
 namespace: RiceTrait
-def: "Colour of anther" []
+def: "Colour of anther" [CO:curators]
 synonym: "AnCo" EXACT []
-xref: TO:0000187
 is_a: CO_320:Morphological ! Morphological
+is_a: TO:0000187
 
 [Term]
 id: CO_320:0000895
 name: anthocyanin below apiculus
 namespace: RiceTrait
-def: "Intensity of purple colour attributable to anthocyanin on the area just below the apiculus of the lemma" []
+def: "Intensity of purple colour attributable to anthocyanin on the area just below the apiculus of the lemma" [CO:curators]
 synonym: "BApAnth" EXACT []
 is_a: CO_320:Morphological ! Morphological
 is_a: TO:0000071
@@ -1491,7 +1491,7 @@ is_a: TO:0000071
 id: CO_320:0000896
 name: apiculus anthocyanin
 namespace: RiceTrait
-def: "Intensity of purple colour attributable to anthocyanin on the apiculus of the lemma" []
+def: "Intensity of purple colour attributable to anthocyanin on the apiculus of the lemma" [CO:curators]
 synonym: "ApAnth" EXACT []
 is_a: CO_320:Morphological ! Morphological
 is_a: TO:0000071
@@ -1560,4 +1560,3 @@ name: scale_of
 [Typedef]
 id: variable_of
 name: variable_of
-
