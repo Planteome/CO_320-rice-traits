@@ -18,7 +18,8 @@ name: grain width
 namespace: RiceTrait
 def: "Width of whole grain including the hull, defined as the distance across the fertile lemma and the palea at the widest point" []
 synonym: "GrWdt, GRWD" EXACT []
-xref: TO:0000402 TO:0000149
+xref: TO:0000402
+xref: TO:0000149
 is_a: CO_320:Quality ! Quality
 
 [Term]
@@ -392,7 +393,8 @@ namespace: RiceTrait
 def: "The extent to which plant growth is adversely affected in soils or other growth medium with high salt content" []
 synonym: "salt tolerance, salinity injury, salinity" EXACT []
 synonym: "SaltInj" EXACT []
-xref: TO:0000429 TO:0006001
+xref: TO:0000429
+xref: TO:0006001
 is_a: CO_320:Abiotic_stress ! Abiotic_stress
 
 [Term]
@@ -401,7 +403,8 @@ name: submergence tolerance
 namespace: RiceTrait
 def: "The ability of plants to survive a period of submergence" []
 synonym: "SubTol" EXACT []
-xref: TO:0000286 TO:0000524
+xref: TO:0000286
+xref: TO:0000524
 is_a: CO_320:Abiotic_stress ! Abiotic_stress
 
 [Term]
@@ -595,7 +598,8 @@ name: grain weight
 namespace: RiceTrait
 def: "The weight of a sample of whole grains including the hull" []
 synonym: "GrnWt, GRWT" EXACT []
-xref: TO:0000181 TO:0000269
+xref: TO:0000181
+xref: TO:0000269
 is_a: CO_320:Agronomical ! Agronomical
 
 [Term]
