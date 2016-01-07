@@ -738,7 +738,7 @@ is_a: TO:0002767
 [Term]
 id: CO_320:0000128
 name: panicle axis texture
-namespace: Trait
+namespace: RiceTrait
 def: "Texture of the main axis of the panicle" [CO:curators]
 synonym: "PanAxText" EXACT []
 is_a: CO_320:Morphological ! Morphological
@@ -774,7 +774,7 @@ is_a: TO:0002757
 [Term]
 id: CO_320:0000141
 name: panicle distance to basal branch
-namespace: Trait
+namespace: RiceTrait
 def: "Distance from the base of the panicle to the point of insertion of the lowest branch" [CO:curators]
 synonym: "PanBasBrDist" EXACT []
 is_a: CO_320:Morphological ! Morphological
@@ -1407,7 +1407,7 @@ is_a: TO:0000330
 [Term]
 id: CO_320:0000509
 name: panicle basal branch number
-namespace: Trait
+namespace: RiceTrait
 def: "Number of primary branches on the basal whorl of the panicle" [CO:curators]
 synonym: "PanN" EXACT []
 is_a: CO_320:Morphological ! Morphological
@@ -1446,7 +1446,7 @@ is_a: TO:0000477
 [Term]
 id: CO_320:0000513
 name: panicle branch arrangement
-namespace: Trait
+namespace: RiceTrait
 def: "The arrangement of primary branches on the panicle axis, grouped into whorls or individually on alternate sides" [CO:curators]
 synonym: "PanBrArr" EXACT []
 is_a: CO_320:Morphological ! Morphological
