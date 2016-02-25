@@ -972,7 +972,7 @@ is_a: TO:0000386
 
 [Term]
 id: CO_320:0000184
-name: Rice rice tungro disease
+name: Rice tungro disease
 namespace: RiceTrait
 def: "The type and severity of tungro symptoms caused by the Rice tungro virus bacilliform virus (RTBV) and rice tungro spherical virus (RTSV). Symptoms: yellow to yellow orange leaves, stunting and slightly reduced tillering" [CO:curators]
 synonym: "RTungroSev" EXACT []
@@ -1111,7 +1111,7 @@ is_a: TO:0000403
 
 [Term]
 id: CO_320:0000203
-name: Rice rice bug damage
+name: Rice bug damage
 namespace: RiceTrait
 def: "The extent of plant damage caused by rice bug (Leptocorisa oratorisa)." [CO:curators]
 synonym: "RBugDam" EXACT []
@@ -1121,7 +1121,7 @@ is_a: TO:0000220
 
 [Term]
 id: CO_320:0000206
-name: Rice rice whorl maggot damage
+name: Rice whorl maggot damage
 namespace: RiceTrait
 def: "The extent of plant damage caused by rice whorl maggot (Hydrellia philippina). Symptoms: maggots eat the leaf margins causing conspicuous injury and sometimes stunting of plants" [CO:curators]
 synonym: "rice whorl maggot" EXACT []
@@ -1179,7 +1179,7 @@ is_a: TO:0000117
 
 [Term]
 id: CO_320:0000216
-name: Rice rice delphacid
+name: Rice delphacid
 namespace: RiceTrait
 def: "The extent of damage caused by rice delphacid (Sogatodes oryzicola (Tagosodes orizicolus)). Symptoms: partial to pronounced yellowing and increasing severity of stunting. Extreme signs are wilting and death of plants. Infested areas in the field may be patchy." [CO:curators]
 synonym: "RDelphDam" EXACT []
@@ -2098,7 +2098,7 @@ relationship: scale_of CO_320:0000348 ! bacterial blight damage estimation green
 
 [Term]
 id: CO_320:0000350
-name: Rice rice tungro disease estimation
+name: Rice tungro disease estimation
 namespace: RiceMethod
 def: "Estimate the stunting and discoloration" [CO:curators]
 is_a: CO_320:Estimation ! Estimation
@@ -2339,7 +2339,7 @@ relationship: scale_of CO_320:0000384 ! case worm damage assessment
 
 [Term]
 id: CO_320:0000386
-name: Rice rice whorl maggot damage assessment
+name: Rice whorl maggot damage assessment
 namespace: RiceMethod
 def: "Observe the severity of damage caused by rice whorl maggot" [CO:curators]
 is_a: CO_320:Estimation ! Estimation
@@ -2347,14 +2347,14 @@ relationship: method_of CO_320:0000206 ! rice whorl maggot damage
 
 [Term]
 id: CO_320:0000387
-name: Rice rice whorl maggot damage scale
+name: Rice whorl maggot damage scale
 namespace: RiceScale
 is_a: CO_320:Ordinal ! Ordinal
 relationship: scale_of CO_320:0000386 ! rice whorl maggot damage assessment
 
 [Term]
 id: CO_320:0000388
-name: Rice rice bug damage assessment
+name: Rice bug damage assessment
 namespace: RiceMethod
 def: "Observe the proportion of injured grains per panicle caused by rice bug" [CO:curators]
 is_a: CO_320:Estimation ! Estimation
@@ -2362,7 +2362,7 @@ relationship: method_of CO_320:0000203 ! rice bug damage
 
 [Term]
 id: CO_320:0000389
-name: Rice rice bug damage scale
+name: Rice bug damage scale
 namespace: RiceScale
 is_a: CO_320:Ordinal ! Ordinal
 relationship: scale_of CO_320:0000388 ! rice bug damage assessment
@@ -3645,7 +3645,7 @@ relationship: method_of CO_320:0000041 ! sterile lemma color
 
 [Term]
 id: CO_320:0000572
-name: Rice rice tungro disease estimation - greenhouse
+name: Rice tungro disease estimation - greenhouse
 namespace: RiceMethod
 def: "Grow plants in a greenhouse. Inoculate seedlings. Score RTungroSev_Est_0to9 after 4 weeks, and calculate Disease Index DI= (20xN3 + 40xN5 + 70xN7 + 100xN9)/NT, where N3-N9 are the number of plants with score 3-9 and NT is total number of plants scored" [CO:curators]
 is_a: CO_320:Computation ! Computation
@@ -3871,14 +3871,14 @@ relationship: scale_of CO_320:0000796 ! rat damage incidence estimation
 
 [Term]
 id: CO_320:0000609
-name: Rice rice delphacid injury scale greenhouse
+name: Rice delphacid injury scale greenhouse
 namespace: RiceScale
 is_a: CO_320:Ordinal ! Ordinal
 relationship: scale_of CO_320:0000797 ! rice delphacid injury assessment greenhouse
 
 [Term]
 id: CO_320:0000610
-name: Rice rice delphacid injury scale field
+name: Rice delphacid injury scale field
 namespace: RiceScale
 is_a: CO_320:Ordinal ! Ordinal
 relationship: scale_of CO_320:0000798 ! rice delphacid injury assessment field
@@ -5581,7 +5581,7 @@ relationship: method_of CO_320:0000214 ! rat damage
 
 [Term]
 id: CO_320:0000797
-name: Rice rice delphacid injury assessment greenhouse
+name: Rice delphacid injury assessment greenhouse
 namespace: RiceMethod
 def: "Sow plants in a greenhouse with a uniform high population of green leafhopper, and observe the damage on seedlings" [CO:curators]
 is_a: CO_320:Estimation ! Estimation
@@ -5589,7 +5589,7 @@ relationship: method_of CO_320:0000216 ! rice delphacid
 
 [Term]
 id: CO_320:0000798
-name: Rice rice delphacid injury assessment field
+name: Rice delphacid injury assessment field
 namespace: RiceMethod
 def: "Observe the damages on plants caused by rice delphacid. For a field test, use an augmented experimental design with a susceptible check replicated at intervals across the whole trial. The test is considered a valid test for resistance if the hopper population is uniformly distributed at a high level across the screening box, as indicated by hopper counts on the susceptible check. A minimum of the following hopper density on susceptible check is necessary: a. 10 hoppers/hill at 10-15 days after transplanting, b. 25 hoppers / hiII at maximum tillering, c. 100 hoppers/hill at early booting stage" [CO:curators]
 is_a: CO_320:Estimation ! Estimation
@@ -6635,7 +6635,7 @@ relationship: scale_of CO_320:0000802 ! seed germination 1
 
 [Term]
 id: CO_320:0000909
-name: Rice rice tungro disease scale
+name: Rice tungro disease scale
 namespace: RiceScale
 is_a: CO_320:Ordinal ! Ordinal
 relationship: scale_of CO_320:0000350 ! rice tungro disease estimation
