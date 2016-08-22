@@ -3634,14 +3634,14 @@ relationship: scale_of CO_320:0000780 ! outcrossing calculation
 [Term]
 id: CO_320:0000593
 name: rice panicle axis texture scale
-namespace: Scale
+namespace: RiceScale
 is_a: CO_320:Nominal ! Nominal
 relationship: scale_of CO_320:0000781 ! panicle axis texture assessment
 
 [Term]
 id: CO_320:0000594
 name: rice branches/basal whorl
-namespace: Scale
+namespace: RiceScale
 is_a: CO_320:Numerical ! Numerical
 relationship: scale_of CO_320:0000782 ! average panicle basal branch number
 
@@ -3662,7 +3662,7 @@ relationship: scale_of CO_320:0000785 ! panicle blast incidence
 [Term]
 id: CO_320:0000598
 name: rice panicle branch arrangement scale
-namespace: Scale
+namespace: RiceScale
 is_a: CO_320:Nominal ! Nominal
 relationship: scale_of CO_320:0000786 ! panicle branch arrangement assessment
 
@@ -5432,7 +5432,7 @@ relationship: method_of CO_320:0000508 ! outcrossing extent
 [Term]
 id: CO_320:0000781
 name: rice panicle axis texture assessment
-namespace: Method
+namespace: RiceMethod
 def: "Wild species: assess the texture of the main panicle axis by rubbing fingers from the base towards the tip and assess the smoothness" [CO:curators]
 is_a: CO_320:Estimation ! Estimation
 relationship: method_of CO_320:0000128 ! panicle axis texture
@@ -5440,7 +5440,7 @@ relationship: method_of CO_320:0000128 ! panicle axis texture
 [Term]
 id: CO_320:0000782
 name: rice average panicle basal branch number
-namespace: Method
+namespace: RiceMethod
 def: "Count the number of primary panicle branches attached to the basal whorl of five panicles, and calculate the average" [CO:curators]
 is_a: CO_320:Computation ! Computation
 relationship: method_of CO_320:0000509 ! panicle basal branch number
@@ -5472,7 +5472,7 @@ relationship: method_of CO_320:0000512 ! panicle blast incidence
 [Term]
 id: CO_320:0000786
 name: rice panicle branch arrangement assessment
-namespace: Method
+namespace: RiceMethod
 def: "Observe whether primary branches on the panicle axis are grouped into whorls or are borne individually on alternate sides" [CO:curators]
 is_a: CO_320:Estimation ! Estimation
 relationship: method_of CO_320:0000513 ! panicle branch arrangement
@@ -5480,7 +5480,7 @@ relationship: method_of CO_320:0000513 ! panicle branch arrangement
 [Term]
 id: CO_320:0000787
 name: rice average panicle distance to basal branch
-namespace: Method
+namespace: RiceMethod
 def: "Measure the distance from the base of the panicle to the point of insertion of the lowest branch on five representative panicles and calculate their average" [CO:curators]
 is_a: CO_320:Computation ! Computation
 relationship: method_of CO_320:0000141 ! panicle distance to basal branch
@@ -5707,7 +5707,7 @@ is_a: CO_320:0000035 ! panicle axis attitude
 [Term]
 id: CO_320:0000814
 name: rice PanAxText_Est_1or2
-namespace: Variable
+namespace: RiceVariable
 synonym: "PA_TEXT" EXACT []
 is_a: CO_320:Variable ! Variable
 relationship: variable_of CO_320:0000128 ! panicle axis texture
@@ -5718,7 +5718,7 @@ is_a: CO_320:0000128 ! panicle axis texture
 [Term]
 id: CO_320:0000815
 name: rice PanN_Av_Pan
-namespace: Variable
+namespace: RiceVariable
 synonym: "pbasbrno" EXACT []
 is_a: CO_320:Variable ! Variable
 relationship: variable_of CO_320:0000509 ! panicle basal branch number
@@ -5762,7 +5762,7 @@ is_a: CO_320:0000512 ! panicle blast incidence
 [Term]
 id: CO_320:0000819
 name: rice PanBrArr_Est_1or2
-namespace: Variable
+namespace: RiceVariable
 synonym: "pbra" EXACT []
 is_a: CO_320:Variable ! Variable
 relationship: variable_of CO_320:0000513 ! panicle branch arrangement
@@ -5773,7 +5773,7 @@ is_a: CO_320:0000513 ! panicle branch arrangement
 [Term]
 id: CO_320:0000820
 name: rice PanBasBrDist_Av_mm
-namespace: Variable
+namespace: RiceVariable
 synonym: "dist_post" EXACT []
 is_a: CO_320:Variable ! Variable
 relationship: variable_of CO_320:0000141 ! panicle distance to basal branch
