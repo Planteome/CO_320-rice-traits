@@ -210,7 +210,7 @@ namespace: RiceTrait
 def: "The attitude of the main axis of the panicle, which ranges from straight upright to droopy" [CO:curators]
 synonym: "PanAxAtt, PA" EXACT []
 synonym: "Panicle attitude" EXACT []
-is_a: TO:00000342
+is_a: TO:0000342
 
 [Term]
 id: CO_320:0000036
