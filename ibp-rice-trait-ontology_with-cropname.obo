@@ -2225,7 +2225,7 @@ id: CO_320:0000486
 name: rice apiculus shape trait
 def: "Shape of the apiculus of the lemma" [CO:curators]
 synonym: "ApSh" EXACT []
-is_a: TO:0000079
+is_a: TO:0000079 ! flower bract morphology trait
 
 [Term]
 id: CO_320:0000487
@@ -2239,7 +2239,7 @@ id: CO_320:0000488
 name: rice awn distribution trait
 def: "The proportion and distribution of awned spikelets on a panicle" [CO:curators]
 synonym: "AwDist" EXACT []
-is_a: TO:0000657
+is_a: TO:0000657 ! spikelet morphology trait
 
 [Term]
 id: CO_320:0000489
@@ -2429,7 +2429,7 @@ is_a: TO:0002751
 
 [Term]
 id: CO_320:0000514
-name: rice seeding date trait
+name: rice seeding date
 def: "Date of effective seeding, ie the date when seeds were first moistened This may be the date of soaking for pre-soaked seed, or the date of sowing for dry seed sown onto a wet seedbed, or the date when rain or other moisture becomes available to seed sown dry on a dry seedbed" [CO:curators]
 synonym: "SdDate" EXACT []
 
@@ -5251,18 +5251,21 @@ id: CO_320:0000894
 name: rice anther colour trait
 def: "Colour of anther" [CO:curators]
 synonym: "AnCo" EXACT []
+is_a: TO:0000187 ! anther color
 
 [Term]
 id: CO_320:0000895
 name: rice anthocyanin below apiculus trait
 def: "Intensity of purple colour attributable to anthocyanin on the area just below the apiculus of the lemma" [CO:curators]
 synonym: "BApAnth" EXACT []
+is_a: TO:0000140 ! lemma apiculus color
 
 [Term]
 id: CO_320:0000896
 name: rice apiculus anthocyanin trait
 def: "Intensity of purple colour attributable to anthocyanin on the apiculus of the lemma" [CO:curators]
 synonym: "ApAnth" EXACT []
+is_a: TO:0000140 ! lemma apiculus color
 
 [Term]
 id: CO_320:0000898
