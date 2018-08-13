@@ -478,8 +478,7 @@ id: CO_320:0000100
 name: rice grain weight trait
 def: "The weight of a sample of whole grains including the hull" [CO:curators]
 synonym: "GrnWt, GRWT" EXACT []
-is_a: TO:0000181
-is_a: TO:0000269
+is_a: TO:0000919
 
 [Term]
 id: CO_320:0000102
