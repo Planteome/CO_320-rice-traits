@@ -1,5 +1,6 @@
 format-version: 1.2
 auto-generated-by: python
+default-namespace: CO_320_rice
 ontology: co_320
 
 [Term]
