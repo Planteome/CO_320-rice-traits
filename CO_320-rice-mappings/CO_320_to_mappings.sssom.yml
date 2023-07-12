@@ -1,0 +1,11 @@
+curie_map:
+  CO_320: https://cropontology.org/rdf/CO_320_
+  TO: http://purl.obolibrary.org/obo/TO_
+  skos: http://www.w3.org/2004/02/skos/core
+license: https://creativecommons.org/licenses/by/4.0/
+mapping_provider: 
+mapping_set_group: rice_mappings
+mapping_set_id: co_320_to
+mapping_set_title: 'Rice Mappings: CO_320-TO'
+object_source: http://purl.obolibrary.org/to.owl
+subject_source: https://cropontology.org/ontology/CO_320/Rice/owl
