@@ -1,4 +1,5 @@
 # ibp-rice-traits
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8253490.svg)](https://doi.org/10.5281/zenodo.8253490)
 
 You can request new variables or an update to an existing one here: http://trait-requests.planteome.org/.
 
