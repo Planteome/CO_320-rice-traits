@@ -6924,6 +6924,7 @@ id: CO_320:0001089
 name: rice oxygen radical absorbance capacity trait
 def: "Antioxidant activity of leaf extracts" []
 synonym: "ORAC" EXACT []
+is_a: TO:0001143 antioxidant activity trait
 
 [Term]
 id: CO_320:0001090
