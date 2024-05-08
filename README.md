@@ -1,5 +1,7 @@
-# ibp-rice-traits
+# Rice-traits
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8253490.svg)](https://doi.org/10.5281/zenodo.8253490)
+
+The Rice trait Ontology is part of the Crop Ontology: https://cropontology.org/term/CO_320:ROOT 
 
 You can request new variables or an update to an existing one here: http://trait-requests.planteome.org/.
 
