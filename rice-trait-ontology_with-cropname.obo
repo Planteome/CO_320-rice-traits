@@ -358,7 +358,7 @@ name: rice grain yield trait
 def: "Amount of grain (weight) produced per area" []
 synonym: "GY" EXACT []
 property_value: exactMatch TO:0000396
-is_a: TO:0000396
+is_a: TO:0000396 ! grain yield
 
 [Term]
 id: CO_320:0000074
@@ -507,7 +507,7 @@ name: rice grain weight trait
 def: "The weight of a whole grain including the hull" []
 synonym: "GrnWt" EXACT []
 property_value: exactMatch TO:0000181
-is_a: TO:0000181
+is_a: TO:0000181 grain weight
 
 [Term]
 id: CO_320:0000102
@@ -5617,18 +5617,21 @@ id: CO_320:0000894
 name: rice anther colour trait
 def: "Colour of anther" []
 synonym: "AnCo" EXACT []
+is_a: TO:0000187 ! anther color
 
 [Term]
 id: CO_320:0000895
 name: rice anthocyanin below apiculus trait
 def: "Intensity of purple colour attributable to anthocyanin on the area just below the apiculus of the lemma" []
 synonym: "BApAnth" EXACT []
+is_a: TO:0000071 ! anthocyanin content
 
 [Term]
 id: CO_320:0000896
 name: rice apiculus anthocyanin trait
 def: "Intensity of purple colour attributable to anthocyanin on the apiculus of the lemma" []
 synonym: "ApAnth" EXACT []
+is_a: TO:0000071 ! anthocyanin content
 
 [Term]
 id: CO_320:0000897
@@ -6656,234 +6659,273 @@ id: CO_320:0001046
 name: rice water extraction capacity trait
 def: "Capcaity of the plant to extract water from the soil" []
 synonym: "SMTwp" EXACT []
+is_a: TO:0000394 ! drought stress response trait
 
 [Term]
 id: CO_320:0001047
 name: rice unfilled spikelets per panicle trait
 def: "Number of spikelets that are not filled with a grain per panicle" []
 synonym: "USpPan" EXACT []
+is_a: TO:0000180 ! spikelet fertility
 
 [Term]
 id: CO_320:0001048
 name: rice filled grain weight trait
 def: "The weight of a spikelet that is filled with a grain" []
 synonym: "FGW" EXACT []
+is_a: TO:0000181 ! grain weight
 
 [Term]
 id: CO_320:0001049
 name: rice aerenchyma area trait
 def: "Area of an air space in a cross-section of the culm" []
 synonym: "AerA" EXACT []
+is_a: TO:0001055 ! root aerenchyma cross-sectional area
 
 [Term]
 id: CO_320:0001050
 name: rice culm diameter - 2nd internode trait
 def: "Diameter of the second elongated internode from the base without the leaf sheath" []
 synonym: "CulmD" EXACT []
+is_a: TO:0020083 ! stem diameter
 
 [Term]
 id: CO_320:0001051
 name: rice culm major diameter - 2nd internode trait
 def: "Major diameter (ie the longest diameter of an eliptical section) of the wider portion of the second elongated internode from the base without the leaf sheath" []
 synonym: "CDMaj" EXACT []
+is_a: TO:0020083 ! stem diameter
 
 [Term]
 id: CO_320:0001052
 name: rice culm minor diameter - 2nd internode trait
 def: "Minor diameter (ie the shortest diameter of an eliptical section) of the narrower portion of the second elongated internode from the base without the leaf sheath" []
 synonym: "CDMin" EXACT []
+is_a: TO:0020083 ! stem diameter
 
 [Term]
 id: CO_320:0001053
 name: rice filled spikelets per panicle trait
 def: "Number of spikelets with a filled grain per panicle" []
 synonym: "FSpPan" EXACT []
+is_a: TO:0000180 ! spikelet fertility
 
 [Term]
 id: CO_320:0001054
 name: rice grain yield per plant trait
 def: "Amount of grain (weight) produced per one plant" []
 synonym: "GYplt" EXACT []
+is_a: TO:0000396 ! grain yield
 
 [Term]
 id: CO_320:0001055
 name: rice panicle temperature trait
 def: "Panicle surface temperature" []
 synonym: "PanT" EXACT []
+is_a: TO:0000847 ! panicle inflorescence morphology trait
 
 [Term]
 id: CO_320:0001056
 name: rice panicles per hill trait
 def: "Number of panicles per hill" []
 synonym: "PanHill" EXACT []
+is_a: 
 
 [Term]
 id: CO_320:0001057
 name: rice root diameter trait
 def: "Diameter of a cross-section of the root" []
 synonym: "RtD" EXACT []
+is_a: TO:0001112 ! root width
 
 [Term]
 id: CO_320:0001059
 name: rice aerenchyma diameter trait
 def: "Width of air spaces in the culm" []
 synonym: "AerD" EXACT []
+is_a: TO:0000043 ! root morphology trait
 
 [Term]
 id: CO_320:0001060
 name: rice aerenchyma number trait
 def: "Number of air spaces in the culm" []
 synonym: "AerN" EXACT []
+is_a: TO:0000043 ! root morphology trait
 
 [Term]
 id: CO_320:0001061
 name: rice canopy height trait
 def: "Distance from soil surface to top of canopy" []
 synonym: "CanH" EXACT []
+is_a: TO:0000207 ! plant height
 
 [Term]
 id: CO_320:0001062
 name: rice culm area trait
 def: "Cross-sectional area of the second elongated internode from the base without the leaf sheath" []
 synonym: "CulmA" EXACT []
+is_a: TO:0001035 ! stem width
 
 [Term]
 id: CO_320:0001063
 name: rice culm degree of deformation trait
 def: "Flatness of the culm" []
 synonym: "CDef" EXACT []
+is_a: TO:0000893 ! stem shape
 
 [Term]
 id: CO_320:0001064
 name: rice culm partial porosity trait
 def: "Ratio of aerenchyma area to culm area" []
 synonym: "CulmPP" EXACT []
+is_a: TO:0000361 ! stem morphology trait
 
 [Term]
 id: CO_320:0001065
 name: rice culm specific porosity trait
 def: "Ratio of aerenchyma area to cortex area" []
 synonym: "CulmSP" EXACT []
+is_a: TO:0000361 ! stem morphology trait
 
 [Term]
 id: CO_320:0001066
 name: rice culm total porosity trait
 def: "Ratio of aerenchyma and pith area to culm area" []
 synonym: "CulmTP" EXACT []
+is_a: TO:0000361 ! stem morphology trait
 
 [Term]
 id: CO_320:0001067
 name: rice culm wall thickness trait
 def: "Distance between the perimeter of the hollow pith and the epidermis" []
 synonym: "CwallT" EXACT []
+is_a: TO:0000361 ! stem morphology trait
 
 [Term]
 id: CO_320:0001068
 name: rice culm wall area trait
 def: "Area of the culm wall" []
 synonym: "CwallA" EXACT []
+is_a: TO:0000361 ! stem morphology trait
 
 [Term]
 id: CO_320:0001069
 name: rice time to flowering (from transplanting) trait
 def: "Time elapsed from date of transplanting to flowering stage" []
 synonym: "DFlwT" EXACT []
+is_a: TO:0002616 ! flowering time trait
 
 [Term]
 id: CO_320:0001070
 name: rice time to initial flowering (from transplanting) trait
 def: "Time elapsed from date of transplanting to initial flowering stage" []
 synonym: "DiFlwT" EXACT []
+is_a: TO:0002616 ! flowering time trait
 
 [Term]
 id: CO_320:0001071
 name: rice time to maturity (from transplanting) trait
 def: "Time elapsed from date of transplanting to physiological maturity stage" []
 synonym: "DMatT" EXACT []
+is_a: TO:0000469 ! days to maturity
 
 [Term]
 id: CO_320:0001072
 name: rice time to panicle exsertion (from heading) trait
 def: "Time elapsed from heading date and date of exsertion of last spikelet" []
 synonym: "DExs" EXACT []
+is_a: TO:0001021 ! days to inflorescence exsertion
 
 [Term]
 id: CO_320:0001073
 name: rice dry matter yield trait
 def: "Dry weight of all aboveground biomass per area" []
 synonym: "TDM" EXACT []
+is_a: TO:0000457 ! total biomass yield
 
 [Term]
 id: CO_320:0001074
 name: rice elongated internode number trait
 def: "Number of elongated internodes on the culm" []
 synonym: "EInt" EXACT []
+is_a: TO:0000361 ! stem morphology trait
 
 [Term]
 id: CO_320:0001075
 name: rice flag leaf area trait
 def: "Area of the uppermost leaf on the main culm" []
 synonym: "FLA" EXACT []
+is_a: TO:0000996 ! flag leaf area
 
 [Term]
 id: CO_320:0001076
 name: rice flag leaf dry weight trait
 def: "Dry weight of the uppermost leaf on the main culm" []
 synonym: "FLDw" EXACT []
+is_a: TO:0000832 ! flag leaf morphology trait
 
 [Term]
 id: CO_320:0001077
 name: rice dry weight of flag leaf and flag leaf-1 trait
 def: "Pooled dry weight of the flag leaf and the leaf below it" []
 synonym: "FLpDw" EXACT []
+is_a: TO:0000832 ! flag leaf morphology trait
 
 [Term]
 id: CO_320:0001078
 name: rice specific area of flag leaf and flag leaf-1 trait
 def: "Ratio of pooled flag leaf area to pooled flag leaf dry mass" []
 synonym: "FLpSla" EXACT []
+is_a: TO:0000996 ! flag leaf area
 
 [Term]
 id: CO_320:0001079
 name: rice flag leaf relative size trait
 def: "Size (area) of the flag leaf relative to the size (ie area) of the leaf below it" []
 synonym: "FLsizeR" EXACT []
+is_a: TO:0000832 ! flag leaf morphology trait
 
 [Term]
 id: CO_320:0001080
 name: rice flag leaf specific area trait
 def: "Ratio of flag leaf area to flag leaf dry weight" []
 synonym: "FLSla" EXACT []
+is_a: TO:0000996 ! flag leaf area
 
 [Term]
 id: CO_320:0001081
 name: rice flag leaf-1 area trait
 def: "Area of the leaf below the flag leaf" []
 synonym: "FL1A" EXACT []
+is_a: TO:0000996 ! flag leaf area
 
 [Term]
 id: CO_320:0001082
 name: rice flag leaf-1 dry weight trait
 def: "Dry weight of leaf below the flag leaf" []
 synonym: "FL1Dw" EXACT []
+is_a: TO:0000832 ! flag leaf morphology trait
 
 [Term]
 id: CO_320:0001083
 name: rice flag leaf-1 length trait
 def: "Length of leaf below the flag leaf" []
 synonym: "FL1L" EXACT []
+is_a: TO:0002757 ! flag leaf length
 
 [Term]
 id: CO_320:0001084
 name: rice flag leaf-1 specific leaf area trait
 def: "Ratio of area to dry weight of the leaf below the flag leaf" []
 synonym: "FL1Sla" EXACT []
+is_a: TO:0000996 ! flag leaf area
 
 [Term]
 id: CO_320:0001085
 name: rice flag leaf-1 width trait
 def: "Width of leaf below the flag leaf" []
 synonym: "FL1W" EXACT []
+is_a: TO:0000832 ! flag leaf morphology trait
 
 [Term]
 id: CO_320:0001086
