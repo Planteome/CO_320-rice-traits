@@ -9999,7 +9999,7 @@ is_a: CO_320:0000104
 relationship: variable_of CO_320:0000104
 relationship: variable_of CO_320:0000428
 relationship: variable_of CO_320:0001557
-created_by: CÃˆcile Grenier
+created_by: Cécile Grenier
 
 [Term]
 id: CO_320:0001559
@@ -10024,7 +10024,7 @@ is_a: CO_320:0001559
 relationship: variable_of CO_320:0001559
 relationship: variable_of CO_320:0001561
 relationship: variable_of CO_320:0001560
-created_by: CÃˆcile Grenier
+created_by: Cécile Grenier
 
 
 [Term]
@@ -10434,23 +10434,3 @@ id: TO:0002767
 
 [Term]
 id: TO:0006036
-
-[Term]
-id: Trait
-name: Trait
-
-[Term]
-id: Variable
-name: Variable
-
-[Term]
-id: https://w3id.org/sssom/NoMapping
-
-[Typedef]
-id: method_of
-
-[Typedef]
-id: scale_of
-
-[Typedef]
-id: variable_of
