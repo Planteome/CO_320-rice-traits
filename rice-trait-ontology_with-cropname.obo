@@ -1,23 +1,7 @@
 format-version: 1.2
-auto-generated-by: python
+auto-generated-by: n/a
 default-namespace: CO_320_rice
 ontology: co_320
-
-[Term]
-id: Abiotic_stress
-name: Abiotic stress
-
-[Term]
-id: Agronomic
-name: Agronomic
-
-[Term]
-id: Biochemical
-name: Biochemical
-
-[Term]
-id: Biotic_stress
-name: Biotic stress
 
 [Term]
 id: CO_320:0000004
@@ -10042,69 +10026,6 @@ relationship: variable_of CO_320:0001561
 relationship: variable_of CO_320:0001560
 created_by: CÃˆcile Grenier
 
-[Term]
-id: Computation
-name: Computation
-
-[Term]
-id: Counting
-name: Counting
-
-[Term]
-id: Date
-name: Date
-
-[Term]
-id: Duration
-name: Duration
-
-[Term]
-id: Estimation
-name: Estimation
-
-[Term]
-id: Fertility
-name: Fertility
-
-[Term]
-id: Measurement
-name: Measurement
-
-[Term]
-id: Method
-name: Method
-
-[Term]
-id: Morphological
-name: Morphological
-
-[Term]
-id: Nominal
-name: Nominal
-
-[Term]
-id: Numerical
-name: Numerical
-
-[Term]
-id: Ordinal
-name: Ordinal
-
-[Term]
-id: Phenological
-name: Phenological
-
-[Term]
-id: Physiological
-name: Physiological
-
-[Term]
-id: Quality
-name: Quality
-
-[Term]
-id: Scale
-name: Scale
 
 [Term]
 id: TO:0000019
