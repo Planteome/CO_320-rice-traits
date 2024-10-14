@@ -9985,7 +9985,7 @@ is_a: CO_320:0000102
 relationship: variable_of CO_320:0000329
 relationship: variable_of CO_320:0000102
 relationship: variable_of CO_320:0000908
-created_by: CÃˆcile Grenier
+created_by: Cécile Grenier
 
 [Term]
 id: CO_320:0001557
