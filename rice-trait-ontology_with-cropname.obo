@@ -422,7 +422,7 @@ name: rice maturity trait
 def: "Time elapsed from effective seeding date to grain ripening defined as when 80-85% of grains on panicle are mature (growth stage 9)" []
 synonym: "TMat" EXACT []
 property_value: exactMatch TO:0000469
-is_a: TO:0000469
+is_a: TO:0000469 ! days to maturity
 
 [Term]
 id: CO_320:0000084
@@ -461,7 +461,7 @@ name: rice spikelet fertility trait
 def: "The proportion of spikelets on a harvested panicle that contain filled grains" []
 synonym: "SpkFer" EXACT []
 property_value: exactMatch TO:0000180
-is_a: TO:0000180
+is_a: TO:0000180 ! spikelet fertility
 
 [Term]
 id: CO_320:0000091
@@ -7121,264 +7121,308 @@ id: CO_320:0001113
 name: rice leaf intercellular carbon dioxide concentration trait
 def: "Sub-stomatal cavity carbon dioxide concentration" []
 synonym: "CI" EXACT []
+is_a: TO:0000281 ! metabolite content trait
 
 [Term]
 id: CO_320:0001114
 name: rice photosynthetic rate trait
 def: "Carbon dioxide assimilation rate of the leaf" []
 synonym: "PS" EXACT []
+is_a: TO:0001015 ! photosynthetic rate
 
 [Term]
 id: CO_320:0001115
 name: rice transpiration rate trait
 def: "Rate of water loss from the leaf" []
 synonym: "Tr" EXACT []
+is_a: TO:0001018 ! transpiration rate
 
 [Term]
 id: CO_320:0001116
 name: rice stomatal conductance trait
 def: "Rate of passage of water vapor through the leaf" []
 synonym: "Gs" EXACT []
+is_a: TO:0000522 ! stomatal conductance
 
 [Term]
 id: CO_320:0001117
 name: rice stomatal resistance trait
 def: "Inverse of stomatal conductance" []
 synonym: "Rs" EXACT []
+is_a: TO:0000523 ! stomatal resistance
 
 [Term]
 id: CO_320:0001118
 name: rice leaf temperature trait
 def: "Leaf surface temperature" []
 synonym: "LfT" EXACT []
+is_a: TO:0000504 ! leaf temperature
 
 [Term]
 id: CO_320:0001119
 name: rice tiller fertility trait
 def: "Proportion of reproductive tillers" []
 synonym: "FerTil" EXACT []
+is_a: TO:0000420 ! fertility related trait
 
 [Term]
 id: CO_320:0001120
 name: rice time to flowering (from emergence) trait
 def: "Time elapsed from date of emergence to flowering stage" []
 synonym: "DFlwE" EXACT []
+is_a: TO:0002616 ! flowering time trait
 
 [Term]
 id: CO_320:0001121
 name: rice half-filled spikelet weight per area trait
 def: "Dry weight of half-filled spikelets, including the hull, on an area basis" []
 synonym: "HFSpY" EXACT []
+is_a: TO:0000501 ! spikelet weight
 
 [Term]
 id: CO_320:0001122
 name: rice unfilled spikelets weight per area trait
 def: "Dry weight of unfilled spikelets, including the hull, on an area basis" []
 synonym: "UFSpY" EXACT []
+is_a: TO:0000501 ! spikelet weight
 
 [Term]
 id: CO_320:0001123
 name: rice grain length to width ratio trait
 def: "Ratio of grain length to grain width" []
 synonym: "GLWR" EXACT []
+is_a: TO:0000411 ! grain length to width ratio
 
 [Term]
 id: CO_320:0001124
 name: rice proportion of grains with chalkiness trait
 def: "Proportion of head milled grains with chalkiness" []
 synonym: "PGWC" EXACT []
+is_a: TO:0000266 ! chalky endosperm
 
 [Term]
 id: CO_320:0001125
 name: rice head milled rice rate trait
 def: "Proportion of head rice (kernel longer or equal to 3/4 full length of the kernel) obtained from milling the rough rice (grain with hull)" []
 synonym: "HMRR" EXACT []
+is_a: TO:0000222 ! head rice yield
 
 [Term]
 id: CO_320:0001126
 name: rice brown rice rate trait
 def: "Proportion of brown rice (dehulled grains) obtained from rough rice (hulled grain)" []
 synonym: "BRR" EXACT []
+is_a: TO:0000666 ! brown rice yield
 
 [Term]
 id: CO_320:0001127
 name: rice milled rice rate trait
 def: "Proportion of milled and polished (processed) rice obtained from rough rice (grain with hull)" []
 synonym: "MRR" EXACT []
+is_a: TO:0000144 ! milled rice yield
 
 [Term]
 id: CO_320:0001128
 name: rice time to initial flowering (from sowing) trait
 def: "Time elapsed from date of sowing to initial flowering stage" []
 synonym: "DiFlwS" EXACT []
+is_a: TO:0002616 ! flowering time trait
 
 [Term]
 id: CO_320:0001129
 name: rice stem dry weight trait
 def: "Total dry weight of stem and sheath per plant" []
 synonym: "SDWplt" EXACT []
+is_a: TO:0003001 ! stem dry weight
 
 [Term]
 id: CO_320:0001130
 name: rice leaf dry weight per plant trait
 def: "Total dry weight of leaves per plant" []
 synonym: "LDWplt" EXACT []
+is_a: TO:0001014 ! leaf dry weight
 
 [Term]
 id: CO_320:0001131
 name: rice total dry matter per plant trait
 def: "Dry weight of all aboveground biomass per plant" []
 synonym: "TDMplt" EXACT []
+is_a: TO:0000457 ! total biomass yield
 
 [Term]
 id: CO_320:0001132
 name: rice time to maturity (from sowing) trait
 def: "Time elapsed from date of sowing to physiological maturity stage" []
 synonym: "DMatS" EXACT []
+is_a: TO:0000469 ! days to maturity
 
 [Term]
 id: CO_320:0001133
 name: rice leaf sheath thickness trait
 def: "Thickness of the leaf sheath surrounding the stem" []
 synonym: "LfST" EXACT []
+is_a: TO:0000835 ! leaf sheath morphology trait
 
 [Term]
 id: CO_320:0001134
 name: rice culm porosity trait
 def: "Ratio of pith area to culm area" []
 synonym: "CulmP" EXACT []
+is_a: TO:0000361 ! stem morphology trait
 
 [Term]
 id: CO_320:0001135
 name: rice half-filled grain weight trait
 def: "Dry weight of a half-filled spikelet, including the hull" []
 synonym: "THfGW" EXACT []
+is_a: TO:0000181 ! grain weight
 
 [Term]
 id: CO_320:0001136
 name: rice unfilled grain weight trait
 def: "Dry weight of an unfilled spikelet, including the hull" []
 synonym: "TUfGW" EXACT []
+is_a: TO:0000181 ! grain weight
 
 [Term]
 id: CO_320:0001137
 name: rice half-filled spikelets proportion trait
 def: "Proportion of spikelets on a harvested panicle that are half-filled" []
 synonym: "HFSpPct" EXACT []
+is_a: TO:0000456 ! spikelet number
 
 [Term]
 id: CO_320:0001138
 name: rice unfilled spikelets proportion trait
 def: "Proportion of spikelets on a harvested panicle that are unfilled" []
 synonym: "UFSpPct" EXACT []
+is_a: TO:0000456 ! spikelet number
 
 [Term]
 id: CO_320:0001139
 name: rice half-filled spikelets per panicle trait
 def: "Number of spikelets with an half-filled grain per panicle" []
 synonym: "HFSpPan" EXACT []
+is_a: TO:0000456 ! spikelet number
 
 [Term]
 id: CO_320:0001140
 name: rice stem sucrose content trait
 def: "Sucrose content in the stem" []
 synonym: "StSUC" EXACT []
+is_a: TO:0000328 ! sucrose content
 
 [Term]
 id: CO_320:0001141
 name: rice stem protein content trait
 def: "Protein content in the stem" []
 synonym: "StPRO" EXACT []
+is_a: TO:0000598 ! protein content
 
 [Term]
 id: CO_320:0001142
 name: rice stem starch content trait
 def: "Starch content in the stem" []
 synonym: "StSTA" EXACT []
+is_a: TO:0000696 ! starch content
 
 [Term]
 id: CO_320:0001143
 name: rice stem total nonstructural carbohydrate content trait
 def: "Nonstructural carbohydrate content in the stem" []
 synonym: "StNSC" EXACT []
+is_a: TO:0000291 ! carbohydrate content
 
 [Term]
 id: CO_320:0001144
 name: rice stem ash content trait
 def: "Ash content in the stem" []
 synonym: "StASH" EXACT []
+is_a: TO:0000607 ! ash content
 
 [Term]
 id: CO_320:0001145
 name: rice stem total lignin content trait
 def: "Total lignin content in the stem" []
 synonym: "StLIG" EXACT []
+is_a: TO:0000731 lignin content
 
 [Term]
 id: CO_320:0001146
 name: rice stem cell wall carbohydrate content trait
 def: "Cell wall carbohydrate content in the stem" []
 synonym: "StCWC" EXACT []
+is_a: TO:0000291 ! carbohydrate content
 
 [Term]
 id: CO_320:0001147
 name: rice stem extractives content trait
 def: "Total stem extractives content in the stem" []
 synonym: "StEXT" EXACT []
+is_a: TO:0000327 ! shoot system yield trait
 
 [Term]
 id: CO_320:0001148
 name: rice stem total structural materials content trait
 def: "Total ash, lignin and cell wall carbohydrate content of stem" []
 synonym: "StSTR" EXACT []
+is_a: TO:0000327 ! shoot system yield trait
 
 [Term]
 id: CO_320:0001149
 name: rice total stem materials content trait
 def: "Total ash, lignin and cell wall carbohydrate, protein and extractive content of stem" []
 synonym: "StTWT" EXACT []
+is_a: TO:0000327 ! shoot system yield trait
 
 [Term]
 id: CO_320:0001150
-name: rice half-filled spikelet densty trait
+name: rice half-filled spikelet density trait
 def: "Number of spikelets with an half-filled grain per unit area" []
 synonym: "HSpD" EXACT []
+is_a: TO:0000456 ! spikelet number
 
 [Term]
 id: CO_320:0001151
 name: rice flag leaf chlorophyll content trait
 def: "Chlorophyll content in the uppermost leaf of the main culm" []
 synonym: "FLCC" EXACT []
+is_a: TO:0012002 leaf chlorophyll content
 
 [Term]
 id: CO_320:0001152
 name: rice productive tiller number per plant trait
 def: "Total number of productive tillers arising from the base of each plant" []
 synonym: "TilProd" EXACT []
+is_a: TO:0000346 ! tiller number
 
 [Term]
 id: CO_320:0001153
 name: rice flag leaf temperature trait
 def: "Flag leaf surface temperature" []
 synonym: "FLfT" EXACT []
+is_a: TO:0000504 ! leaf temperature
 
 [Term]
 id: CO_320:0001154
 name: rice straw dry matter per plant trait
 def: "Dry weight of stems and leaves per plant" []
 synonym: "StDM" EXACT []
+is_a: TO:0000457 ! total biomass yield
 
 [Term]
 id: CO_320:0001155
 name: rice grain filling rate trait
 def: "Dry mass accumulated per panicle per unit of time" []
 synonym: "GFR" EXACT []
+is_a: TO:0000929 ! fruit growth and development trait
 
 [Term]
 id: CO_320:0001156
 name: rice panicle dry weight per plant trait
 def: "Panicle dry weight per plant" []
 synonym: "PDWplt" EXACT []
+is_a: TO:0003021 ! panicle dry weight
 
 [Term]
 id: CO_320:0001157
