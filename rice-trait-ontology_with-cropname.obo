@@ -507,7 +507,7 @@ name: rice grain weight trait
 def: "The weight of a whole grain including the hull" []
 synonym: "GrnWt" EXACT []
 property_value: exactMatch TO:0000181
-is_a: TO:0000181 grain weight
+is_a: TO:0000181 ! grain weight
 
 [Term]
 id: CO_320:0000102
@@ -6729,7 +6729,7 @@ id: CO_320:0001056
 name: rice panicles per hill trait
 def: "Number of panicles per hill" []
 synonym: "PanHill" EXACT []
-is_a: 
+is_a: TO:0000936 ! infructescence yield trait
 
 [Term]
 id: CO_320:0001057
