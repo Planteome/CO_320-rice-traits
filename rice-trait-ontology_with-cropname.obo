@@ -9,7 +9,7 @@ name: rice grain length trait
 def: "Length of whole grain including the hull, defined as the distance from the base of the lowermost sterile lemma to the tip (apiculus) of the fertile lemma or palea" []
 synonym: "GrLng" EXACT []
 property_value: exactMatch TO:0000734
-is_a: TO:0000734
+is_a: TO:0000734 ! grain length
 
 [Term]
 id: CO_320:0000005
