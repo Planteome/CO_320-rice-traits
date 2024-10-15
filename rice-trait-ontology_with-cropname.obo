@@ -33,7 +33,7 @@ name: rice panicle number per plant trait
 def: "Number of panicles per plant" []
 synonym: "PanNo" EXACT []
 property_value: exactMatch TO:0000152
-is_a: TO:0000152
+is_a: TO:0000152 ! panicle number
 
 [Term]
 id: CO_320:0000011
@@ -6743,14 +6743,14 @@ id: CO_320:0001059
 name: rice aerenchyma diameter trait
 def: "Width of air spaces in the culm" []
 synonym: "AerD" EXACT []
-is_a: TO:0000043 ! root morphology trait
+is_a: TO:0000361 ! stem morphology trait
 
 [Term]
 id: CO_320:0001060
 name: rice aerenchyma number trait
 def: "Number of air spaces in the culm" []
 synonym: "AerN" EXACT []
-is_a: TO:0000043 ! root morphology trait
+is_a: TO:0000361 ! stem morphology trait
 
 [Term]
 id: CO_320:0001061
@@ -6932,163 +6932,189 @@ id: CO_320:0001086
 name: rice green leaf number trait
 def: "Number of green leaves on the main culm" []
 synonym: "GLf" EXACT []
+is_a: TO:0000241 ! leaf number
 
 [Term]
 id: CO_320:0001087
 name: rice harvest index trait
 def: "Ratio of grain yield to total aboveground biomass" []
 synonym: "HI" EXACT []
+is_a: TO:0000128 ! harvest index
 
 [Term]
 id: CO_320:0001088
 name: rice leaf total number trait
 def: "Total number of fully expanded leaves produced per plant from germination to flowering" []
 synonym: "Lf" EXACT []
+is_a: TO:0000241 ! leaf number
 
 [Term]
 id: CO_320:0001089
 name: rice oxygen radical absorbance capacity trait
 def: "Antioxidant activity of leaf extracts" []
 synonym: "ORAC" EXACT []
-is_a: TO:0001143
+is_a: TO:0001143 ! antioxidant activity trait
 
 [Term]
 id: CO_320:0001090
 name: rice panicle density trait
 def: "Number of panicles per unit area" []
 synonym: "PanD" EXACT []
+is_a: TO:0000152 ! panicle number
 
 [Term]
 id: CO_320:0001091
 name: rice peduncle length trait
 def: "Length of the stalk bearing the panicle" []
 synonym: "PedL" EXACT []
+is_a: TO:0002691 ! peduncle length
 
 [Term]
 id: CO_320:0001092
 name: rice pith area trait
 def: "Area of the hollow region of the culm" []
 synonym: "PithA" EXACT []
+is_a: TO:0000361 ! stem morphology trait
 
 [Term]
 id: CO_320:0001093
 name: rice pith diameter trait
 def: "Diameter of the hollow portion of the culm" []
 synonym: "PithD" EXACT []
+is_a: TO:0000361 ! stem morphology trait
 
 [Term]
 id: CO_320:0001094
 name: rice pith major diameter trait
 def: "Diameter of the wider portion of pith" []
 synonym: "PDMaj" EXACT []
+is_a: TO:0000361 ! stem morphology trait
 
 [Term]
 id: CO_320:0001095
 name: rice pith minor diameter trait
 def: "Diameter of the narrower portion of pith" []
 synonym: "PDMin" EXACT []
+is_a: TO:0000361 ! stem morphology trait
 
 [Term]
 id: CO_320:0001096
 name: rice second internode length trait
 def: "Length of the second internode from the base" []
 synonym: "Int2L" EXACT []
+is_a: TO:0000145 ! shoot axis internode length second internode length
 
 [Term]
 id: CO_320:0001097
 name: rice filled spikelet density trait
 def: "Number of spikelets with filled grains per unit area" []
 synonym: "FSD" EXACT []
+is_a: TO:0000456 ! spikelet number
 
 [Term]
 id: CO_320:0001098
 name: rice filled spikelet proportion trait
 def: "Proportion of spikelets on a harvested panicle that contain filled grains" []
 synonym: "FSpProp" EXACT []
+is_a: TO:0000456 ! spikelet number
 
 [Term]
 id: CO_320:0001099
 name: rice spikelets per hill trait
 def: "Total number of spikelets per hill" []
 synonym: "SpHill" EXACT []
+is_a: TO:0000456 ! spikelet number
 
 [Term]
 id: CO_320:0001100
 name: rice spikelets per panicle trait
 def: "Total number of spikelets per panicle" []
 synonym: "SpPan" EXACT []
+is_a: TO:0000456 ! spikelet number
 
 [Term]
 id: CO_320:0001101
 name: rice spikelets density trait
 def: "Total number of spikelets per unit area" []
 synonym: "SpD" EXACT []
+is_a: TO:0000456 ! spikelet number
 
 [Term]
 id: CO_320:0001102
 name: rice unfilled spikelets density trait
 def: "Number of spikelets that are not filled with a grain per unit area" []
 synonym: "USpD" EXACT []
+is_a: TO:0000456 ! spikelet number
 
 [Term]
 id: CO_320:0001103
 name: rice stay-green trait
 def: "Proportion of leaves that stayed green until the maturity stage" []
 synonym: "SGr" EXACT []
+is_a: TO:0002712 ! stay green trait 
 
 [Term]
 id: CO_320:0001104
 name: rice stem diameter - 2nd internode trait
 def: "Diameter of the second elongated internode from the base with the leaf sheath" []
 synonym: "StemD" EXACT []
+is_a: TO:0020083 ! stem diameter
 
 [Term]
 id: CO_320:0001105
 name: rice stem major diameter - 2nd internode trait
 def: "Major diameter (ie the longest diameter of an eliptical section) of the wider portion of the second elongated internode from the base with the leaf sheath" []
 synonym: "SDMaj" EXACT []
+is_a: TO:0020083 ! stem diameter
 
 [Term]
 id: CO_320:0001106
 name: rice stem minor diameter - 2nd internode trait
 def: "Minor diameter (ie the shortest diameter of an eliptical section) of the narrower portion of the second elongated internode from the base with the leaf sheath" []
 synonym: "SDMin" EXACT []
+is_a: TO:0020083 ! stem diameter
 
 [Term]
 id: CO_320:0001107
 name: rice straw yield trait
 def: "Straw dry matter weight (ie aboveground dry matter without the grains) per area" []
 synonym: "StDM" EXACT []
+is_a: TO:0000327 ! shoot system yield trait
 
 [Term]
 id: CO_320:0001108
 name: rice tiller number per hill trait
 def: "Total number of reproductive and non-reproductive tillers per hill" []
 synonym: "TilHill" EXACT []
+is_a: TO:0000346 ! tiller number
 
 [Term]
 id: CO_320:0001109
 name: rice tiller density trait
 def: "Total number of reproductive and non-reproductive tillers per unit area" []
 synonym: "TilD" EXACT []
+is_a: TO:0000346 ! tiller number
 
 [Term]
 id: CO_320:0001110
 name: rice root length trait
 def: "Total root length" []
 synonym: "RtL" EXACT []
+is_a: TO:0000227 ! root length
 
 [Term]
 id: CO_320:0001111
 name: rice root surface area trait
 def: "Total surface area of root system" []
 synonym: "RtA" EXACT []
+is_a: TO:0000043 ! root morphology trait
 
 [Term]
 id: CO_320:0001112
 name: rice root volume trait
 def: "Total volume of root system" []
 synonym: "RtV" EXACT []
+is_a: TO:0000233 ! root volume
 
 [Term]
 id: CO_320:0001113
@@ -7610,7 +7636,6 @@ relationship: method_of CO_320:0001089
 id: CO_320:0001199
 name: rice manual measurement - panicle exsertion method
 def: "Measure distance between the base of the flag leaf and the panicle neck node, there is positive exertion if the panicle base is above the flag leaf base and a negative exsertion if otherwise." []
-relationship: method_of CO_320:0000074
 
 [Term]
 id: CO_320:0001200
