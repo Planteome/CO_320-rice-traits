@@ -7345,7 +7345,7 @@ id: CO_320:0001145
 name: rice stem total lignin content trait
 def: "Total lignin content in the stem" []
 synonym: "StLIG" EXACT []
-is_a: TO:0000731 lignin content
+is_a: TO:0000731 ! lignin content
 
 [Term]
 id: CO_320:0001146
