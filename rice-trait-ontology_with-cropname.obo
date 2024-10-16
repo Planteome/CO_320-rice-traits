@@ -7002,7 +7002,7 @@ id: CO_320:0001096
 name: rice second internode length trait
 def: "Length of the second internode from the base" []
 synonym: "Int2L" EXACT []
-is_a: TO:0000145 ! shoot axis internode length second internode length
+is_a: TO:0000145 ! shoot axis internode length
 
 [Term]
 id: CO_320:0001097
@@ -7387,7 +7387,7 @@ id: CO_320:0001151
 name: rice flag leaf chlorophyll content trait
 def: "Chlorophyll content in the uppermost leaf of the main culm" []
 synonym: "FLCC" EXACT []
-is_a: TO:0012002 leaf chlorophyll content
+is_a: TO:0012002 ! leaf chlorophyll content
 
 [Term]
 id: CO_320:0001152
