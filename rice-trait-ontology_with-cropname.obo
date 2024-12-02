@@ -523,7 +523,7 @@ name: rice scent trait
 def: "Describes the aroma of rice grains" []
 synonym: "Sct" EXACT []
 property_value: exactMatch TO:0000087
-is_a: TO:0000087
+is_a: TO:0000087 ! grain aroma trait
 
 [Term]
 id: CO_320:0000104
@@ -2529,11 +2529,9 @@ is_a: TO:0002751
 
 [Term]
 id: CO_320:0000514
-name: rice seeding date trait
+name: rice seeding date
 def: "Date of effective seeding, ie the date when seeds were first moistened This may be the date of soaking for pre-soaked seed, or the date of sowing for dry seed sown onto a wet seedbed, or the date when rain or other moisture becomes available to seed sown dry on a dry seedbed" []
 synonym: "SdDate" EXACT []
-property_value: exactMatch https://w3id.org/sssom/NoMapping
-is_a: https://w3id.org/sssom/NoMapping
 
 [Term]
 id: CO_320:0000515
